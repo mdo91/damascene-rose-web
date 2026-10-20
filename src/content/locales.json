@@ -1,0 +1,1465 @@
+{
+  "en": {
+    "name": "English",
+    "htmlLang": "en",
+    "title": "Damas — Transcribe and translate social media videos on iPhone",
+    "description": "Turn supported public YouTube, Instagram and X video links into transcripts, translations and summaries with Damas for iPhone.",
+    "eyebrow": "Damas · Video Link Transcriber",
+    "heroTitle": "Transcribe and translate social media videos on iPhone.",
+    "heroDescription": "Give a public video link a second life as readable text. Transcribe speech, translate it into one of 70 languages, and create a summary you can return to.",
+    "heroNote": "For supported public YouTube, Instagram and X videos. iOS 18.6 or later, internet access, Premium and AI consent required.",
+    "download": "Download on the App Store",
+    "languageLabel": "Language",
+    "featuresTitle": "From a video link to useful words.",
+    "featuresIntro": "Read a lecture, understand an interview, or keep the main points from a public video in your notes.",
+    "howTitle": "A link. A transcript. A clearer view.",
+    "screenshotsTitle": "A look inside Damas.",
+    "screenshotsIntro": "Real iPhone screenshots, shown with the English interface. Damas has 11 interface languages.",
+    "previewTitle": "See the workflow in motion.",
+    "previewBody": "Watch the product preview for a closer look at video-link transcription and translation on iPhone.",
+    "previewNote": "Preview media may show an earlier interface. Current App Store information takes precedence.",
+    "limitsTitle": "Know what a link can do.",
+    "limitsBody": "Damas supports public, on-demand YouTube, Instagram and X video links up to 90 minutes. Private, restricted and live content is not supported. Availability and processing time vary with the source, audio and connection.",
+    "privacyNote": "Internet access, Premium and consent for AI processing are required. Only submit content you have permission to process. Review the privacy policy before using the service.",
+    "faqTitle": "A few useful answers.",
+    "guidesTitle": "Guides for working with video speech.",
+    "guidesIntro": "Practical help for transcribing social media video links, translating speech and making useful summaries.",
+    "readGuide": "Read guide",
+    "relatedTitle": "Related guides",
+    "breadcrumbHome": "Home",
+    "breadcrumbGuides": "Guides",
+    "sourceTitle": "Sources",
+    "updated": "Updated",
+    "published": "Published",
+    "downloadCTA": "Open a supported public video link in Damas and turn its speech into text.",
+    "footerNote": "Damas is an iPhone app by Damas Technologies. Apple and platform names belong to their respective owners.",
+    "nav": {
+      "features": "Features",
+      "guides": "Guides",
+      "mediaKit": "Media kit",
+      "support": "Support"
+    },
+    "legalLinks": {
+      "privacy": "Privacy policy",
+      "terms": "Terms of use",
+      "support": "Support"
+    },
+    "features": [
+      {
+        "title": "Turn speech into text",
+        "body": "Transcribe spoken content from a supported public YouTube, Instagram or X video link."
+      },
+      {
+        "title": "Read across languages",
+        "body": "Translate video speech into one of 70 languages, then edit and copy your notes."
+      },
+      {
+        "title": "Keep the main ideas",
+        "body": "Create a summary from a transcript. Background processing and notifications help you return when results are ready."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Choose a public video",
+        "body": "Copy the link to an eligible on-demand YouTube, Instagram or X video you have permission to process."
+      },
+      {
+        "title": "Process the link in Damas",
+        "body": "Open Damas on iPhone, provide the video link and choose the supported task. Review the AI consent before continuing."
+      },
+      {
+        "title": "Read, review and reuse",
+        "body": "Check the transcript, translation or summary against the source. Edit and copy your notes when useful."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 min",
+        "label": "Maximum supported video length"
+      },
+      {
+        "value": "70",
+        "label": "Translation languages"
+      },
+      {
+        "value": "11",
+        "label": "Interface languages"
+      }
+    ],
+    "screenshotCaptions": [
+      "Start with a supported public video link · English interface",
+      "Read a longer translation · English interface",
+      "Choose a translation language · English interface"
+    ],
+    "faqs": [
+      {
+        "q": "Which video links can I transcribe?",
+        "a": "Damas supports eligible public, on-demand YouTube, Instagram and X video links up to 90 minutes. Private, restricted and live content is not supported."
+      },
+      {
+        "q": "Can I translate social media videos?",
+        "a": "Damas can translate supported video speech into one of 70 languages. The app interface is available in 11 languages; these are separate language lists."
+      },
+      {
+        "q": "Does Damas work without an internet connection?",
+        "a": "No. Video processing requires internet access, Premium and consent for AI processing. Processing times and results vary."
+      },
+      {
+        "q": "Can I edit the results?",
+        "a": "You can edit and copy your notes. Review generated transcripts, translations and summaries before relying on or sharing them."
+      }
+    ],
+    "mediaKit": {
+      "title": "Damas media kit",
+      "description": "Product facts, artwork, screenshots and preview media for Damas — Video Link Transcriber.",
+      "intro": "A compact resource for writing about the Damas iPhone app. Use the current product facts below alongside the original downloadable media.",
+      "downloadAssets": "Download original assets",
+      "artworkTitle": "Artwork and product media",
+      "artworkCaption": "Damas artwork in plum and violet. Download the original files for editorial use.",
+      "icon": "App icon",
+      "screenshots": "iPhone screenshots",
+      "video": "Product preview",
+      "releaseTitle": "Available on the App Store",
+      "releaseBody": "Damas — Video Link Transcriber, version 1.5.3. Requires iOS 18.6 or later. The app has 11 interface languages and supports translation into 70 languages. Check the App Store for the current release and regional availability.",
+      "trademark": "Damas is by Damas Technologies. Apple, YouTube, Instagram and X are trademarks of their respective owners; mentioning them does not imply endorsement.",
+      "contact": "For product questions, use the support link below."
+    },
+    "notFound": {
+      "title": "This page could not be found.",
+      "body": "The address may have changed. Explore Damas or find a guide from the homepage.",
+      "back": "Back to home"
+    },
+    "skipToContent": "Skip to content",
+    "breadcrumbLabel": "Breadcrumb"
+  },
+  "fr": {
+    "name": "Français",
+    "htmlLang": "fr",
+    "title": "Damas — Transcrire et traduire des vidéos de réseaux sociaux sur iPhone",
+    "description": "Transformez des liens vidéo publics compatibles de YouTube, Instagram et X en transcriptions, traductions et résumés avec Damas sur iPhone.",
+    "eyebrow": "Damas · Transcription de liens vidéo",
+    "heroTitle": "Transcrivez et traduisez des vidéos de réseaux sociaux sur iPhone.",
+    "heroDescription": "Donnez une nouvelle vie à un lien vidéo public sous forme de texte. Transcrivez la parole, traduisez-la dans l’une des 70 langues et retrouvez l’essentiel dans un résumé.",
+    "heroNote": "Pour les vidéos publiques compatibles de YouTube, Instagram et X. iOS 18.6 ou ultérieur, connexion Internet, Premium et consentement au traitement par IA requis.",
+    "download": "Télécharger sur l’App Store",
+    "languageLabel": "Langue",
+    "featuresTitle": "D’un lien vidéo à un texte utile.",
+    "featuresIntro": "Lisez une conférence, comprenez un entretien ou conservez les idées principales d’une vidéo publique dans vos notes.",
+    "howTitle": "Un lien. Une transcription. Des idées plus claires.",
+    "screenshotsTitle": "Découvrez Damas.",
+    "screenshotsIntro": "Captures réelles sur iPhone, avec l’interface en anglais. Damas propose 11 langues d’interface.",
+    "previewTitle": "Découvrez le fonctionnement en vidéo.",
+    "previewBody": "Cet aperçu présente la transcription et la traduction de liens vidéo sur iPhone.",
+    "previewNote": "Les médias de présentation peuvent montrer une ancienne interface. Les informations actuelles de l’App Store font référence.",
+    "limitsTitle": "Ce qu’il faut savoir sur les liens.",
+    "limitsBody": "Damas accepte les liens vidéo publics à la demande de YouTube, Instagram et X, d’une durée maximale de 90 minutes. Les contenus privés, soumis à des restrictions ou en direct ne sont pas pris en charge. La disponibilité et le délai de traitement dépendent de la source, du son et de la connexion.",
+    "privacyNote": "Une connexion Internet, Premium et le consentement au traitement par IA sont nécessaires. Envoyez uniquement des contenus que vous êtes autorisé à traiter. Consultez la politique de confidentialité avant utilisation.",
+    "faqTitle": "Quelques réponses utiles.",
+    "guidesTitle": "Des guides pour exploiter la parole en vidéo.",
+    "guidesIntro": "Des conseils pratiques pour transcrire des liens vidéo de réseaux sociaux, traduire la parole et créer des résumés utiles.",
+    "readGuide": "Lire le guide",
+    "relatedTitle": "Guides associés",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbGuides": "Guides",
+    "sourceTitle": "Sources",
+    "updated": "Mis à jour",
+    "published": "Publié",
+    "downloadCTA": "Ouvrez un lien vidéo public compatible dans Damas pour transformer la parole en texte.",
+    "footerNote": "Damas est une application iPhone de Damas Technologies. Les noms Apple et ceux des plateformes appartiennent à leurs propriétaires respectifs.",
+    "nav": {
+      "features": "Fonctionnalités",
+      "guides": "Guides",
+      "mediaKit": "Kit média",
+      "support": "Assistance"
+    },
+    "legalLinks": {
+      "privacy": "Confidentialité",
+      "terms": "Conditions d’utilisation",
+      "support": "Assistance"
+    },
+    "features": [
+      {
+        "title": "De la parole au texte",
+        "body": "Transcrivez le contenu parlé d’un lien vidéo public compatible de YouTube, Instagram ou X."
+      },
+      {
+        "title": "Lire dans une autre langue",
+        "body": "Traduisez la parole d’une vidéo dans l’une des 70 langues, puis modifiez et copiez vos notes."
+      },
+      {
+        "title": "Retenir l’essentiel",
+        "body": "Créez un résumé à partir d’une transcription. Le traitement en arrière-plan et les notifications vous permettent de revenir aux résultats."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Choisissez une vidéo publique",
+        "body": "Copiez le lien d’une vidéo à la demande compatible de YouTube, Instagram ou X que vous êtes autorisé à traiter."
+      },
+      {
+        "title": "Traitez le lien dans Damas",
+        "body": "Ouvrez Damas sur iPhone, fournissez le lien et choisissez une tâche disponible. Lisez le consentement au traitement par IA avant de continuer."
+      },
+      {
+        "title": "Lisez, vérifiez et réutilisez",
+        "body": "Comparez la transcription, la traduction ou le résumé à la source. Modifiez et copiez vos notes selon vos besoins."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 min",
+        "label": "Durée maximale prise en charge"
+      },
+      {
+        "value": "70",
+        "label": "Langues de traduction"
+      },
+      {
+        "value": "11",
+        "label": "Langues d’interface"
+      }
+    ],
+    "screenshotCaptions": [
+      "Commencer par un lien vidéo public compatible · Interface en anglais",
+      "Lire une traduction longue · Interface en anglais",
+      "Choisir une langue de traduction · Interface en anglais"
+    ],
+    "faqs": [
+      {
+        "q": "Quels liens vidéo puis-je transcrire ?",
+        "a": "Damas accepte les liens publics à la demande compatibles de YouTube, Instagram et X, jusqu’à 90 minutes. Les contenus privés, restreints et en direct sont exclus."
+      },
+      {
+        "q": "Puis-je traduire des vidéos de réseaux sociaux ?",
+        "a": "Damas traduit la parole des vidéos compatibles dans l’une des 70 langues. Les 11 langues de l’interface constituent une liste distincte."
+      },
+      {
+        "q": "Damas fonctionne-t-il sans connexion Internet ?",
+        "a": "Non. Le traitement nécessite Internet, Premium et le consentement au traitement par IA. Les délais et les résultats peuvent varier."
+      },
+      {
+        "q": "Puis-je modifier les résultats ?",
+        "a": "Vous pouvez modifier et copier vos notes. Vérifiez les transcriptions, traductions et résumés générés avant de les utiliser ou de les partager."
+      }
+    ],
+    "mediaKit": {
+      "title": "Kit média Damas",
+      "description": "Informations produit, visuels, captures et aperçu de Damas — Video Link Transcriber.",
+      "intro": "Des ressources pour présenter l’application iPhone Damas. Utilisez les informations actuelles ci-dessous et les médias originaux à télécharger.",
+      "downloadAssets": "Télécharger les fichiers originaux",
+      "artworkTitle": "Visuels et médias produit",
+      "artworkCaption": "Visuels Damas dans les tons prune et violet. Fichiers originaux disponibles pour un usage éditorial.",
+      "icon": "Icône de l’app",
+      "screenshots": "Captures iPhone",
+      "video": "Aperçu du produit",
+      "releaseTitle": "Disponible sur l’App Store",
+      "releaseBody": "Damas — Video Link Transcriber, version 1.5.3. Nécessite iOS 18.6 ou ultérieur. L’application propose 11 langues d’interface et la traduction dans 70 langues. Consultez l’App Store pour la version actuelle et la disponibilité régionale.",
+      "trademark": "Damas est proposé par Damas Technologies. Apple, YouTube, Instagram et X sont des marques de leurs propriétaires respectifs ; leur mention n’implique aucun soutien.",
+      "contact": "Pour toute question sur le produit, utilisez le lien d’assistance ci-dessous."
+    },
+    "notFound": {
+      "title": "Cette page est introuvable.",
+      "body": "Son adresse a peut-être changé. Découvrez Damas ou choisissez un guide depuis l’accueil.",
+      "back": "Retour à l’accueil"
+    },
+    "skipToContent": "Aller au contenu",
+    "breadcrumbLabel": "Fil d’Ariane"
+  },
+  "de": {
+    "name": "Deutsch",
+    "htmlLang": "de",
+    "title": "Damas — Social-Media-Videos auf dem iPhone transkribieren und übersetzen",
+    "description": "Mit Damas für iPhone werden unterstützte öffentliche Videolinks von YouTube, Instagram und X zu Transkripten, Übersetzungen und Zusammenfassungen.",
+    "eyebrow": "Damas · Videolinks transkribieren",
+    "heroTitle": "Social-Media-Videos auf dem iPhone transkribieren und übersetzen.",
+    "heroDescription": "Machen Sie aus einem öffentlichen Videolink lesbaren Text. Transkribieren Sie Gesprochenes, übersetzen Sie es in eine von 70 Sprachen und halten Sie die wichtigsten Gedanken als Zusammenfassung fest.",
+    "heroNote": "Für unterstützte öffentliche YouTube-, Instagram- und X-Videos. iOS 18.6 oder neuer, Internet, Premium und Einwilligung zur KI-Verarbeitung erforderlich.",
+    "download": "Im App Store laden",
+    "languageLabel": "Sprache",
+    "featuresTitle": "Vom Videolink zu hilfreichem Text.",
+    "featuresIntro": "Lesen Sie einen Vortrag nach, verstehen Sie ein Interview oder bewahren Sie die Kerngedanken eines öffentlichen Videos in Ihren Notizen auf.",
+    "howTitle": "Ein Link. Ein Transkript. Mehr Überblick.",
+    "screenshotsTitle": "Ein Blick in Damas.",
+    "screenshotsIntro": "Echte iPhone-Screenshots mit englischer Oberfläche. Damas bietet 11 Oberflächensprachen.",
+    "previewTitle": "So sieht der Ablauf aus.",
+    "previewBody": "Die Produktvorschau zeigt die Transkription und Übersetzung von Videolinks auf dem iPhone.",
+    "previewNote": "Die Vorschau kann eine ältere Oberfläche zeigen. Maßgeblich sind die aktuellen Angaben im App Store.",
+    "limitsTitle": "Welche Links unterstützt werden.",
+    "limitsBody": "Damas unterstützt öffentliche, auf Abruf verfügbare YouTube-, Instagram- und X-Videolinks bis 90 Minuten. Private, eingeschränkte und Live-Inhalte werden nicht unterstützt. Verfügbarkeit und Verarbeitungsdauer hängen unter anderem von Quelle, Ton und Verbindung ab.",
+    "privacyNote": "Internet, Premium und die Einwilligung zur KI-Verarbeitung sind erforderlich. Reichen Sie nur Inhalte ein, die Sie verarbeiten dürfen. Lesen Sie vor der Nutzung die Datenschutzerklärung.",
+    "faqTitle": "Hilfreiche Antworten.",
+    "guidesTitle": "Anleitungen rund um gesprochene Videoinhalte.",
+    "guidesIntro": "Praktische Hilfe zum Transkribieren von Social-Media-Videolinks, Übersetzen von Sprache und Erstellen hilfreicher Zusammenfassungen.",
+    "readGuide": "Anleitung lesen",
+    "relatedTitle": "Weitere Anleitungen",
+    "breadcrumbHome": "Startseite",
+    "breadcrumbGuides": "Anleitungen",
+    "sourceTitle": "Quellen",
+    "updated": "Aktualisiert",
+    "published": "Veröffentlicht",
+    "downloadCTA": "Öffnen Sie einen unterstützten öffentlichen Videolink in Damas und machen Sie Gesprochenes zu Text.",
+    "footerNote": "Damas ist eine iPhone-App von Damas Technologies. Apple und die Plattformnamen gehören ihren jeweiligen Rechteinhabern.",
+    "nav": {
+      "features": "Funktionen",
+      "guides": "Anleitungen",
+      "mediaKit": "Pressekit",
+      "support": "Support"
+    },
+    "legalLinks": {
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "support": "Support"
+    },
+    "features": [
+      {
+        "title": "Gesprochenes als Text",
+        "body": "Transkribieren Sie die gesprochenen Inhalte eines unterstützten öffentlichen YouTube-, Instagram- oder X-Videolinks."
+      },
+      {
+        "title": "Sprachgrenzen überwinden",
+        "body": "Übersetzen Sie Videosprache in eine von 70 Sprachen und bearbeiten oder kopieren Sie anschließend Ihre Notizen."
+      },
+      {
+        "title": "Die Kerngedanken festhalten",
+        "body": "Erstellen Sie eine Zusammenfassung aus einem Transkript. Hintergrundverarbeitung und Benachrichtigungen helfen Ihnen, später zu den Ergebnissen zurückzukehren."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Öffentliches Video auswählen",
+        "body": "Kopieren Sie den Link zu einem geeigneten YouTube-, Instagram- oder X-Video auf Abruf, das Sie verarbeiten dürfen."
+      },
+      {
+        "title": "Link in Damas verarbeiten",
+        "body": "Öffnen Sie Damas auf dem iPhone, geben Sie den Videolink an und wählen Sie eine verfügbare Aufgabe. Lesen Sie vor dem Fortfahren die KI-Einwilligung."
+      },
+      {
+        "title": "Lesen, prüfen und verwenden",
+        "body": "Vergleichen Sie Transkript, Übersetzung oder Zusammenfassung mit der Quelle. Bearbeiten und kopieren Sie Ihre Notizen bei Bedarf."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 Min.",
+        "label": "Maximale unterstützte Videolänge"
+      },
+      {
+        "value": "70",
+        "label": "Übersetzungssprachen"
+      },
+      {
+        "value": "11",
+        "label": "Oberflächensprachen"
+      }
+    ],
+    "screenshotCaptions": [
+      "Mit einem unterstützten öffentlichen Videolink beginnen · Englische Oberfläche",
+      "Eine längere Übersetzung lesen · Englische Oberfläche",
+      "Übersetzungssprache auswählen · Englische Oberfläche"
+    ],
+    "faqs": [
+      {
+        "q": "Welche Videolinks kann ich transkribieren?",
+        "a": "Damas unterstützt geeignete öffentliche YouTube-, Instagram- und X-Videolinks auf Abruf bis 90 Minuten. Private, eingeschränkte und Live-Inhalte sind ausgeschlossen."
+      },
+      {
+        "q": "Kann ich Social-Media-Videos übersetzen?",
+        "a": "Damas übersetzt die Sprache unterstützter Videos in eine von 70 Sprachen. Die App-Oberfläche ist in 11 Sprachen verfügbar; das sind unterschiedliche Sprachlisten."
+      },
+      {
+        "q": "Funktioniert Damas ohne Internet?",
+        "a": "Nein. Die Videoverarbeitung erfordert Internet, Premium und die Einwilligung zur KI-Verarbeitung. Dauer und Ergebnisse können variieren."
+      },
+      {
+        "q": "Kann ich Ergebnisse bearbeiten?",
+        "a": "Sie können Ihre Notizen bearbeiten und kopieren. Prüfen Sie generierte Transkripte, Übersetzungen und Zusammenfassungen vor der Nutzung oder Weitergabe."
+      }
+    ],
+    "mediaKit": {
+      "title": "Damas Pressekit",
+      "description": "Produktinformationen, Grafiken, Screenshots und Vorschau für Damas — Video Link Transcriber.",
+      "intro": "Material für Berichte über die Damas-App für iPhone. Nutzen Sie die aktuellen Produktangaben und die Originaldateien zum Herunterladen.",
+      "downloadAssets": "Originaldateien herunterladen",
+      "artworkTitle": "Grafiken und Produktmedien",
+      "artworkCaption": "Damas-Grafiken in Pflaumen- und Violetttönen. Originaldateien stehen zur redaktionellen Nutzung bereit.",
+      "icon": "App-Symbol",
+      "screenshots": "iPhone-Screenshots",
+      "video": "Produktvorschau",
+      "releaseTitle": "Im App Store verfügbar",
+      "releaseBody": "Damas — Video Link Transcriber, Version 1.5.3. Erfordert iOS 18.6 oder neuer. Die App hat 11 Oberflächensprachen und unterstützt Übersetzungen in 70 Sprachen. Aktuelle Version und regionale Verfügbarkeit finden Sie im App Store.",
+      "trademark": "Damas stammt von Damas Technologies. Apple, YouTube, Instagram und X sind Marken ihrer jeweiligen Inhaber. Ihre Erwähnung bedeutet keine Unterstützung.",
+      "contact": "Bei Produktfragen nutzen Sie bitte den Support-Link unten."
+    },
+    "notFound": {
+      "title": "Diese Seite wurde nicht gefunden.",
+      "body": "Die Adresse hat sich möglicherweise geändert. Entdecken Sie Damas oder wählen Sie eine Anleitung auf der Startseite.",
+      "back": "Zur Startseite"
+    },
+    "skipToContent": "Zum Inhalt springen",
+    "breadcrumbLabel": "Brotkrümelnavigation"
+  },
+  "ja": {
+    "name": "日本語",
+    "htmlLang": "ja",
+    "title": "Damas — iPhoneでSNS動画を文字起こし・翻訳",
+    "description": "Damasなら、対応するYouTube・Instagram・Xの公開動画リンクから、iPhoneで文字起こし、翻訳、要約を作成できます。",
+    "eyebrow": "Damas · 動画リンクの文字起こし",
+    "heroTitle": "iPhoneでSNS動画を文字起こし・翻訳。",
+    "heroDescription": "公開動画のリンクを、読み返せるテキストに。音声を文字に起こし、70言語のいずれかに翻訳して、要点を要約にまとめられます。",
+    "heroNote": "対応するYouTube・Instagram・Xの公開動画が対象です。iOS 18.6以降、インターネット接続、Premium、AI処理への同意が必要です。",
+    "download": "App Storeからダウンロード",
+    "languageLabel": "言語",
+    "featuresTitle": "動画リンクから、役立つ言葉へ。",
+    "featuresIntro": "講義を読み返す。インタビューを理解する。公開動画の要点をノートに残す。",
+    "howTitle": "リンクから文字に。内容をもっと身近に。",
+    "screenshotsTitle": "Damasの画面を見る。",
+    "screenshotsIntro": "実際のiPhone画面です。スクリーンショットの表示言語は英語です。アプリは11の表示言語に対応しています。",
+    "previewTitle": "操作の流れを動画で。",
+    "previewBody": "iPhoneで動画リンクを文字起こし・翻訳する流れを、製品プレビューでご覧いただけます。",
+    "previewNote": "プレビューには旧バージョンの画面が含まれる場合があります。最新情報はApp Storeをご確認ください。",
+    "limitsTitle": "対応するリンクについて。",
+    "limitsBody": "Damasは、最長90分のYouTube・Instagram・Xの公開オンデマンド動画リンクに対応しています。非公開、制限付き、ライブ配信のコンテンツには対応していません。利用可否や処理時間は、配信元、音声、接続状況などによって異なります。",
+    "privacyNote": "インターネット接続、Premium、AI処理への同意が必要です。処理する権限のあるコンテンツのみ送信してください。利用前にプライバシーポリシーをご確認ください。",
+    "faqTitle": "よくある質問。",
+    "guidesTitle": "動画の音声を活用するガイド。",
+    "guidesIntro": "SNSの動画リンクの文字起こし、音声の翻訳、役立つ要約の作り方をご紹介します。",
+    "readGuide": "ガイドを読む",
+    "relatedTitle": "関連ガイド",
+    "breadcrumbHome": "ホーム",
+    "breadcrumbGuides": "ガイド",
+    "sourceTitle": "参照情報",
+    "updated": "更新日",
+    "published": "公開日",
+    "downloadCTA": "対応する公開動画リンクをDamasで開き、音声をテキストに変えましょう。",
+    "footerNote": "DamasはDamas TechnologiesのiPhoneアプリです。Appleおよび各プラットフォームの名称は、それぞれの権利者に帰属します。",
+    "nav": {
+      "features": "機能",
+      "guides": "ガイド",
+      "mediaKit": "メディアキット",
+      "support": "サポート"
+    },
+    "legalLinks": {
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "support": "サポート"
+    },
+    "features": [
+      {
+        "title": "音声を文字に",
+        "body": "対応するYouTube・Instagram・Xの公開動画リンクから、話されている内容を文字起こしできます。"
+      },
+      {
+        "title": "言語を越えて読む",
+        "body": "動画の音声を70言語のいずれかに翻訳。ノートは編集・コピーできます。"
+      },
+      {
+        "title": "大切な内容を残す",
+        "body": "文字起こしから要約を作成できます。バックグラウンド処理と通知により、完了後に結果を確認しやすくなります。"
+      }
+    ],
+    "steps": [
+      {
+        "title": "公開動画を選ぶ",
+        "body": "処理する権限がある、対応するYouTube・Instagram・Xのオンデマンド動画のリンクをコピーします。"
+      },
+      {
+        "title": "Damasでリンクを処理する",
+        "body": "iPhoneでDamasを開き、動画リンクを入力して、利用できる処理を選びます。続行する前にAI処理への同意内容を確認してください。"
+      },
+      {
+        "title": "読んで、確認して、活用する",
+        "body": "文字起こし、翻訳、要約を元の動画と照合します。必要に応じてノートを編集・コピーしてください。"
+      }
+    ],
+    "facts": [
+      {
+        "value": "90分",
+        "label": "対応する動画の最長時間"
+      },
+      {
+        "value": "70",
+        "label": "翻訳先の言語数"
+      },
+      {
+        "value": "11",
+        "label": "アプリの表示言語数"
+      }
+    ],
+    "screenshotCaptions": [
+      "対応する公開動画リンクから開始 · 英語の画面",
+      "長い翻訳を読む · 英語の画面",
+      "翻訳先の言語を選択 · 英語の画面"
+    ],
+    "faqs": [
+      {
+        "q": "どの動画リンクを文字起こしできますか？",
+        "a": "対応するYouTube・Instagram・Xの公開オンデマンド動画で、長さは最長90分です。非公開、制限付き、ライブ配信のコンテンツは対象外です。"
+      },
+      {
+        "q": "SNS動画を翻訳できますか？",
+        "a": "対応する動画の音声を70言語のいずれかに翻訳できます。アプリの表示言語は11言語で、翻訳先とは別の一覧です。"
+      },
+      {
+        "q": "オフラインで使えますか？",
+        "a": "いいえ。動画の処理にはインターネット接続、Premium、AI処理への同意が必要です。処理時間や結果は状況によって異なります。"
+      },
+      {
+        "q": "結果を編集できますか？",
+        "a": "ノートを編集・コピーできます。生成された文字起こし、翻訳、要約は、利用や共有の前に必ず確認してください。"
+      }
+    ],
+    "mediaKit": {
+      "title": "Damas メディアキット",
+      "description": "Damas — Video Link Transcriberの製品情報、アートワーク、スクリーンショット、紹介動画。",
+      "intro": "iPhoneアプリDamasを紹介するための資料です。以下の最新製品情報と、ダウンロード可能なオリジナル素材をご利用ください。",
+      "downloadAssets": "オリジナル素材をダウンロード",
+      "artworkTitle": "アートワークと製品素材",
+      "artworkCaption": "プラムとバイオレットを基調としたDamasのビジュアルです。記事制作向けにオリジナル素材をダウンロードできます。",
+      "icon": "アプリアイコン",
+      "screenshots": "iPhoneスクリーンショット",
+      "video": "製品プレビュー",
+      "releaseTitle": "App Storeで配信中",
+      "releaseBody": "Damas — Video Link Transcriber、バージョン1.5.3。iOS 18.6以降が必要です。11の表示言語と70言語への翻訳に対応しています。最新バージョンと地域ごとの提供状況はApp Storeをご確認ください。",
+      "trademark": "DamasはDamas Technologiesのアプリです。Apple、YouTube、Instagram、Xは各所有者の商標です。名称の記載は推奨や提携を意味しません。",
+      "contact": "製品に関するお問い合わせは、下のサポートリンクをご利用ください。"
+    },
+    "notFound": {
+      "title": "ページが見つかりません。",
+      "body": "アドレスが変更された可能性があります。ホームからDamasやガイドをご覧ください。",
+      "back": "ホームに戻る"
+    },
+    "skipToContent": "本文へ移動",
+    "breadcrumbLabel": "パンくずリスト"
+  },
+  "ko": {
+    "name": "한국어",
+    "htmlLang": "ko",
+    "title": "Damas — iPhone에서 소셜 미디어 동영상 받아쓰기와 번역",
+    "description": "Damas에서 지원되는 YouTube, Instagram, X 공개 동영상 링크를 iPhone으로 받아쓰고 번역하고 요약하세요.",
+    "eyebrow": "Damas · 동영상 링크 받아쓰기",
+    "heroTitle": "iPhone에서 소셜 미디어 동영상을 받아쓰고 번역하세요.",
+    "heroDescription": "공개 동영상 링크를 읽기 편한 글로 바꾸세요. 음성을 텍스트로 옮기고, 70개 언어 중 하나로 번역하고, 다시 살펴볼 수 있는 요약을 만드세요.",
+    "heroNote": "지원되는 YouTube, Instagram, X 공개 동영상에 사용할 수 있습니다. iOS 18.6 이상, 인터넷, Premium, AI 처리 동의가 필요합니다.",
+    "download": "App Store에서 다운로드",
+    "languageLabel": "언어",
+    "featuresTitle": "동영상 링크에서 유용한 글로.",
+    "featuresIntro": "강의를 읽고, 인터뷰를 이해하고, 공개 동영상의 핵심을 메모에 남기세요.",
+    "howTitle": "링크에서 텍스트로, 더 분명하게.",
+    "screenshotsTitle": "Damas를 살펴보세요.",
+    "screenshotsIntro": "실제 iPhone 화면이며 영어 인터페이스로 표시되어 있습니다. Damas는 11개 인터페이스 언어를 지원합니다.",
+    "previewTitle": "사용 흐름을 영상으로 확인하세요.",
+    "previewBody": "제품 미리보기에서 iPhone으로 동영상 링크를 받아쓰고 번역하는 흐름을 살펴보세요.",
+    "previewNote": "미리보기에는 이전 인터페이스가 포함될 수 있습니다. 최신 정보는 App Store를 확인하세요.",
+    "limitsTitle": "지원되는 링크를 확인하세요.",
+    "limitsBody": "Damas는 최대 90분 길이의 YouTube, Instagram, X 공개 주문형 동영상 링크를 지원합니다. 비공개, 접근 제한, 실시간 콘텐츠는 지원하지 않습니다. 이용 가능 여부와 처리 시간은 원본, 오디오, 연결 상태 등에 따라 달라집니다.",
+    "privacyNote": "인터넷, Premium, AI 처리 동의가 필요합니다. 처리할 권한이 있는 콘텐츠만 제출하세요. 사용 전에 개인정보 처리방침을 확인하세요.",
+    "faqTitle": "자주 묻는 질문.",
+    "guidesTitle": "동영상 음성을 활용하는 가이드.",
+    "guidesIntro": "소셜 미디어 동영상 링크 받아쓰기, 음성 번역, 유용한 요약 작성 방법을 알아보세요.",
+    "readGuide": "가이드 읽기",
+    "relatedTitle": "관련 가이드",
+    "breadcrumbHome": "홈",
+    "breadcrumbGuides": "가이드",
+    "sourceTitle": "출처",
+    "updated": "업데이트",
+    "published": "게시일",
+    "downloadCTA": "지원되는 공개 동영상 링크를 Damas에서 열고 음성을 텍스트로 바꾸세요.",
+    "footerNote": "Damas는 Damas Technologies의 iPhone 앱입니다. Apple 및 플랫폼 명칭은 각 소유자의 권리에 속합니다.",
+    "nav": {
+      "features": "기능",
+      "guides": "가이드",
+      "mediaKit": "미디어 키트",
+      "support": "지원"
+    },
+    "legalLinks": {
+      "privacy": "개인정보 처리방침",
+      "terms": "이용 약관",
+      "support": "지원"
+    },
+    "features": [
+      {
+        "title": "음성을 텍스트로",
+        "body": "지원되는 YouTube, Instagram, X 공개 동영상 링크의 음성 내용을 받아쓰세요."
+      },
+      {
+        "title": "언어를 넘어 읽기",
+        "body": "동영상 음성을 70개 언어 중 하나로 번역한 뒤 메모를 편집하고 복사하세요."
+      },
+      {
+        "title": "핵심 아이디어 남기기",
+        "body": "텍스트 기록으로 요약을 만드세요. 백그라운드 처리와 알림으로 결과가 준비되었을 때 다시 확인할 수 있습니다."
+      }
+    ],
+    "steps": [
+      {
+        "title": "공개 동영상 선택",
+        "body": "처리할 권한이 있는 지원되는 YouTube, Instagram, X 주문형 동영상의 링크를 복사하세요."
+      },
+      {
+        "title": "Damas에서 링크 처리",
+        "body": "iPhone에서 Damas를 열어 동영상 링크를 입력하고 지원되는 작업을 선택하세요. 계속하기 전에 AI 처리 동의를 확인하세요."
+      },
+      {
+        "title": "읽고 확인하고 활용",
+        "body": "받아쓰기, 번역, 요약 결과를 원본과 비교하세요. 필요에 따라 메모를 편집하고 복사하세요."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90분",
+        "label": "지원되는 동영상 최대 길이"
+      },
+      {
+        "value": "70",
+        "label": "번역 언어"
+      },
+      {
+        "value": "11",
+        "label": "인터페이스 언어"
+      }
+    ],
+    "screenshotCaptions": [
+      "지원되는 공개 동영상 링크로 시작 · 영어 인터페이스",
+      "긴 번역 읽기 · 영어 인터페이스",
+      "번역 언어 선택 · 영어 인터페이스"
+    ],
+    "faqs": [
+      {
+        "q": "어떤 동영상 링크를 받아쓸 수 있나요?",
+        "a": "Damas는 최대 90분의 지원되는 YouTube, Instagram, X 공개 주문형 동영상 링크를 지원합니다. 비공개, 접근 제한, 실시간 콘텐츠는 제외됩니다."
+      },
+      {
+        "q": "소셜 미디어 동영상을 번역할 수 있나요?",
+        "a": "지원되는 동영상의 음성을 70개 언어 중 하나로 번역할 수 있습니다. 앱 인터페이스는 11개 언어로 제공되며 번역 언어 목록과는 다릅니다."
+      },
+      {
+        "q": "인터넷 없이 사용할 수 있나요?",
+        "a": "아니요. 동영상 처리에는 인터넷, Premium, AI 처리 동의가 필요합니다. 처리 시간과 결과는 달라질 수 있습니다."
+      },
+      {
+        "q": "결과를 편집할 수 있나요?",
+        "a": "메모를 편집하고 복사할 수 있습니다. 생성된 받아쓰기, 번역, 요약은 사용하거나 공유하기 전에 확인하세요."
+      }
+    ],
+    "mediaKit": {
+      "title": "Damas 미디어 키트",
+      "description": "Damas — Video Link Transcriber의 제품 정보, 아트워크, 화면 이미지와 미리보기.",
+      "intro": "Damas iPhone 앱을 소개하기 위한 자료입니다. 아래 최신 제품 정보와 다운로드 가능한 원본 미디어를 활용하세요.",
+      "downloadAssets": "원본 자료 다운로드",
+      "artworkTitle": "아트워크 및 제품 미디어",
+      "artworkCaption": "플럼과 바이올렛 색조의 Damas 아트워크입니다. 기사 제작용 원본 파일을 다운로드할 수 있습니다.",
+      "icon": "앱 아이콘",
+      "screenshots": "iPhone 화면 이미지",
+      "video": "제품 미리보기",
+      "releaseTitle": "App Store에서 이용 가능",
+      "releaseBody": "Damas — Video Link Transcriber 버전 1.5.3. iOS 18.6 이상이 필요합니다. 11개 인터페이스 언어와 70개 언어 번역을 지원합니다. 최신 버전과 지역별 제공 여부는 App Store에서 확인하세요.",
+      "trademark": "Damas는 Damas Technologies에서 제공합니다. Apple, YouTube, Instagram, X는 각 소유자의 상표이며 명칭 사용이 보증이나 제휴를 의미하지 않습니다.",
+      "contact": "제품 문의는 아래 지원 링크를 이용하세요."
+    },
+    "notFound": {
+      "title": "페이지를 찾을 수 없습니다.",
+      "body": "주소가 변경되었을 수 있습니다. 홈에서 Damas나 가이드를 찾아보세요.",
+      "back": "홈으로 돌아가기"
+    },
+    "skipToContent": "본문으로 건너뛰기",
+    "breadcrumbLabel": "탐색 경로"
+  },
+  "ms": {
+    "name": "Bahasa Melayu",
+    "htmlLang": "ms",
+    "title": "Damas — Transkripsi dan terjemah video media sosial pada iPhone",
+    "description": "Tukar pautan video awam YouTube, Instagram dan X yang disokong kepada transkrip, terjemahan dan ringkasan dengan Damas untuk iPhone.",
+    "eyebrow": "Damas · Transkripsi pautan video",
+    "heroTitle": "Transkripsi dan terjemah video media sosial pada iPhone.",
+    "heroDescription": "Jadikan pautan video awam sebagai teks yang mudah dibaca. Transkripsikan pertuturan, terjemahkan kepada salah satu daripada 70 bahasa dan simpan isi penting dalam ringkasan.",
+    "heroNote": "Untuk video awam YouTube, Instagram dan X yang disokong. Memerlukan iOS 18.6 atau lebih baharu, internet, Premium dan persetujuan pemprosesan AI.",
+    "download": "Muat turun di App Store",
+    "languageLabel": "Bahasa",
+    "featuresTitle": "Daripada pautan video kepada teks berguna.",
+    "featuresIntro": "Baca semula kuliah, fahami temu bual atau simpan isi utama video awam dalam nota anda.",
+    "howTitle": "Satu pautan. Satu transkrip. Lebih jelas.",
+    "screenshotsTitle": "Lihat Damas dari dekat.",
+    "screenshotsIntro": "Tangkapan skrin iPhone sebenar dengan antara muka bahasa Inggeris. Damas mempunyai 11 bahasa antara muka.",
+    "previewTitle": "Lihat aliran penggunaan.",
+    "previewBody": "Tonton pratonton produk untuk melihat proses transkripsi dan terjemahan pautan video pada iPhone.",
+    "previewNote": "Media pratonton mungkin menunjukkan antara muka terdahulu. Rujuk App Store untuk maklumat terkini.",
+    "limitsTitle": "Ketahui pautan yang disokong.",
+    "limitsBody": "Damas menyokong pautan video awam atas permintaan daripada YouTube, Instagram dan X sehingga 90 minit. Kandungan peribadi, terhad dan langsung tidak disokong. Ketersediaan dan masa pemprosesan bergantung pada sumber, audio dan sambungan.",
+    "privacyNote": "Internet, Premium dan persetujuan pemprosesan AI diperlukan. Hantar hanya kandungan yang anda berhak proses. Baca dasar privasi sebelum menggunakan perkhidmatan.",
+    "faqTitle": "Jawapan yang berguna.",
+    "guidesTitle": "Panduan untuk memanfaatkan pertuturan video.",
+    "guidesIntro": "Bantuan praktikal untuk mentranskripsikan pautan video media sosial, menterjemahkan pertuturan dan menghasilkan ringkasan berguna.",
+    "readGuide": "Baca panduan",
+    "relatedTitle": "Panduan berkaitan",
+    "breadcrumbHome": "Utama",
+    "breadcrumbGuides": "Panduan",
+    "sourceTitle": "Sumber",
+    "updated": "Dikemas kini",
+    "published": "Diterbitkan",
+    "downloadCTA": "Buka pautan video awam yang disokong dalam Damas dan tukar pertuturannya kepada teks.",
+    "footerNote": "Damas ialah aplikasi iPhone oleh Damas Technologies. Apple dan nama platform dimiliki oleh pemilik masing-masing.",
+    "nav": {
+      "features": "Ciri",
+      "guides": "Panduan",
+      "mediaKit": "Kit media",
+      "support": "Sokongan"
+    },
+    "legalLinks": {
+      "privacy": "Dasar privasi",
+      "terms": "Syarat penggunaan",
+      "support": "Sokongan"
+    },
+    "features": [
+      {
+        "title": "Tukar pertuturan kepada teks",
+        "body": "Transkripsikan pertuturan daripada pautan video awam YouTube, Instagram atau X yang disokong."
+      },
+      {
+        "title": "Baca merentas bahasa",
+        "body": "Terjemahkan pertuturan video kepada salah satu daripada 70 bahasa, kemudian sunting dan salin nota anda."
+      },
+      {
+        "title": "Simpan idea utama",
+        "body": "Cipta ringkasan daripada transkrip. Pemprosesan latar belakang dan pemberitahuan membantu anda kembali apabila hasil tersedia."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Pilih video awam",
+        "body": "Salin pautan video atas permintaan YouTube, Instagram atau X yang layak dan yang anda berhak proses."
+      },
+      {
+        "title": "Proses pautan dalam Damas",
+        "body": "Buka Damas pada iPhone, masukkan pautan video dan pilih tugas yang disokong. Semak persetujuan AI sebelum meneruskan."
+      },
+      {
+        "title": "Baca, semak dan gunakan",
+        "body": "Bandingkan transkrip, terjemahan atau ringkasan dengan sumber asal. Sunting dan salin nota apabila diperlukan."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 min",
+        "label": "Tempoh maksimum video disokong"
+      },
+      {
+        "value": "70",
+        "label": "Bahasa terjemahan"
+      },
+      {
+        "value": "11",
+        "label": "Bahasa antara muka"
+      }
+    ],
+    "screenshotCaptions": [
+      "Mulakan dengan pautan video awam yang disokong · Antara muka bahasa Inggeris",
+      "Baca terjemahan panjang · Antara muka bahasa Inggeris",
+      "Pilih bahasa terjemahan · Antara muka bahasa Inggeris"
+    ],
+    "faqs": [
+      {
+        "q": "Pautan video manakah yang boleh ditranskripsikan?",
+        "a": "Damas menyokong pautan video awam atas permintaan YouTube, Instagram dan X yang layak sehingga 90 minit. Kandungan peribadi, terhad dan langsung tidak disokong."
+      },
+      {
+        "q": "Bolehkah saya menterjemahkan video media sosial?",
+        "a": "Damas boleh menterjemahkan pertuturan video yang disokong kepada salah satu daripada 70 bahasa. Antara muka aplikasi tersedia dalam 11 bahasa; kedua-duanya senarai yang berbeza."
+      },
+      {
+        "q": "Adakah Damas berfungsi tanpa internet?",
+        "a": "Tidak. Pemprosesan video memerlukan internet, Premium dan persetujuan pemprosesan AI. Masa pemprosesan dan hasil boleh berbeza."
+      },
+      {
+        "q": "Bolehkah saya menyunting hasil?",
+        "a": "Anda boleh menyunting dan menyalin nota. Semak transkrip, terjemahan dan ringkasan yang dijana sebelum menggunakannya atau berkongsi."
+      }
+    ],
+    "mediaKit": {
+      "title": "Kit media Damas",
+      "description": "Fakta produk, karya visual, tangkapan skrin dan pratonton untuk Damas — Video Link Transcriber.",
+      "intro": "Sumber ringkas untuk menulis tentang aplikasi iPhone Damas. Gunakan fakta produk terkini di bawah bersama media asal yang boleh dimuat turun.",
+      "downloadAssets": "Muat turun aset asal",
+      "artworkTitle": "Karya visual dan media produk",
+      "artworkCaption": "Karya visual Damas dalam tona plum dan ungu. Muat turun fail asal untuk kegunaan editorial.",
+      "icon": "Ikon aplikasi",
+      "screenshots": "Tangkapan skrin iPhone",
+      "video": "Pratonton produk",
+      "releaseTitle": "Tersedia di App Store",
+      "releaseBody": "Damas — Video Link Transcriber, versi 1.5.3. Memerlukan iOS 18.6 atau lebih baharu. Aplikasi ini mempunyai 11 bahasa antara muka dan menyokong terjemahan kepada 70 bahasa. Semak App Store untuk versi terkini dan ketersediaan wilayah.",
+      "trademark": "Damas dibangunkan oleh Damas Technologies. Apple, YouTube, Instagram dan X ialah tanda dagangan pemilik masing-masing; sebutannya tidak menunjukkan sokongan.",
+      "contact": "Untuk pertanyaan produk, gunakan pautan sokongan di bawah."
+    },
+    "notFound": {
+      "title": "Halaman ini tidak ditemukan.",
+      "body": "Alamatnya mungkin telah berubah. Terokai Damas atau cari panduan dari halaman utama.",
+      "back": "Kembali ke halaman utama"
+    },
+    "skipToContent": "Langkau ke kandungan",
+    "breadcrumbLabel": "Jejak navigasi"
+  },
+  "pt": {
+    "name": "Português",
+    "htmlLang": "pt",
+    "title": "Damas — Transcreva e traduza vídeos de redes sociais no iPhone",
+    "description": "Transforme links públicos compatíveis do YouTube, Instagram e X em transcrições, traduções e resumos com o Damas para iPhone.",
+    "eyebrow": "Damas · Transcrição de links de vídeo",
+    "heroTitle": "Transcreva e traduza vídeos de redes sociais no iPhone.",
+    "heroDescription": "Dê uma nova utilidade a um link de vídeo público: texto para ler e consultar. Transcreva a fala, traduza para um dos 70 idiomas e crie um resumo com as ideias principais.",
+    "heroNote": "Para vídeos públicos compatíveis do YouTube, Instagram e X. Requer iOS 18.6 ou posterior, internet, Premium e consentimento para processamento por IA.",
+    "download": "Baixar na App Store",
+    "languageLabel": "Idioma",
+    "featuresTitle": "De um link de vídeo a palavras úteis.",
+    "featuresIntro": "Leia uma palestra, entenda uma entrevista ou guarde os pontos principais de um vídeo público nas suas notas.",
+    "howTitle": "Um link. Uma transcrição. Mais clareza.",
+    "screenshotsTitle": "Conheça o Damas por dentro.",
+    "screenshotsIntro": "Capturas reais do iPhone com a interface em inglês. O Damas oferece 11 idiomas de interface.",
+    "previewTitle": "Veja como funciona.",
+    "previewBody": "Assista à prévia do produto para conhecer o fluxo de transcrição e tradução de links de vídeo no iPhone.",
+    "previewNote": "A prévia pode mostrar uma interface anterior. Consulte a App Store para obter informações atuais.",
+    "limitsTitle": "Saiba quais links são compatíveis.",
+    "limitsBody": "O Damas aceita links de vídeos públicos sob demanda do YouTube, Instagram e X com até 90 minutos. Conteúdo privado, restrito e ao vivo não é compatível. A disponibilidade e o tempo de processamento variam conforme a fonte, o áudio e a conexão.",
+    "privacyNote": "É necessário ter internet, Premium e consentir com o processamento por IA. Envie apenas conteúdo que você tem permissão para processar. Leia a política de privacidade antes de usar o serviço.",
+    "faqTitle": "Algumas respostas úteis.",
+    "guidesTitle": "Guias para aproveitar a fala em vídeos.",
+    "guidesIntro": "Ajuda prática para transcrever links de vídeos de redes sociais, traduzir a fala e criar resumos úteis.",
+    "readGuide": "Ler o guia",
+    "relatedTitle": "Guias relacionados",
+    "breadcrumbHome": "Início",
+    "breadcrumbGuides": "Guias",
+    "sourceTitle": "Fontes",
+    "updated": "Atualizado em",
+    "published": "Publicado em",
+    "downloadCTA": "Abra um link de vídeo público compatível no Damas e transforme a fala em texto.",
+    "footerNote": "Damas é um app para iPhone da Damas Technologies. Apple e os nomes das plataformas pertencem aos respectivos titulares.",
+    "nav": {
+      "features": "Recursos",
+      "guides": "Guias",
+      "mediaKit": "Kit de imprensa",
+      "support": "Suporte"
+    },
+    "legalLinks": {
+      "privacy": "Política de privacidade",
+      "terms": "Termos de uso",
+      "support": "Suporte"
+    },
+    "features": [
+      {
+        "title": "Transforme fala em texto",
+        "body": "Transcreva o conteúdo falado de um link de vídeo público compatível do YouTube, Instagram ou X."
+      },
+      {
+        "title": "Leia em outro idioma",
+        "body": "Traduza a fala de vídeos para um dos 70 idiomas e depois edite e copie suas notas."
+      },
+      {
+        "title": "Guarde as ideias principais",
+        "body": "Crie um resumo a partir de uma transcrição. O processamento em segundo plano e as notificações ajudam a voltar quando os resultados estiverem prontos."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Escolha um vídeo público",
+        "body": "Copie o link de um vídeo sob demanda compatível do YouTube, Instagram ou X que você tem permissão para processar."
+      },
+      {
+        "title": "Processe o link no Damas",
+        "body": "Abra o Damas no iPhone, informe o link e escolha uma tarefa disponível. Leia o consentimento para uso de IA antes de continuar."
+      },
+      {
+        "title": "Leia, confira e aproveite",
+        "body": "Compare a transcrição, a tradução ou o resumo com a fonte. Edite e copie suas notas conforme necessário."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 min",
+        "label": "Duração máxima de vídeo compatível"
+      },
+      {
+        "value": "70",
+        "label": "Idiomas de tradução"
+      },
+      {
+        "value": "11",
+        "label": "Idiomas de interface"
+      }
+    ],
+    "screenshotCaptions": [
+      "Comece com um link de vídeo público compatível · Interface em inglês",
+      "Leia uma tradução longa · Interface em inglês",
+      "Escolha o idioma da tradução · Interface em inglês"
+    ],
+    "faqs": [
+      {
+        "q": "Quais links de vídeo posso transcrever?",
+        "a": "O Damas aceita links públicos sob demanda compatíveis do YouTube, Instagram e X com até 90 minutos. Conteúdo privado, restrito e ao vivo não é compatível."
+      },
+      {
+        "q": "Posso traduzir vídeos de redes sociais?",
+        "a": "O Damas pode traduzir a fala dos vídeos compatíveis para um dos 70 idiomas. A interface está disponível em 11 idiomas, uma lista distinta dos idiomas de tradução."
+      },
+      {
+        "q": "O Damas funciona sem internet?",
+        "a": "Não. O processamento de vídeo exige internet, Premium e consentimento para processamento por IA. Os prazos e resultados podem variar."
+      },
+      {
+        "q": "Posso editar os resultados?",
+        "a": "Você pode editar e copiar suas notas. Revise transcrições, traduções e resumos gerados antes de usá-los ou compartilhá-los."
+      }
+    ],
+    "mediaKit": {
+      "title": "Kit de imprensa do Damas",
+      "description": "Informações do produto, arte, capturas e prévia de Damas — Video Link Transcriber.",
+      "intro": "Recursos para apresentar o app Damas para iPhone. Use as informações atuais abaixo junto com os arquivos de mídia originais.",
+      "downloadAssets": "Baixar arquivos originais",
+      "artworkTitle": "Arte e mídia do produto",
+      "artworkCaption": "Arte do Damas em tons de ameixa e violeta. Baixe os arquivos originais para uso editorial.",
+      "icon": "Ícone do app",
+      "screenshots": "Capturas do iPhone",
+      "video": "Prévia do produto",
+      "releaseTitle": "Disponível na App Store",
+      "releaseBody": "Damas — Video Link Transcriber, versão 1.5.3. Requer iOS 18.6 ou posterior. O app tem 11 idiomas de interface e tradução para 70 idiomas. Consulte a App Store para a versão atual e a disponibilidade regional.",
+      "trademark": "Damas é um produto da Damas Technologies. Apple, YouTube, Instagram e X são marcas dos respectivos titulares; a menção não implica endosso.",
+      "contact": "Para dúvidas sobre o produto, use o link de suporte abaixo."
+    },
+    "notFound": {
+      "title": "Não foi possível encontrar esta página.",
+      "body": "O endereço pode ter mudado. Conheça o Damas ou encontre um guia na página inicial.",
+      "back": "Voltar ao início"
+    },
+    "skipToContent": "Ir para o conteúdo",
+    "breadcrumbLabel": "Caminho de navegação"
+  },
+  "ru": {
+    "name": "Русский",
+    "htmlLang": "ru",
+    "title": "Damas — Расшифровка и перевод видео из соцсетей на iPhone",
+    "description": "Превращайте поддерживаемые публичные ссылки YouTube, Instagram и X в расшифровки, переводы и краткие изложения с Damas для iPhone.",
+    "eyebrow": "Damas · Расшифровка видео по ссылке",
+    "heroTitle": "Расшифровывайте и переводите видео из соцсетей на iPhone.",
+    "heroDescription": "Превратите ссылку на публичное видео в текст, к которому удобно вернуться. Расшифруйте речь, переведите её на один из 70 языков и сохраните основные мысли в кратком изложении.",
+    "heroNote": "Для поддерживаемых публичных видео YouTube, Instagram и X. Нужны iOS 18.6 или новее, интернет, Premium и согласие на обработку ИИ.",
+    "download": "Загрузить в App Store",
+    "languageLabel": "Язык",
+    "featuresTitle": "От ссылки на видео — к полезному тексту.",
+    "featuresIntro": "Прочитайте лекцию, разберитесь в интервью или сохраните главные мысли публичного видео в заметках.",
+    "howTitle": "Ссылка. Расшифровка. Больше ясности.",
+    "screenshotsTitle": "Знакомство с Damas.",
+    "screenshotsIntro": "Настоящие снимки экрана iPhone с английским интерфейсом. В Damas доступно 11 языков интерфейса.",
+    "previewTitle": "Посмотрите, как это работает.",
+    "previewBody": "Превью показывает, как расшифровывать и переводить видео по ссылке на iPhone.",
+    "previewNote": "В превью может быть показана прежняя версия интерфейса. Актуальные сведения смотрите в App Store.",
+    "limitsTitle": "Какие ссылки поддерживаются.",
+    "limitsBody": "Damas поддерживает публичные видео по запросу с YouTube, Instagram и X продолжительностью до 90 минут. Закрытый контент, материалы с ограниченным доступом и прямые эфиры не поддерживаются. Доступность и время обработки зависят от источника, звука и подключения.",
+    "privacyNote": "Нужны интернет, Premium и согласие на обработку ИИ. Отправляйте только контент, который вы вправе обрабатывать. Перед использованием прочитайте политику конфиденциальности.",
+    "faqTitle": "Полезные ответы.",
+    "guidesTitle": "Руководства по работе с речью в видео.",
+    "guidesIntro": "Практические советы: как расшифровать видео из соцсетей по ссылке, перевести речь и подготовить полезное краткое изложение.",
+    "readGuide": "Читать руководство",
+    "relatedTitle": "Другие руководства",
+    "breadcrumbHome": "Главная",
+    "breadcrumbGuides": "Руководства",
+    "sourceTitle": "Источники",
+    "updated": "Обновлено",
+    "published": "Опубликовано",
+    "downloadCTA": "Откройте поддерживаемую публичную ссылку в Damas и превратите речь в текст.",
+    "footerNote": "Damas — приложение для iPhone от Damas Technologies. Apple и названия платформ принадлежат соответствующим правообладателям.",
+    "nav": {
+      "features": "Возможности",
+      "guides": "Руководства",
+      "mediaKit": "Для прессы",
+      "support": "Поддержка"
+    },
+    "legalLinks": {
+      "privacy": "Конфиденциальность",
+      "terms": "Условия использования",
+      "support": "Поддержка"
+    },
+    "features": [
+      {
+        "title": "Речь становится текстом",
+        "body": "Расшифровывайте речь из поддерживаемых публичных видео YouTube, Instagram и X по ссылке."
+      },
+      {
+        "title": "Читайте на другом языке",
+        "body": "Переводите речь на один из 70 языков, затем редактируйте и копируйте заметки."
+      },
+      {
+        "title": "Сохраняйте главное",
+        "body": "Создайте краткое изложение по расшифровке. Фоновая обработка и уведомления помогут вернуться, когда результат будет готов."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Выберите публичное видео",
+        "body": "Скопируйте ссылку на подходящее видео по запросу с YouTube, Instagram или X, которое вы вправе обрабатывать."
+      },
+      {
+        "title": "Обработайте ссылку в Damas",
+        "body": "Откройте Damas на iPhone, укажите ссылку и выберите доступную задачу. Прежде чем продолжить, ознакомьтесь с согласием на обработку ИИ."
+      },
+      {
+        "title": "Прочитайте и проверьте",
+        "body": "Сверьте расшифровку, перевод или краткое изложение с источником. При необходимости отредактируйте и скопируйте заметки."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 мин",
+        "label": "Максимальная длина видео"
+      },
+      {
+        "value": "70",
+        "label": "Языков перевода"
+      },
+      {
+        "value": "11",
+        "label": "Языков интерфейса"
+      }
+    ],
+    "screenshotCaptions": [
+      "Начните с поддерживаемой публичной ссылки · Английский интерфейс",
+      "Читайте длинный перевод · Английский интерфейс",
+      "Выберите язык перевода · Английский интерфейс"
+    ],
+    "faqs": [
+      {
+        "q": "Какие видео можно расшифровать по ссылке?",
+        "a": "Damas поддерживает подходящие публичные видео по запросу с YouTube, Instagram и X длиной до 90 минут. Закрытые материалы, контент с ограничениями и прямые эфиры не поддерживаются."
+      },
+      {
+        "q": "Можно ли переводить видео из соцсетей?",
+        "a": "Damas переводит речь из поддерживаемых видео на один из 70 языков. Интерфейс приложения доступен на 11 языках — это отдельный список."
+      },
+      {
+        "q": "Работает ли Damas без интернета?",
+        "a": "Нет. Для обработки видео нужны интернет, Premium и согласие на обработку ИИ. Время и результаты обработки могут различаться."
+      },
+      {
+        "q": "Можно ли изменить результат?",
+        "a": "Вы можете редактировать и копировать заметки. Проверяйте созданные расшифровки, переводы и краткие изложения перед использованием или публикацией."
+      }
+    ],
+    "mediaKit": {
+      "title": "Пресс-кит Damas",
+      "description": "Сведения о продукте, графика, снимки экрана и превью Damas — Video Link Transcriber.",
+      "intro": "Материалы для публикаций о приложении Damas для iPhone. Используйте актуальные сведения ниже и оригинальные медиафайлы.",
+      "downloadAssets": "Скачать оригиналы",
+      "artworkTitle": "Графика и материалы продукта",
+      "artworkCaption": "Оформление Damas в сливовых и фиолетовых тонах. Оригинальные файлы доступны для редакционного использования.",
+      "icon": "Значок приложения",
+      "screenshots": "Снимки экрана iPhone",
+      "video": "Превью продукта",
+      "releaseTitle": "Доступно в App Store",
+      "releaseBody": "Damas — Video Link Transcriber, версия 1.5.3. Требуется iOS 18.6 или новее. В приложении 11 языков интерфейса и перевод на 70 языков. Актуальную версию и доступность в регионе смотрите в App Store.",
+      "trademark": "Damas разработано Damas Technologies. Apple, YouTube, Instagram и X — товарные знаки соответствующих владельцев. Упоминание не означает одобрения.",
+      "contact": "С вопросами о продукте обращайтесь по ссылке поддержки ниже."
+    },
+    "notFound": {
+      "title": "Страница не найдена.",
+      "body": "Возможно, адрес изменился. Узнайте о Damas или выберите руководство на главной странице.",
+      "back": "На главную"
+    },
+    "skipToContent": "Перейти к содержимому",
+    "breadcrumbLabel": "Навигационная цепочка"
+  },
+  "zh-hans": {
+    "name": "简体中文",
+    "htmlLang": "zh-Hans",
+    "title": "Damas — 在 iPhone 上转写和翻译社交媒体视频",
+    "description": "使用 iPhone 版 Damas，将支持的 YouTube、Instagram 和 X 公开视频链接转换成文字稿、译文和摘要。",
+    "eyebrow": "Damas · 视频链接转文字",
+    "heroTitle": "在 iPhone 上转写和翻译社交媒体视频。",
+    "heroDescription": "让公开视频链接变成可以阅读的文字。转写语音，翻译成 70 种语言之一，再生成方便回顾的摘要。",
+    "heroNote": "适用于支持的 YouTube、Instagram 和 X 公开视频。需要 iOS 18.6 或更高版本、互联网连接、Premium 及 AI 处理同意。",
+    "download": "在 App Store 下载",
+    "languageLabel": "语言",
+    "featuresTitle": "从视频链接，到实用文字。",
+    "featuresIntro": "阅读讲座内容、理解访谈，或把公开视频的重点保存在笔记里。",
+    "howTitle": "一个链接，一份文字稿，思路更清晰。",
+    "screenshotsTitle": "看看 Damas 的实际界面。",
+    "screenshotsIntro": "以下为真实 iPhone 截图，展示英语界面。Damas 提供 11 种界面语言。",
+    "previewTitle": "观看操作流程。",
+    "previewBody": "通过产品预览，了解在 iPhone 上转写和翻译视频链接的流程。",
+    "previewNote": "预览素材可能展示较早版本的界面。最新信息以 App Store 为准。",
+    "limitsTitle": "了解哪些链接可以使用。",
+    "limitsBody": "Damas 支持最长 90 分钟的 YouTube、Instagram 和 X 公开点播视频链接。不支持私密、访问受限或直播内容。是否可用及处理时间因来源、音频和网络连接等因素而异。",
+    "privacyNote": "需要互联网连接、Premium 及 AI 处理同意。请仅提交您有权处理的内容，并在使用前阅读隐私政策。",
+    "faqTitle": "常见问题。",
+    "guidesTitle": "视频语音实用指南。",
+    "guidesIntro": "了解如何将社交媒体视频链接转成文字、翻译语音，以及生成实用摘要。",
+    "readGuide": "阅读指南",
+    "relatedTitle": "相关指南",
+    "breadcrumbHome": "首页",
+    "breadcrumbGuides": "指南",
+    "sourceTitle": "信息来源",
+    "updated": "更新日期",
+    "published": "发布日期",
+    "downloadCTA": "在 Damas 中打开支持的公开视频链接，将语音转换为文字。",
+    "footerNote": "Damas 是 Damas Technologies 推出的 iPhone 应用。Apple 及各平台名称属于相应权利人。",
+    "nav": {
+      "features": "功能",
+      "guides": "指南",
+      "mediaKit": "媒体资料",
+      "support": "支持"
+    },
+    "legalLinks": {
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "support": "支持"
+    },
+    "features": [
+      {
+        "title": "将语音转换为文字",
+        "body": "通过支持的 YouTube、Instagram 或 X 公开视频链接，转写其中的语音内容。"
+      },
+      {
+        "title": "跨越语言阅读",
+        "body": "将视频语音翻译成 70 种语言之一，然后编辑和复制笔记。"
+      },
+      {
+        "title": "保留核心要点",
+        "body": "根据文字稿生成摘要。后台处理和通知功能方便您在结果准备好后回来查看。"
+      }
+    ],
+    "steps": [
+      {
+        "title": "选择公开视频",
+        "body": "复制您有权处理的、符合要求的 YouTube、Instagram 或 X 点播视频链接。"
+      },
+      {
+        "title": "在 Damas 中处理链接",
+        "body": "在 iPhone 上打开 Damas，提供视频链接并选择可用任务。继续之前请阅读 AI 处理同意内容。"
+      },
+      {
+        "title": "阅读、核对和使用",
+        "body": "对照来源核查文字稿、译文或摘要。按需编辑和复制笔记。"
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 分钟",
+        "label": "支持的视频最长时长"
+      },
+      {
+        "value": "70",
+        "label": "翻译语言"
+      },
+      {
+        "value": "11",
+        "label": "界面语言"
+      }
+    ],
+    "screenshotCaptions": [
+      "从支持的公开视频链接开始 · 英语界面",
+      "阅读较长的译文 · 英语界面",
+      "选择翻译语言 · 英语界面"
+    ],
+    "faqs": [
+      {
+        "q": "哪些视频链接可以转写？",
+        "a": "Damas 支持符合要求的 YouTube、Instagram 和 X 公开点播视频链接，最长 90 分钟。不支持私密、受限或直播内容。"
+      },
+      {
+        "q": "可以翻译社交媒体视频吗？",
+        "a": "Damas 可以将支持的视频语音翻译成 70 种语言之一。应用界面有 11 种语言，与翻译语言是不同的列表。"
+      },
+      {
+        "q": "Damas 可以离线使用吗？",
+        "a": "不可以。视频处理需要互联网连接、Premium 及 AI 处理同意。处理时间和结果可能有所不同。"
+      },
+      {
+        "q": "可以编辑结果吗？",
+        "a": "您可以编辑和复制笔记。在使用或分享生成的文字稿、译文和摘要之前，请先核对内容。"
+      }
+    ],
+    "mediaKit": {
+      "title": "Damas 媒体资料",
+      "description": "Damas — Video Link Transcriber 的产品信息、视觉素材、截图及预览。",
+      "intro": "介绍 iPhone 应用 Damas 的资料集。请结合下方最新产品信息与可下载的原始媒体文件使用。",
+      "downloadAssets": "下载原始素材",
+      "artworkTitle": "视觉素材与产品媒体",
+      "artworkCaption": "以梅紫和紫罗兰色调呈现的 Damas 视觉设计。原始文件可供编辑报道使用。",
+      "icon": "应用图标",
+      "screenshots": "iPhone 截图",
+      "video": "产品预览",
+      "releaseTitle": "已在 App Store 上架",
+      "releaseBody": "Damas — Video Link Transcriber，版本 1.5.3。需要 iOS 18.6 或更高版本。提供 11 种界面语言，支持翻译成 70 种语言。最新版本及地区可用情况请查阅 App Store。",
+      "trademark": "Damas 由 Damas Technologies 提供。Apple、YouTube、Instagram 和 X 是相应所有者的商标，提及这些名称并不表示获得其认可。",
+      "contact": "如有产品问题，请使用下方支持链接。"
+    },
+    "notFound": {
+      "title": "未找到此页面。",
+      "body": "页面地址可能已经更改。请返回首页了解 Damas 或查找指南。",
+      "back": "返回首页"
+    },
+    "skipToContent": "跳转到正文",
+    "breadcrumbLabel": "面包屑导航"
+  },
+  "es": {
+    "name": "Español",
+    "htmlLang": "es",
+    "title": "Damas — Transcribe y traduce vídeos de redes sociales en iPhone",
+    "description": "Convierte enlaces públicos compatibles de YouTube, Instagram y X en transcripciones, traducciones y resúmenes con Damas para iPhone.",
+    "eyebrow": "Damas · Transcripción de enlaces de vídeo",
+    "heroTitle": "Transcribe y traduce vídeos de redes sociales en iPhone.",
+    "heroDescription": "Convierte un enlace de vídeo público en texto que puedas consultar. Transcribe la voz, tradúcela a uno de los 70 idiomas y crea un resumen con las ideas principales.",
+    "heroNote": "Para vídeos públicos compatibles de YouTube, Instagram y X. Requiere iOS 18.6 o posterior, internet, Premium y consentimiento para el procesamiento con IA.",
+    "download": "Descargar en el App Store",
+    "languageLabel": "Idioma",
+    "featuresTitle": "De un enlace de vídeo a palabras útiles.",
+    "featuresIntro": "Lee una conferencia, entiende una entrevista o guarda las ideas principales de un vídeo público en tus notas.",
+    "howTitle": "Un enlace. Una transcripción. Más claridad.",
+    "screenshotsTitle": "Descubre Damas por dentro.",
+    "screenshotsIntro": "Capturas reales de iPhone con la interfaz en inglés. Damas ofrece 11 idiomas de interfaz.",
+    "previewTitle": "Mira cómo funciona.",
+    "previewBody": "La vista previa muestra el proceso de transcripción y traducción de enlaces de vídeo en iPhone.",
+    "previewNote": "Los vídeos de presentación pueden mostrar una interfaz anterior. Consulta el App Store para ver la información actual.",
+    "limitsTitle": "Qué enlaces puedes utilizar.",
+    "limitsBody": "Damas admite enlaces de vídeos públicos bajo demanda de YouTube, Instagram y X de hasta 90 minutos. No admite contenido privado, restringido ni en directo. La disponibilidad y el tiempo de procesamiento varían según la fuente, el audio y la conexión.",
+    "privacyNote": "Se necesitan internet, Premium y consentimiento para el procesamiento con IA. Envía solo contenido que tengas permiso para procesar. Lee la política de privacidad antes de usar el servicio.",
+    "faqTitle": "Algunas respuestas útiles.",
+    "guidesTitle": "Guías para aprovechar la voz de los vídeos.",
+    "guidesIntro": "Ayuda práctica para transcribir enlaces de vídeos de redes sociales, traducir la voz y crear resúmenes útiles.",
+    "readGuide": "Leer la guía",
+    "relatedTitle": "Guías relacionadas",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbGuides": "Guías",
+    "sourceTitle": "Fuentes",
+    "updated": "Actualizado",
+    "published": "Publicado",
+    "downloadCTA": "Abre un enlace de vídeo público compatible en Damas y convierte su voz en texto.",
+    "footerNote": "Damas es una app para iPhone de Damas Technologies. Apple y los nombres de las plataformas pertenecen a sus respectivos titulares.",
+    "nav": {
+      "features": "Funciones",
+      "guides": "Guías",
+      "mediaKit": "Kit de prensa",
+      "support": "Soporte"
+    },
+    "legalLinks": {
+      "privacy": "Política de privacidad",
+      "terms": "Condiciones de uso",
+      "support": "Soporte"
+    },
+    "features": [
+      {
+        "title": "Convierte la voz en texto",
+        "body": "Transcribe el contenido hablado de un enlace de vídeo público compatible de YouTube, Instagram o X."
+      },
+      {
+        "title": "Lee en otro idioma",
+        "body": "Traduce la voz de los vídeos a uno de los 70 idiomas y después edita y copia tus notas."
+      },
+      {
+        "title": "Conserva las ideas principales",
+        "body": "Crea un resumen a partir de una transcripción. El procesamiento en segundo plano y las notificaciones te ayudan a volver cuando los resultados estén listos."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Elige un vídeo público",
+        "body": "Copia el enlace de un vídeo bajo demanda compatible de YouTube, Instagram o X que tengas permiso para procesar."
+      },
+      {
+        "title": "Procesa el enlace en Damas",
+        "body": "Abre Damas en el iPhone, facilita el enlace y elige una tarea disponible. Revisa el consentimiento de IA antes de continuar."
+      },
+      {
+        "title": "Lee, revisa y aprovecha",
+        "body": "Contrasta la transcripción, la traducción o el resumen con la fuente. Edita y copia tus notas cuando lo necesites."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 min",
+        "label": "Duración máxima de vídeo compatible"
+      },
+      {
+        "value": "70",
+        "label": "Idiomas de traducción"
+      },
+      {
+        "value": "11",
+        "label": "Idiomas de interfaz"
+      }
+    ],
+    "screenshotCaptions": [
+      "Empieza con un enlace de vídeo público compatible · Interfaz en inglés",
+      "Lee una traducción larga · Interfaz en inglés",
+      "Elige el idioma de traducción · Interfaz en inglés"
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué enlaces de vídeo puedo transcribir?",
+        "a": "Damas admite enlaces públicos bajo demanda compatibles de YouTube, Instagram y X de hasta 90 minutos. No admite contenido privado, restringido ni en directo."
+      },
+      {
+        "q": "¿Puedo traducir vídeos de redes sociales?",
+        "a": "Damas puede traducir la voz de los vídeos compatibles a uno de los 70 idiomas. La interfaz está disponible en 11 idiomas, una lista distinta de la de traducción."
+      },
+      {
+        "q": "¿Damas funciona sin internet?",
+        "a": "No. Procesar vídeos requiere internet, Premium y consentimiento para el procesamiento con IA. Los tiempos y resultados pueden variar."
+      },
+      {
+        "q": "¿Puedo editar los resultados?",
+        "a": "Puedes editar y copiar tus notas. Revisa las transcripciones, traducciones y resúmenes generados antes de utilizarlos o compartirlos."
+      }
+    ],
+    "mediaKit": {
+      "title": "Kit de prensa de Damas",
+      "description": "Información del producto, material gráfico, capturas y vista previa de Damas — Video Link Transcriber.",
+      "intro": "Recursos para escribir sobre la app Damas para iPhone. Utiliza la información actual que aparece a continuación y los archivos originales descargables.",
+      "downloadAssets": "Descargar archivos originales",
+      "artworkTitle": "Material gráfico y del producto",
+      "artworkCaption": "Diseño de Damas en tonos ciruela y violeta. Descarga los archivos originales para uso editorial.",
+      "icon": "Icono de la app",
+      "screenshots": "Capturas de iPhone",
+      "video": "Vista previa del producto",
+      "releaseTitle": "Disponible en el App Store",
+      "releaseBody": "Damas — Video Link Transcriber, versión 1.5.3. Requiere iOS 18.6 o posterior. Ofrece 11 idiomas de interfaz y traducción a 70 idiomas. Consulta el App Store para conocer la versión actual y la disponibilidad regional.",
+      "trademark": "Damas es un producto de Damas Technologies. Apple, YouTube, Instagram y X son marcas de sus respectivos titulares; su mención no implica su respaldo.",
+      "contact": "Para preguntas sobre el producto, utiliza el enlace de soporte inferior."
+    },
+    "notFound": {
+      "title": "No se ha encontrado esta página.",
+      "body": "Puede que la dirección haya cambiado. Descubre Damas o busca una guía desde el inicio.",
+      "back": "Volver al inicio"
+    },
+    "skipToContent": "Saltar al contenido",
+    "breadcrumbLabel": "Ruta de navegación"
+  },
+  "tr": {
+    "name": "Türkçe",
+    "htmlLang": "tr",
+    "title": "Damas — iPhone’da sosyal medya videolarını yazıya çevirin ve tercüme edin",
+    "description": "Damas ile desteklenen herkese açık YouTube, Instagram ve X video bağlantılarını iPhone’da metne, çeviriye ve özete dönüştürün.",
+    "eyebrow": "Damas · Video bağlantısını yazıya çevirme",
+    "heroTitle": "iPhone’da sosyal medya videolarını yazıya çevirin ve tercüme edin.",
+    "heroDescription": "Herkese açık bir video bağlantısını okunabilir metne dönüştürün. Konuşmayı yazıya çevirin, 70 dilden birine tercüme edin ve sonradan dönebileceğiniz bir özet oluşturun.",
+    "heroNote": "Desteklenen herkese açık YouTube, Instagram ve X videoları içindir. iOS 18.6 veya sonrası, internet, Premium ve yapay zekâ işleme onayı gerekir.",
+    "download": "App Store’dan indirin",
+    "languageLabel": "Dil",
+    "featuresTitle": "Video bağlantısından işe yarar metne.",
+    "featuresIntro": "Bir dersi okuyun, bir röportajı anlayın veya herkese açık bir videonun ana fikirlerini notlarınıza kaydedin.",
+    "howTitle": "Bir bağlantı. Bir döküm. Daha net bir bakış.",
+    "screenshotsTitle": "Damas’a yakından bakın.",
+    "screenshotsIntro": "İngilizce arayüzle gösterilen gerçek iPhone ekran görüntüleri. Damas 11 arayüz dilini destekler.",
+    "previewTitle": "İşleyişi videoda görün.",
+    "previewBody": "Ürün önizlemesinde iPhone’da video bağlantısını yazıya çevirme ve tercüme etme akışını izleyin.",
+    "previewNote": "Tanıtım medyası önceki bir arayüzü gösterebilir. Güncel bilgiler için App Store’u esas alın.",
+    "limitsTitle": "Hangi bağlantılar kullanılabilir?",
+    "limitsBody": "Damas, YouTube, Instagram ve X üzerindeki 90 dakikaya kadar herkese açık, isteğe bağlı izlenen video bağlantılarını destekler. Özel, erişimi kısıtlı ve canlı içerikler desteklenmez. Kullanılabilirlik ve işleme süresi kaynağa, sese ve bağlantıya göre değişir.",
+    "privacyNote": "İnternet, Premium ve yapay zekâ işleme onayı gerekir. Yalnızca işleme izniniz olan içerikleri gönderin. Kullanımdan önce gizlilik politikasını inceleyin.",
+    "faqTitle": "Yararlı yanıtlar.",
+    "guidesTitle": "Videodaki konuşmadan yararlanma rehberleri.",
+    "guidesIntro": "Sosyal medya video bağlantılarını yazıya çevirme, konuşmayı tercüme etme ve yararlı özetler oluşturma konusunda pratik yardım.",
+    "readGuide": "Rehberi okuyun",
+    "relatedTitle": "İlgili rehberler",
+    "breadcrumbHome": "Ana sayfa",
+    "breadcrumbGuides": "Rehberler",
+    "sourceTitle": "Kaynaklar",
+    "updated": "Güncellendi",
+    "published": "Yayımlandı",
+    "downloadCTA": "Desteklenen herkese açık video bağlantısını Damas’ta açın, konuşmayı metne dönüştürün.",
+    "footerNote": "Damas, Damas Technologies’in bir iPhone uygulamasıdır. Apple ve platform adları ilgili hak sahiplerine aittir.",
+    "nav": {
+      "features": "Özellikler",
+      "guides": "Rehberler",
+      "mediaKit": "Basın kiti",
+      "support": "Destek"
+    },
+    "legalLinks": {
+      "privacy": "Gizlilik politikası",
+      "terms": "Kullanım koşulları",
+      "support": "Destek"
+    },
+    "features": [
+      {
+        "title": "Konuşmayı metne dönüştürün",
+        "body": "Desteklenen herkese açık YouTube, Instagram veya X video bağlantısındaki konuşmayı yazıya çevirin."
+      },
+      {
+        "title": "Başka dillerde okuyun",
+        "body": "Videodaki konuşmayı 70 dilden birine tercüme edin, ardından notlarınızı düzenleyip kopyalayın."
+      },
+      {
+        "title": "Ana fikirleri saklayın",
+        "body": "Bir dökümden özet oluşturun. Arka planda işleme ve bildirimler, sonuçlar hazır olduğunda geri dönmenize yardımcı olur."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Herkese açık bir video seçin",
+        "body": "İşleme izniniz olan, desteklenen bir YouTube, Instagram veya X videosunun bağlantısını kopyalayın."
+      },
+      {
+        "title": "Bağlantıyı Damas’ta işleyin",
+        "body": "iPhone’da Damas’ı açın, video bağlantısını girin ve kullanılabilir görevi seçin. Devam etmeden önce yapay zekâ onayını inceleyin."
+      },
+      {
+        "title": "Okuyun, kontrol edin, kullanın",
+        "body": "Dökümü, çeviriyi veya özeti kaynakla karşılaştırın. Gerektiğinde notlarınızı düzenleyip kopyalayın."
+      }
+    ],
+    "facts": [
+      {
+        "value": "90 dk",
+        "label": "Desteklenen en uzun video"
+      },
+      {
+        "value": "70",
+        "label": "Çeviri dili"
+      },
+      {
+        "value": "11",
+        "label": "Arayüz dili"
+      }
+    ],
+    "screenshotCaptions": [
+      "Desteklenen herkese açık video bağlantısıyla başlayın · İngilizce arayüz",
+      "Uzun bir çeviriyi okuyun · İngilizce arayüz",
+      "Çeviri dilini seçin · İngilizce arayüz"
+    ],
+    "faqs": [
+      {
+        "q": "Hangi video bağlantılarını yazıya çevirebilirim?",
+        "a": "Damas, YouTube, Instagram ve X üzerindeki uygun, herkese açık ve isteğe bağlı izlenen videoları 90 dakikaya kadar destekler. Özel, kısıtlı ve canlı içerikler desteklenmez."
+      },
+      {
+        "q": "Sosyal medya videolarını tercüme edebilir miyim?",
+        "a": "Damas, desteklenen videolardaki konuşmayı 70 dilden birine çevirebilir. Uygulamanın arayüzü 11 dilde sunulur; bunlar farklı dil listeleridir."
+      },
+      {
+        "q": "Damas internetsiz çalışır mı?",
+        "a": "Hayır. Video işleme için internet, Premium ve yapay zekâ işleme onayı gerekir. İşleme süresi ve sonuçlar değişebilir."
+      },
+      {
+        "q": "Sonuçları düzenleyebilir miyim?",
+        "a": "Notlarınızı düzenleyip kopyalayabilirsiniz. Oluşturulan dökümleri, çevirileri ve özetleri kullanmadan veya paylaşmadan önce kontrol edin."
+      }
+    ],
+    "mediaKit": {
+      "title": "Damas basın kiti",
+      "description": "Damas — Video Link Transcriber için ürün bilgileri, görseller, ekran görüntüleri ve önizleme.",
+      "intro": "Damas iPhone uygulaması hakkında yazmak için kaynaklar. Aşağıdaki güncel ürün bilgilerini indirilebilir özgün medya dosyalarıyla birlikte kullanın.",
+      "downloadAssets": "Özgün dosyaları indirin",
+      "artworkTitle": "Görseller ve ürün medyası",
+      "artworkCaption": "Erik moru ve menekşe tonlarında Damas görselleri. Editoryal kullanım için özgün dosyaları indirin.",
+      "icon": "Uygulama simgesi",
+      "screenshots": "iPhone ekran görüntüleri",
+      "video": "Ürün önizlemesi",
+      "releaseTitle": "App Store’da yayında",
+      "releaseBody": "Damas — Video Link Transcriber, sürüm 1.5.3. iOS 18.6 veya sonrasını gerektirir. Uygulama 11 arayüz dili ve 70 dile çeviri sunar. Güncel sürüm ve bölgesel kullanılabilirlik için App Store’u kontrol edin.",
+      "trademark": "Damas, Damas Technologies tarafından sunulur. Apple, YouTube, Instagram ve X ilgili sahiplerinin ticari markalarıdır; adlarının anılması destek verdikleri anlamına gelmez.",
+      "contact": "Ürün soruları için aşağıdaki destek bağlantısını kullanın."
+    },
+    "notFound": {
+      "title": "Bu sayfa bulunamadı.",
+      "body": "Adres değişmiş olabilir. Ana sayfadan Damas’ı keşfedin veya bir rehber bulun.",
+      "back": "Ana sayfaya dönün"
+    },
+    "skipToContent": "İçeriğe geç",
+    "breadcrumbLabel": "Gezinme yolu"
+  }
+}

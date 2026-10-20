@@ -1,0 +1,785 @@
+{
+  "privacy": {
+    "filename": "privacy-policy.html",
+    "path": "/privacy-policy.html",
+    "documentTitle": "Política de privacidad | Damas Technologies",
+    "mascot": "🔒",
+    "heading": "Política de privacidad",
+    "subtitle": "Cómo Damas Technologies LLC recopila, utiliza y protege tu información.",
+    "layout": "long-form",
+    "meta": {
+      "lastUpdated": "15 de julio de 2026",
+      "effectiveDate": "15 de julio de 2026"
+    },
+    "sections": [
+      {
+        "title": "1. INTRODUCCIÓN",
+        "paragraphs": [
+          "Esta política explica cómo Damas Technologies LLC («Damas», «nosotros» o «nuestro») recopila, utiliza, conserva y comparte información al utilizar la app móvil Damas para iPhone (la «App») y los servicios relacionados de <a href=\"https://www.damascenerose.com\">damascenerose.com</a>.",
+          "Damas ayuda a convertir enlaces públicos de vídeos sociales y, cuando esté disponible, audio que aportes en transcripciones, traducciones, notas y resúmenes generados por IA.",
+          "Al utilizar la App, aceptas esta política. Si no estás de acuerdo, no utilices la App.",
+          "<strong>Responsable del tratamiento:</strong><br>Damas Technologies LLC<br>Contacto: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>"
+        ]
+      },
+      {
+        "title": "2. ALCANCE",
+        "paragraphs": [
+          "Esta política se aplica a:"
+        ],
+        "list": [
+          "La app iOS Damas, identificador com.damas.ai.recording.technologies",
+          "Nuestra API y los servicios de procesamiento de transcripción, traducción y resumen",
+          "Nuestro sitio damascenerose.com, incluida esta política"
+        ],
+        "subsections": [
+          {
+            "title": "No se aplica a:",
+            "list": [
+              "Plataformas de terceros cuyos enlaces pegues, como servicios de alojamiento de vídeos sociales",
+              "Apple: App Store, pagos e infraestructura de notificaciones",
+              "OpenAI cuando utilizamos su API como subencargado; consulta la sección 8",
+              "Sitios de terceros enlazados desde la App"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. RESUMEN",
+        "list": [
+          "<strong>Cuentas:</strong> No ofrecemos cuentas de usuario. Utilizamos un identificador de dispositivo para prestar el servicio.",
+          "<strong>Lo que aportas:</strong> Enlaces de vídeos públicos, idiomas elegidos, texto de transcripción para resúmenes y, opcionalmente, audio para transcribir.",
+          "<strong>Procesamiento con IA:</strong> El contenido se procesa en nuestros servidores y puede procesarlo OpenAI tras tu consentimiento explícito en la App.",
+          "<strong>Almacenamiento local:</strong> Notas, transcripciones y grabaciones permanecen en el dispositivo hasta que las elimines.",
+          "<strong>Pagos:</strong> Apple gestiona las suscripciones; no recibimos los datos de tu tarjeta.",
+          "<strong>Publicidad y seguimiento:</strong> La App actual no utiliza SDK de publicidad de terceros ni de seguimiento entre apps.",
+          "<strong>Menores:</strong> La App no está dirigida a menores de 13 años."
+        ]
+      },
+      {
+        "title": "4. INFORMACIÓN QUE RECOPILAMOS",
+        "subsections": [
+          {
+            "title": "4.1 Información que proporcionas",
+            "list": [
+              "<strong>Enlaces de vídeos:</strong> Enlaces HTTPS públicos que pegas, validados para las plataformas sociales compatibles.",
+              "<strong>Preferencias de idioma:</strong> Idioma de destino de las tareas de traducción.",
+              "<strong>Transcripciones y notas:</strong> Texto generado o editado en la App, incluido el enviado para resumir con IA.",
+              "<strong>Grabaciones de audio:</strong> Si utilizas la grabación de voz, el micrófono captura audio y se guarda en el dispositivo. Puede subirse para transcribirlo en el servidor cuando esa función esté habilitada.",
+              "<strong>Opciones iniciales, opcionales:</strong> Profesión e intereses que seleccionas durante la configuración inicial. En la versión actual se guardan solo en el dispositivo y no se envían a nuestros servidores.",
+              "<strong>Portapapeles:</strong> La App lee una URL del portapapeles solo cuando tú eliges «Pegar». Puedes copiar texto de notas desde el editor al portapapeles."
+            ]
+          },
+          {
+            "title": "4.2 Información recopilada automáticamente",
+            "list": [
+              "<strong>Identificador de dispositivo, device_id:</strong> UUID aleatorio generado al primer inicio, guardado en el llavero de iOS y enviado con las solicitudes para procesar tareas, aplicar límites de uso razonable y asociar notificaciones. No es tu ID de Apple.",
+              "<strong>Token de notificaciones:</strong> Si las autorizas, al iniciar una tarea podemos enviar el token APNs del dispositivo como cadena hexadecimal para avisarte al terminar.",
+              "<strong>Metadatos de solicitudes:</strong> Marcas de tiempo, identificadores y estado de tareas, códigos de error y un X-Request-ID por solicitud para resolver incidencias.",
+              "<strong>Estado de suscripción:</strong> Si tienes una suscripción activa, determinado mediante Apple StoreKit en el dispositivo.",
+              "<strong>Versión y tipo de dispositivo:</strong> Pueden incluirse en los registros del servidor para soporte y seguridad."
+            ]
+          },
+          {
+            "title": "4.3 Información que no recopilamos",
+            "paragraphs": [
+              "En la App actual no recopilamos intencionadamente:"
+            ],
+            "list": [
+              "Nombre, correo electrónico o teléfono, salvo que nos contactes voluntariamente",
+              "Ubicación precisa, contactos, fotos o historial de navegación fuera de la App",
+              "ID de Apple ni identificadores publicitarios IDFA para publicidad",
+              "Datos mediante SDK de análisis o informes de fallos de terceros; ninguno está integrado en la app iOS actual"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. CÓMO UTILIZAMOS LA INFORMACIÓN",
+        "paragraphs": [
+          "Utilizamos la información para:"
+        ],
+        "orderedList": [
+          "Prestar el servicio: transcribir enlaces públicos, traducir contenido, generar resúmenes con IA y entregar resultados en la App",
+          "Ejecutar tareas asíncronas: poner en cola, procesar, consultar y finalizar tareas largas de transcripción y traducción",
+          "Avisar cuando termina una tarea si has activado las notificaciones",
+          "Aplicar límites por dispositivo de uso razonable y prevención de abusos, como tareas diarias y minutos procesados",
+          "Mejorar la fiabilidad, corregir errores, prevenir fraudes y mantener la seguridad",
+          "Cumplir la legislación aplicable"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "No vendemos tu información personal."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. BASES JURÍDICAS — EEE / REINO UNIDO",
+        "paragraphs": [
+          "Cuando se aplica el RGPD o el UK GDPR, nos basamos en:"
+        ],
+        "list": [
+          "<strong>Transcripción, traducción y resúmenes:</strong> Contrato, necesario para prestar el servicio solicitado.",
+          "<strong>Procesamiento de IA mediante OpenAI:</strong> Consentimiento en la pantalla correspondiente antes de enviar los datos.",
+          "<strong>Notificaciones:</strong> Consentimiento mediante el permiso de iOS.",
+          "<strong>Identificador y límites de uso:</strong> Intereses legítimos para operar, proteger y distribuir equitativamente el servicio.",
+          "<strong>Suscripción mediante Apple:</strong> Contrato."
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Puedes retirar el consentimiento de IA en cualquier momento: Ajustes → Privacidad → Revocar consentimiento de IA. Esto detiene las nuevas solicitudes, pero no afecta al procesamiento ya realizado."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. PROCESAMIENTO CON IA Y CONSENTIMIENTO",
+        "paragraphs": [
+          "Antes de enviar datos para transcribir, traducir o resumir con IA, una pantalla de consentimiento explica:"
+        ],
+        "list": [
+          "<strong>Qué se envía:</strong> Enlaces de vídeos, texto de transcripción e idioma elegido, según corresponda.",
+          "<strong>Quién lo procesa:</strong> Nuestros servidores, que pueden utilizar la API de OpenAI.",
+          "<strong>Qué no hacemos:</strong> No alojamos ni redistribuimos vídeos de terceros; mostramos transcripciones y notas generadas por IA."
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Puedes rechazarlo y seguir consultando la App sin iniciar nuevas tareas de IA. También puedes revocarlo en Privacidad. La revocación detiene el nuevo procesamiento de IA en el servidor; el contenido guardado en el dispositivo permanece hasta que lo elimines.",
+              "Las prácticas de OpenAI se rigen por sus propias políticas: <a href=\"https://openai.com/policies/privacy-policy\">https://openai.com/policies/privacy-policy</a>"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. CÓMO COMPARTIMOS INFORMACIÓN",
+        "subsections": [
+          {
+            "title": "8.1 Proveedores y encargados del tratamiento",
+            "paragraphs": [
+              "<strong>Alojamiento en la nube, por ejemplo Google Cloud Run</strong><br>Finalidad: API, coordinación de tareas y almacenamiento<br>Datos: enlaces, audio, texto, identificador de dispositivo, tokens y registros",
+              "<strong>OpenAI</strong><br>Finalidad: transcripción y generación de notas con IA<br>Datos: contenido enviado para procesamiento tras el consentimiento",
+              "<strong>Apple</strong><br>Finalidad: distribución de la App, pagos e infraestructura de notificaciones<br>Datos: transacciones de suscripción y metadatos de entrega de notificaciones",
+              "Exigimos a los encargados que procesen los datos solo siguiendo nuestras instrucciones y con garantías adecuadas."
+            ]
+          },
+          {
+            "title": "8.2 Obligaciones legales y seguridad",
+            "paragraphs": [
+              "Podemos revelar información si lo consideramos necesario para cumplir leyes, reglamentos, procedimientos o solicitudes gubernamentales; proteger derechos, bienes o seguridad de Damas, usuarios u otras personas; o detectar y prevenir fraude, abuso o problemas de seguridad."
+            ]
+          },
+          {
+            "title": "8.3 Operaciones empresariales",
+            "paragraphs": [
+              "En una fusión, adquisición o venta de activos, tu información puede transferirse como parte de la operación. Notificaremos cambios importantes de propiedad o uso."
+            ]
+          },
+          {
+            "title": "8.4 No vendemos información personal",
+            "paragraphs": [
+              "No vendemos ni compartimos información personal para publicidad conductual entre contextos."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. TRANSFERENCIAS INTERNACIONALES",
+        "paragraphs": [
+          "Nuestros servidores y subencargados pueden procesar datos en Estados Unidos y en otros países donde operemos nosotros o ellos. Sus leyes de protección de datos pueden diferir de las de tu país.",
+          "Cuando sea necesario, aplicamos garantías adecuadas, como cláusulas contractuales tipo, a las transferencias desde el EEE y Reino Unido."
+        ]
+      },
+      {
+        "title": "10. ALMACENAMIENTO Y CONSERVACIÓN",
+        "subsections": [
+          {
+            "title": "10.1 En tu dispositivo",
+            "paragraphs": [
+              "La App guarda localmente grabaciones, transcripciones, resúmenes y notas mediante SwiftData y el almacenamiento de documentos de la App. Al eliminar una grabación también se eliminan los archivos locales y datos de notas asociados.",
+              "Las preferencias, como consentimiento de IA, finalización de la configuración inicial y caché de suscripción, pueden guardarse en UserDefaults. El device_id se guarda en el llavero de iOS."
+            ]
+          },
+          {
+            "title": "10.2 En nuestros servidores",
+            "paragraphs": [
+              "Al enviar una tarea, nosotros y nuestros proveedores podemos conservar temporal o persistentemente sus identificadores y estado, URL de origen y textos derivados —transcripciones, traducciones y resúmenes—, identificador del dispositivo, token opcional de notificaciones y metadatos de uso, como la duración para los límites de uso razonable.",
+              "Los datos del servidor se conservan solo el tiempo razonablemente necesario para prestar el servicio, aplicar límites, resolver disputas, cumplir obligaciones legales y mantener la seguridad. Salvo que la ley exija más tiempo, procuramos eliminar o anonimizar los registros operativos en 90 días y el contenido de tareas entre 30 y 90 días tras finalizar, sujeto a los ciclos de copias de seguridad.",
+              "La App actual no dispone de un botón de autoservicio para eliminar todos los datos del servidor. Para pedir la eliminación de datos asociados al identificador de tu dispositivo, escribe a <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>."
+            ]
+          },
+          {
+            "title": "10.3 Apple",
+            "paragraphs": [
+              "Apple conserva los registros de suscripción y pago conforme a sus políticas."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "11. CONTENIDO Y PLATAFORMAS DE TERCEROS",
+        "subsections": [
+          {
+            "title": "11.1 Enlaces de vídeos sociales",
+            "paragraphs": [
+              "La App procesa enlaces de vídeos públicos que decides enviar. Damas Technologies LLC no está afiliada, respaldada ni patrocinada por X Corp. ni ninguna plataforma social. Los nombres solo describen compatibilidad.",
+              "Debes asegurarte de tener derecho a utilizar y procesar el contenido enviado. Los enlaces privados, restringidos o no públicos pueden fallar o no ser compatibles."
+            ]
+          },
+          {
+            "title": "11.2 Sin redistribución de vídeos de terceros",
+            "paragraphs": [
+              "Damas no aloja ni redistribuye vídeos de terceros en la App. Procesamos audio y texto derivados de tus enlaces y mostramos transcripciones y notas generadas por IA."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "12. SUSCRIPCIONES Y PAGOS",
+        "paragraphs": [
+          "Damas ofrece suscripciones Premium opcionales mediante las compras integradas de Apple, StoreKit."
+        ],
+        "list": [
+          "Apple procesa íntegramente los pagos.",
+          "Recibimos el estado de los derechos de suscripción, no los datos completos de la tarjeta.",
+          "Gestiona, cancela o solicita reembolsos en ID de Apple → Suscripciones o mediante Soporte de Apple.",
+          "Los precios y posibles pruebas gratuitas se muestran en la App y el App Store al comprar."
+        ]
+      },
+      {
+        "title": "13. NOTIFICACIONES",
+        "paragraphs": [
+          "Si las habilitas, podemos avisarte al terminar una tarea de transcripción o traducción. Puedes desactivarlas en cualquier momento en Ajustes de iOS → Damas → Notificaciones."
+        ]
+      },
+      {
+        "title": "14. PERMISOS",
+        "paragraphs": [
+          "<strong>Micrófono:</strong> Solo si utilizas la grabación de voz en la App, para capturar notas de audio que transcribir.",
+          "<strong>Notificaciones:</strong> Para avisar al finalizar tareas largas.",
+          "Las funciones principales no solicitan acceso a fotos, contactos ni ubicación."
+        ]
+      },
+      {
+        "title": "15. SEGURIDAD",
+        "paragraphs": [
+          "Utilizamos medidas técnicas y organizativas razonables, como HTTPS durante la transmisión, llavero para identificadores, controles de acceso en producción y verificación de transacciones de compras del App Store.",
+          "Ningún método de transmisión o almacenamiento es seguro al 100 %. No garantizamos seguridad absoluta."
+        ]
+      },
+      {
+        "title": "16. TUS DERECHOS Y OPCIONES",
+        "paragraphs": [
+          "Según tu ubicación, puedes tener derecho a acceder, corregir, eliminar, limitar u oponerte a ciertos tratamientos; retirar el consentimiento; solicitar portabilidad; y reclamar ante una autoridad de control en el EEE o Reino Unido."
+        ],
+        "subsections": [
+          {
+            "title": "En la App actual puedes:",
+            "list": [
+              "Revocar el consentimiento de IA en Privacidad",
+              "Eliminar grabaciones y notas locales",
+              "Desactivar notificaciones en Ajustes de iOS",
+              "Cancelar suscripciones mediante Apple"
+            ]
+          },
+          {
+            "title": "",
+            "paragraphs": [
+              "Para otras solicitudes, escribe a <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>. Puede que debamos verificar la solicitud y el identificador de dispositivo.",
+              "<strong>Residentes de California — CCPA/CPRA:</strong> No vendemos información personal. Puedes solicitar acceso, eliminación y corrección como se describe arriba. No discriminaremos por ejercer derechos de privacidad."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "17. PRIVACIDAD DE LOS MENORES",
+        "paragraphs": [
+          "Damas no se dirige a menores de 13 años ni de la edad mínima de tu jurisdicción. No recopilamos deliberadamente datos personales de menores. Si crees que un menor nos los ha proporcionado, contacta con <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> y tomaremos medidas para eliminarlos."
+        ]
+      },
+      {
+        "title": "18. CAMBIOS EN ESTA POLÍTICA",
+        "paragraphs": [
+          "Podemos actualizar esta política. Publicaremos la versión revisada en <a href=\"/es/privacy-policy.html\">https://www.damascenerose.com/privacy-policy.html</a> y cambiaremos la fecha de actualización. Para cambios importantes podemos avisar en la App o pedir nuevo consentimiento cuando la ley lo requiera."
+        ]
+      },
+      {
+        "title": "19. CONTACTO",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "Correo: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Sitio web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Envía las preguntas sobre esta política o nuestras prácticas de datos al correo anterior."
+        ]
+      },
+      {
+        "title": "ANEXO A — INVENTARIO DE DATOS",
+        "table": {
+          "headers": [
+            "Tipo de datos",
+            "Origen",
+            "Guardado local",
+            "Enviado al servidor",
+            "Enviado a OpenAI",
+            "Finalidad"
+          ],
+          "rows": [
+            [
+              "URL de vídeo",
+              "La pegas",
+              "Sí",
+              "Sí",
+              "Posiblemente",
+              "Transcripción / traducción"
+            ],
+            [
+              "Idioma de destino",
+              "Lo eliges",
+              "Sí",
+              "Sí",
+              "Posiblemente",
+              "Traducción"
+            ],
+            [
+              "Texto de transcripción",
+              "Generado / editado",
+              "Sí",
+              "Sí — resumen",
+              "Sí — resumen",
+              "Resúmenes con IA"
+            ],
+            [
+              "Archivo de audio",
+              "Micrófono si está habilitado",
+              "Sí",
+              "Sí",
+              "Posiblemente",
+              "Transcripción"
+            ],
+            [
+              "Resumen / notas de IA",
+              "Generados",
+              "Sí",
+              "No",
+              "No",
+              "Mostrar / editar"
+            ],
+            [
+              "Identificador de dispositivo UUID",
+              "Generado automáticamente",
+              "Llavero",
+              "Sí",
+              "No",
+              "Tareas, límites, soporte"
+            ],
+            [
+              "Token de notificaciones",
+              "iOS si se autoriza",
+              "Solo memoria",
+              "Sí, opcional",
+              "No",
+              "Avisos de tareas terminadas"
+            ],
+            [
+              "Estado de suscripción",
+              "Apple StoreKit",
+              "En caché",
+              "No",
+              "No",
+              "Control de acceso"
+            ],
+            [
+              "Perfil inicial",
+              "Lo eliges",
+              "UserDefaults",
+              "No",
+              "No",
+              "Personalización solo local"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "<strong>Nota:</strong> StoreKit verifica las suscripciones en el dispositivo. Si añadimos verificación de recibos en el servidor, actualizaremos esta política.",
+          "<strong>FIN DE LA POLÍTICA DE PRIVACIDAD</strong>"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "filename": "terms-of-use.html",
+    "path": "/terms-of-use.html",
+    "documentTitle": "Condiciones de uso | Damas Technologies",
+    "mascot": "📜",
+    "heading": "Condiciones de uso",
+    "subtitle": "Las reglas para utilizar la app Damas, el sitio web y los servicios relacionados.",
+    "layout": "long-form",
+    "meta": {
+      "lastUpdated": "15 de julio de 2026",
+      "effectiveDate": "15 de julio de 2026"
+    },
+    "sections": [
+      {
+        "title": "1. ACEPTACIÓN DE LAS CONDICIONES",
+        "paragraphs": [
+          "Estas condiciones de uso («Condiciones») regulan el acceso y uso de la app móvil Damas para iPhone («App»), nuestro sitio damascenerose.com y los servicios relacionados, conjuntamente el «Servicio», de Damas Technologies LLC («Damas», «nosotros» o «nuestro»).",
+          "Al descargar, instalar, acceder o utilizar el Servicio, aceptas quedar vinculado por estas Condiciones y la política de privacidad en <a href=\"/es/privacy-policy.html\">https://www.damascenerose.com/privacy-policy.html</a>. Si no estás de acuerdo, no utilices el Servicio.",
+          "Contacto: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>"
+        ]
+      },
+      {
+        "title": "2. QUIÉNES SOMOS",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "Correo: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Sitio web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "La App se distribuye mediante el App Store de Apple. Apple no es parte de estas Condiciones salvo lo indicado en la sección 19."
+        ]
+      },
+      {
+        "title": "3. DESCRIPCIÓN DEL SERVICIO",
+        "paragraphs": [
+          "Damas es una herramienta de productividad con IA que permite:"
+        ],
+        "list": [
+          "Pegar enlaces de vídeos públicos de redes sociales y solicitar transcripción o traducción",
+          "Generar resúmenes con IA y notas estructuradas a partir de transcripciones",
+          "Guardar, consultar, editar y organizar transcripciones y notas en el dispositivo",
+          "Recibir notificaciones opcionales al terminar tareas largas",
+          "Utilizar funciones Premium mediante suscripción de pago"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Según la versión, también pueden ofrecerse grabación de voz y transcripción de audio.",
+              "El Servicio procesa el contenido en nuestros servidores y, con tu consentimiento, mediante proveedores de IA como OpenAI. Damas no aloja ni redistribuye vídeos de terceros; muestra transcripciones, traducciones y notas generadas por IA.",
+              "Damas no está afiliada, respaldada ni patrocinada por X Corp., Twitter ni otra plataforma social. Las referencias describen compatibilidad con los enlaces públicos que decides enviar."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. REQUISITOS DE USO",
+        "paragraphs": [
+          "Debes tener al menos 13 años o la edad mínima exigida en tu país. Si eres menor de 18 años, declaras tener permiso de tu padre, madre o tutor legal.",
+          "El Servicio no está destinado a menores de 13 años y no se lo ofrecemos deliberadamente.",
+          "Solo puedes utilizarlo si puedes celebrar un contrato vinculante con Damas y la ley no te lo prohíbe."
+        ]
+      },
+      {
+        "title": "5. SIN CUENTAS DE USUARIO",
+        "paragraphs": [
+          "La versión actual no exige crear usuario ni contraseña. Identificamos el dispositivo para fines operativos mediante un identificador aleatorio guardado en su llavero, como explica la política de privacidad.",
+          "Eres responsable de la seguridad del dispositivo y de tu ID de Apple."
+        ]
+      },
+      {
+        "title": "6. SUSCRIPCIONES, PRUEBAS Y PAGOS",
+        "subsections": [
+          {
+            "title": "6.1 Suscripción Premium",
+            "paragraphs": [
+              "Algunas funciones requieren una suscripción de pago activa, «Damas Premium» o nombre similar mostrado en la App. Son planes de renovación automática, por ejemplo semanal o mensual, mediante compras integradas de Apple.",
+              "Precios, duración y ofertas de prueba aparecen en la App y el App Store al comprar y pueden variar por región."
+            ]
+          },
+          {
+            "title": "6.2 Prueba gratuita",
+            "paragraphs": [
+              "Si se ofrece, la prueba se convierte en suscripción de pago salvo que canceles antes de terminar. Apple y la oferta de compra determinan los requisitos y duración."
+            ]
+          },
+          {
+            "title": "6.3 Renovación automática",
+            "paragraphs": [
+              "Las suscripciones se renuevan salvo cancelación al menos 24 horas antes del final del periodo de facturación. El cargo de renovación se realiza en tu cuenta Apple durante las 24 horas previas al final del periodo actual."
+            ]
+          },
+          {
+            "title": "6.4 Gestión y cancelación",
+            "paragraphs": [
+              "Gestiona, cancela o modifica las suscripciones en Ajustes → ID de Apple → Suscripciones o el App Store. Eliminar la App no cancela la suscripción."
+            ]
+          },
+          {
+            "title": "6.5 Reembolsos",
+            "paragraphs": [
+              "Apple procesa los pagos. Solicita los reembolsos a Apple conforme a sus políticas. Damas no controla sus decisiones de cobro o reembolso."
+            ]
+          },
+          {
+            "title": "6.6 Cambios de precio",
+            "paragraphs": [
+              "Podemos modificar precios o planes. Cuando proceda, Apple te avisará o solicitará consentimiento antes de aplicarlos a tu suscripción."
+            ]
+          },
+          {
+            "title": "6.7 Impuestos",
+            "paragraphs": [
+              "Los precios pueden excluir impuestos aplicables, que Apple o la legislación local pueden añadir al pagar."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. CONSENTIMIENTO PARA IA",
+        "paragraphs": [
+          "Antes de que ciertas funciones envíen datos para transcripción, traducción o resumen con IA, la App pedirá consentimiento explícito.",
+          "Puedes rechazarlo o revocarlo en Privacidad. Podrás seguir consultando la App, pero no se enviarán nuevas solicitudes de IA.",
+          "Al consentir, autorizas el envío del contenido descrito en la pantalla, como enlaces, texto e idiomas elegidos, a nuestros servidores y subencargados, incluido OpenAI."
+        ]
+      },
+      {
+        "title": "8. TU CONTENIDO Y RESPONSABILIDADES",
+        "subsections": [
+          {
+            "title": "8.1 Contenido del usuario",
+            "paragraphs": [
+              "El «Contenido del usuario» incluye información y materiales aportados mediante el Servicio: enlaces, grabaciones si están habilitadas, transcripciones, notas editadas e idiomas elegidos.",
+              "Conservas la propiedad. Concedes a Damas una licencia limitada, no exclusiva y mundial para alojar, procesar, transmitir y mostrar el contenido solo en lo necesario para operar y mejorar el Servicio, incluidas las transcripciones, traducciones y resúmenes para ti."
+            ]
+          },
+          {
+            "title": "8.2 Tus declaraciones",
+            "paragraphs": [
+              "Declaras y garantizas que:"
+            ],
+            "list": [
+              "Tienes derecho a enviar el contenido y conceder la licencia anterior",
+              "Tu contenido y uso cumplen estas Condiciones y la ley",
+              "Solo envías enlaces públicos permitidos o audio que puedes grabar y procesar legalmente",
+              "Tu contenido no vulnera propiedad intelectual, privacidad ni otros derechos de personas o entidades"
+            ]
+          },
+          {
+            "title": "8.3 Solo enlaces públicos",
+            "paragraphs": [
+              "El Servicio está diseñado para enlaces de vídeos públicos. Los privados, restringidos, eliminados o incompatibles pueden fallar. Eres el único responsable de los enlaces enviados."
+            ]
+          },
+          {
+            "title": "8.4 Exactitud de los resultados de IA",
+            "paragraphs": [
+              "Las transcripciones, traducciones y resúmenes pueden contener errores, omisiones o inexactitudes. Debes revisarlos antes de utilizarlos, incluso para decisiones periodísticas, jurídicas, médicas, financieras o profesionales."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. USO ACEPTABLE",
+        "paragraphs": [
+          "Te comprometes a no:"
+        ],
+        "list": [
+          "Utilizar el Servicio para fines ilegales, perjudiciales, fraudulentos o abusivos",
+          "Enviar contenido que no tienes derecho a procesar",
+          "Intentar acceder sin autorización a material privado, no público o protegido por derechos de autor",
+          "Eludir límites de uso, de solicitudes o medidas de seguridad",
+          "Aplicar ingeniería inversa, descompilar o extraer el código salvo lo permitido por la ley",
+          "Abusar del Servicio mediante bots, extractores o automatización",
+          "Interferir con el Servicio o los servidores",
+          "Revender, sublicenciar o explotar comercialmente el Servicio sin permiso escrito",
+          "Crear un producto competidor mediante acceso no autorizado a nuestros sistemas",
+          "Acosar, amenazar o dañar a otros mediante contenido procesado o compartido"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Podemos suspender o terminar el acceso en caso de infracción."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10. LÍMITES DE USO",
+        "paragraphs": [
+          "Para garantizar acceso equitativo y controlar costes, podemos imponer límites por dispositivo de tareas, minutos u otros usos con o sin aviso. Pueden cambiar con el tiempo.",
+          "Al superarlos, las solicitudes pueden retrasarse, rechazarse o requerir una suscripción superior cuando corresponda."
+        ]
+      },
+      {
+        "title": "11. PROPIEDAD INTELECTUAL",
+        "subsections": [
+          {
+            "title": "11.1 Nuestra propiedad",
+            "paragraphs": [
+              "El Servicio, la App, el software, diseño, marca, logotipos y documentación, excluido el contenido del usuario, pertenecen a Damas Technologies LLC o sus licenciantes y están protegidos por la ley.",
+              "Concedemos una licencia limitada, personal, no transferible, no exclusiva y revocable para usar la App en dispositivos Apple que poseas o controles, sujeta a estas Condiciones y las normas del App Store."
+            ]
+          },
+          {
+            "title": "11.2 Marcas",
+            "paragraphs": [
+              "«Damas» y sus signos relacionados son marcas de Damas Technologies LLC. Los nombres y marcas de terceros, incluidas plataformas, pertenecen a sus titulares."
+            ]
+          },
+          {
+            "title": "11.3 Comentarios",
+            "paragraphs": [
+              "Al enviar sugerencias o comentarios, nos concedes el derecho a utilizarlos sin restricciones ni compensación."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "12. SERVICIOS Y ENLACES DE TERCEROS",
+        "paragraphs": [
+          "El Servicio depende de terceros, como Apple, proveedores de nube y OpenAI. Su uso puede estar sujeto a sus condiciones y políticas.",
+          "Podemos enlazar sitios de terceros. No somos responsables de sus contenidos, políticas ni prácticas."
+        ]
+      },
+      {
+        "title": "13. CAMBIOS Y DISPONIBILIDAD",
+        "paragraphs": [
+          "Podemos modificar, suspender o retirar cualquier parte del Servicio en cualquier momento, incluidas funciones, tipos de enlaces, idiomas o ventajas de suscripción.",
+          "No garantizamos funcionamiento ininterrumpido, puntual, seguro ni libre de errores. El mantenimiento, interrupciones, fallos de terceros o problemas de red pueden afectar a la disponibilidad.",
+          "Los tiempos de procesamiento de vídeos largos varían y no están garantizados."
+        ]
+      },
+      {
+        "title": "14. TERMINACIÓN",
+        "paragraphs": [
+          "Puedes dejar de usar el Servicio en cualquier momento eliminando la App y cancelando las suscripciones mediante Apple.",
+          "Podemos suspender o terminar el acceso de inmediato si creemos razonablemente que has infringido las Condiciones, supones un riesgo de seguridad o la ley lo exige.",
+          "Al terminar, finaliza tu licencia de uso. Permanecen las secciones que por naturaleza deben subsistir, incluidas 8, 11 y 14–18."
+        ]
+      },
+      {
+        "title": "15. EXENCIÓN DE GARANTÍAS",
+        "paragraphs": [
+          "EL SERVICIO SE OFRECE «TAL CUAL» Y «SEGÚN DISPONIBILIDAD», SIN GARANTÍAS EXPRESAS, IMPLÍCITAS NI LEGALES.",
+          "EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, DAMAS EXCLUYE TODAS LAS GARANTÍAS, INCLUIDAS COMERCIABILIDAD, IDONEIDAD PARA UN FIN, TITULARIDAD Y NO INFRACCIÓN.",
+          "NO GARANTIZAMOS QUE:"
+        ],
+        "list": [
+          "LOS RESULTADOS DE IA SEAN EXACTOS, COMPLETOS O FIABLES",
+          "EL SERVICIO CUMPLA TUS NECESIDADES",
+          "SE CORRIJAN LOS DEFECTOS",
+          "EL SERVICIO ESTÉ LIBRE DE VIRUS O COMPONENTES DAÑINOS"
+        ]
+      },
+      {
+        "title": "16. LIMITACIÓN DE RESPONSABILIDAD",
+        "paragraphs": [
+          "EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY:",
+          "DAMAS TECHNOLOGIES LLC Y SUS DIRECTIVOS, ADMINISTRADORES, EMPLEADOS, AGENTES Y AFILIADAS NO RESPONDERÁN POR DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES, EJEMPLARES O PUNITIVOS, NI PÉRDIDA DE BENEFICIOS, DATOS, FONDO DE COMERCIO U OPORTUNIDADES, RELACIONADOS CON EL SERVICIO O LAS CONDICIONES, AUN HABIENDO SIDO ADVERTIDOS.",
+          "LA RESPONSABILIDAD TOTAL POR RECLAMACIONES RELACIONADAS CON EL SERVICIO O LAS CONDICIONES NO SUPERARÁ EL MAYOR DE: EL IMPORTE PAGADO A DAMAS POR EL SERVICIO EN LOS DOCE (12) MESES ANTERIORES AL HECHO QUE ORIGINA LA RECLAMACIÓN, O CINCUENTA DÓLARES ESTADOUNIDENSES (US $50).",
+          "ALGUNAS JURISDICCIONES NO PERMITEN CIERTAS LIMITACIONES, POR LO QUE ALGUNAS PUEDEN NO APLICARSE."
+        ]
+      },
+      {
+        "title": "17. INDEMNIZACIÓN",
+        "paragraphs": [
+          "Aceptas defender, indemnizar y mantener indemnes a Damas Technologies LLC y sus directivos, administradores, empleados y agentes frente a reclamaciones, daños, pérdidas, responsabilidades, costes y gastos, incluidos honorarios razonables de abogados, derivados de:"
+        ],
+        "list": [
+          "Tu contenido de usuario",
+          "Tu uso del Servicio",
+          "Tu incumplimiento de las Condiciones",
+          "Tu infracción de leyes o derechos de terceros"
+        ]
+      },
+      {
+        "title": "18. DISPUTAS, LEY APLICABLE Y TRIBUNALES",
+        "paragraphs": [
+          "Rige la ley del estado de Wyoming, Estados Unidos, sin sus reglas de conflicto de leyes, salvo las normas imperativas de protección del consumidor de tu país de residencia.",
+          "Antes de reclamar judicialmente, aceptas contactar con <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> e intentar resolver la disputa informalmente durante al menos 30 días.",
+          "Salvo prohibición legal, las disputas no sujetas a arbitraje, si lo hubiera, corresponden exclusivamente a los tribunales estatales o federales de Wyoming, y aceptas su jurisdicción personal.",
+          "Esta sección no limita los derechos de consumidor reconocidos por normas locales imperativas."
+        ]
+      },
+      {
+        "title": "19. CONDICIONES DEL APP STORE",
+        "paragraphs": [
+          "Si descargaste la App del App Store de Apple, reconoces y aceptas que:"
+        ],
+        "list": [
+          "Las Condiciones vinculan solo a ti y Damas Technologies LLC, no a Apple Inc. («Apple»)",
+          "Apple no es responsable de la App ni de su contenido",
+          "Apple no tiene obligación de mantenimiento ni soporte",
+          "Si la App incumple una garantía aplicable, puedes avisar a Apple y esta puede reembolsar el precio de compra, si lo hubo; en la máxima medida legal, no tiene otra obligación de garantía",
+          "Apple no atiende reclamaciones tuyas o de terceros relativas a la App, incluidas responsabilidad de producto, cumplimiento legal, protección del consumidor o propiedad intelectual",
+          "Apple y sus filiales son terceros beneficiarios y pueden exigirte estas Condiciones como tales"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "También debes cumplir las condiciones del App Store y las reglas de uso aplicables."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "20. EXPORTACIÓN Y SANCIONES",
+        "paragraphs": [
+          "Solo puedes usar o exportar el Servicio conforme a las leyes estadounidenses y del lugar de uso. Declaras no estar en un país sujeto a embargo de Estados Unidos o designado como patrocinador del terrorismo, ni figurar en listas estadounidenses de partes prohibidas o restringidas."
+        ]
+      },
+      {
+        "title": "21. CAMBIOS EN LAS CONDICIONES",
+        "paragraphs": [
+          "Podemos actualizar las Condiciones en <a href=\"/es/terms-of-use.html\">https://www.damascenerose.com/terms-of-use.html</a> y modificar la fecha de actualización.",
+          "Para cambios importantes podemos avisar en la App o por otros medios razonables. Seguir usando el Servicio tras la fecha de efecto implica aceptación, salvo que la ley disponga otra cosa."
+        ]
+      },
+      {
+        "title": "22. DISPOSICIONES GENERALES",
+        "list": [
+          "<strong>Acuerdo completo:</strong> Estas Condiciones y la política de privacidad constituyen todo el acuerdo sobre el Servicio.",
+          "<strong>Divisibilidad:</strong> Si una disposición es inaplicable, las demás siguen vigentes.",
+          "<strong>No renuncia:</strong> No exigir una disposición no supone renunciar a ella.",
+          "<strong>Cesión:</strong> No puedes ceder las Condiciones sin consentimiento. Podemos cederlas en una fusión, adquisición o venta de activos.",
+          "<strong>Fuerza mayor:</strong> No respondemos por retrasos o fallos causados por hechos fuera de nuestro control razonable."
+        ]
+      },
+      {
+        "title": "23. CONTACTO",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "Correo: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Sitio web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Para soporte, facturación mediante Apple, avisos legales o privacidad, escribe al correo anterior.",
+          "<strong>FIN DE LAS CONDICIONES DE USO</strong>"
+        ]
+      }
+    ]
+  },
+  "support": {
+    "filename": "support.html",
+    "path": "/support.html",
+    "documentTitle": "Soporte | Damas Technologies",
+    "mascot": "💬",
+    "heading": "Soporte",
+    "subtitle": "¿Necesitas ayuda? Nuestro equipo atiende tus preguntas y comentarios.",
+    "sections": [
+      {
+        "title": "Estamos para ayudarte",
+        "paragraphs": [
+          "Si tienes preguntas sobre los productos, necesitas ayuda con la encuesta o quieres compartir comentarios, escríbenos y responderemos en cuanto podamos."
+        ]
+      },
+      {
+        "title": "Contacto",
+        "variant": "contact-box",
+        "paragraphs": [
+          "Escríbenos cuando quieras:"
+        ]
+      },
+      {
+        "title": "Qué incluir",
+        "list": [
+          "Tu nombre y cómo podemos contactar contigo",
+          "Una descripción breve de tu pregunta o problema",
+          "Detalles útiles, como el tipo de dispositivo o navegador"
+        ]
+      }
+    ]
+  }
+}

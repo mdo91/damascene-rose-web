@@ -1,0 +1,785 @@
+{
+  "privacy": {
+    "filename": "privacy-policy.html",
+    "path": "/privacy-policy.html",
+    "documentTitle": "Gizlilik politikası | Damas Technologies",
+    "mascot": "🔒",
+    "heading": "Gizlilik politikası",
+    "subtitle": "Damas Technologies LLC bilgilerinizi nasıl toplar, kullanır ve korur?",
+    "layout": "long-form",
+    "meta": {
+      "lastUpdated": "15 Temmuz 2026",
+      "effectiveDate": "15 Temmuz 2026"
+    },
+    "sections": [
+      {
+        "title": "1. GİRİŞ",
+        "paragraphs": [
+          "Bu gizlilik politikası, iPhone için Damas mobil uygulamasını («Uygulama») ve <a href=\"https://www.damascenerose.com\">damascenerose.com</a> üzerindeki ilgili hizmetleri kullandığınızda Damas Technologies LLC’nin («Damas», «biz» veya «bizim») bilgileri nasıl topladığını, kullandığını, sakladığını ve paylaştığını açıklar.",
+          "Damas, herkese açık sosyal video bağlantılarını ve sunulduğu yerlerde sağladığınız sesleri dökümlere, çevirilere, yapay zekâ notlarına ve özetlere dönüştürmenize yardımcı olur.",
+          "Uygulamayı kullanarak bu politikayı kabul edersiniz. Kabul etmiyorsanız Uygulamayı kullanmayın.",
+          "<strong>Veri sorumlusu:</strong><br>Damas Technologies LLC<br>İletişim: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>"
+        ]
+      },
+      {
+        "title": "2. KAPSAM",
+        "paragraphs": [
+          "Bu politika şunları kapsar:"
+        ],
+        "list": [
+          "Damas iOS uygulaması, paket kimliği: com.damas.ai.recording.technologies",
+          "Yazıya çevirme, tercüme ve özetleme için API ve işleme hizmetlerimiz",
+          "Bu politika dâhil damascenerose.com web sitemiz"
+        ],
+        "subsections": [
+          {
+            "title": "Şunları kapsamaz:",
+            "list": [
+              "Bağlantılarını yapıştırdığınız üçüncü taraf platformlar, örneğin sosyal video barındırıcıları",
+              "Apple: App Store, ödemeler ve anlık bildirim altyapısı",
+              "API’sini alt işleyen olarak kullandığımız OpenAI; bölüm 8’e bakın",
+              "Uygulamadan bağlantı verilen üçüncü taraf siteler"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. ÖZET",
+        "list": [
+          "<strong>Hesaplar:</strong> Kullanıcı hesabı sunmuyoruz. Hizmeti işletmek için cihaz kimliği kullanıyoruz.",
+          "<strong>Sağladıklarınız:</strong> Herkese açık video bağlantıları, dil seçimleri, özet için döküm metni ve isteğe bağlı olarak yazıya çevrilecek ses.",
+          "<strong>Yapay zekâ işleme:</strong> İçerik sunucularımızda, Uygulamada açık onayınızdan sonra ise OpenAI tarafından da işlenebilir.",
+          "<strong>Yerel saklama:</strong> Notlar, dökümler ve kayıtlar siz silene kadar cihazınızda tutulur.",
+          "<strong>Ödemeler:</strong> Abonelikleri Apple yönetir; kart bilgilerinizi almayız.",
+          "<strong>Reklam ve takip:</strong> Güncel Uygulamada üçüncü taraf reklam veya uygulamalar arası takip SDK’sı yoktur.",
+          "<strong>Çocuklar:</strong> Uygulama 13 yaşından küçük çocuklara yönelik değildir."
+        ]
+      },
+      {
+        "title": "4. TOPLADIĞIMIZ BİLGİLER",
+        "subsections": [
+          {
+            "title": "4.1 Sizin sağladığınız bilgiler",
+            "list": [
+              "<strong>Video bağlantıları:</strong> Yapıştırdığınız, desteklenen sosyal video kaynakları için doğrulanan herkese açık HTTPS bağlantıları.",
+              "<strong>Dil tercihleri:</strong> Çeviri görevlerinin hedef dili.",
+              "<strong>Döküm ve not içeriği:</strong> Yapay zekâ özetlemesine gönderilenler dâhil Uygulamada oluşturulan veya düzenlenen metin.",
+              "<strong>Ses kayıtları:</strong> Ses kaydını kullanırsanız mikrofondan alınan ses cihazınızda saklanır. Özellik etkinse sunucuda yazıya çevirme için yüklenebilir.",
+              "<strong>İsteğe bağlı başlangıç seçimleri:</strong> İlk kurulumda seçtiğiniz meslek ve ilgi etiketleri. Güncel sürümde yalnızca cihazda saklanır, sunucularımıza gönderilmez.",
+              "<strong>Pano:</strong> Uygulama panodaki URL’yi yalnızca siz «Yapıştır» işlemini başlattığınızda okur. Düzenleyicideki not metnini panoya kopyalayabilirsiniz."
+            ]
+          },
+          {
+            "title": "4.2 Otomatik toplanan bilgiler",
+            "list": [
+              "<strong>Cihaz kimliği, device_id:</strong> İlk açılışta rastgele oluşturulup iOS Anahtar Zinciri’nde saklanan UUID; görev işleme, adil kullanım sınırları ve bildirimleri eşleştirmek için isteklerle gönderilir. Apple Kimliğiniz değildir.",
+              "<strong>Bildirim belirteci:</strong> İzin verirseniz görev başlarken cihazın APNs belirtecini onaltılık dize olarak göndererek tamamlandığında haber verebiliriz.",
+              "<strong>İstek üst verileri:</strong> Sorun giderme için zaman damgaları, görev kimlikleri ve durumları, hata kodları ve istek başına X-Request-ID.",
+              "<strong>Abonelik durumu:</strong> Cihazınızda Apple StoreKit aracılığıyla belirlenen etkin aboneliğinizin olup olmadığı.",
+              "<strong>Uygulama sürümü ve cihaz türü:</strong> Destek ve güvenlik amacıyla sunucu günlüklerinde bulunabilir."
+            ]
+          },
+          {
+            "title": "4.3 Toplamadığımız bilgiler",
+            "paragraphs": [
+              "Güncel Uygulamada bilerek şunları toplamıyoruz:"
+            ],
+            "list": [
+              "Gönüllü iletişiminiz dışında adınız, e-posta adresiniz veya telefon numaranız",
+              "Kesin konum, kişiler, fotoğraflar veya Uygulama dışı tarama geçmişi",
+              "Reklam için Apple Kimliği veya IDFA reklam tanımlayıcıları",
+              "Üçüncü taraf analiz veya çökme raporlama SDK’larından veri; güncel iOS uygulamasında böyle SDK yoktur"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. BİLGİLERİN KULLANIMI",
+        "paragraphs": [
+          "Bilgileri şu amaçlarla kullanırız:"
+        ],
+        "orderedList": [
+          "Hizmeti sunmak: herkese açık video bağlantılarını yazıya çevirmek, içerik tercüme etmek, yapay zekâ özetleri üretmek ve sonuçları Uygulamaya iletmek",
+          "Uzun yazıya çevirme ve tercüme işlerini sıraya koymak, işlemek, durumunu sorgulamak ve tamamlamak",
+          "İzin verdiyseniz görev tamamlanınca bildirim göndermek",
+          "Cihaz başına günlük görev sayısı ve işleme dakikası gibi adil kullanım ve kötüye kullanım önleme sınırlarını uygulamak",
+          "Güvenilirliği artırmak, hataları gidermek, dolandırıcılığı önlemek ve güvenliği korumak",
+          "Geçerli hukuka uymak"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Kişisel bilgilerinizi satmayız."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. HUKUKİ DAYANAKLAR — AEA / BİRLEŞİK KRALLIK",
+        "paragraphs": [
+          "GDPR veya UK GDPR uygulandığında dayanaklarımız:"
+        ],
+        "list": [
+          "<strong>Yazıya çevirme, tercüme ve özet:</strong> Talep edilen hizmet için gerekli sözleşme.",
+          "<strong>OpenAI üzerinden yapay zekâ:</strong> Veri gönderilmeden önce Uygulamadaki onay ekranında verilen rıza.",
+          "<strong>Anlık bildirimler:</strong> iOS sistem izniyle verilen rıza.",
+          "<strong>Cihaz kimliği ve sınırlar:</strong> Hizmeti işletmek, korumak ve adil dağıtmak için meşru menfaatler.",
+          "<strong>Apple aboneliği:</strong> Sözleşme."
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Yapay zekâ onayını istediğiniz zaman Ayarlar → Gizlilik → Yapay zekâ onayını geri çek yolundan kaldırabilirsiniz. Bu, yeni istekleri durdurur; tamamlanmış işlemeleri etkilemez."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. YAPAY ZEKÂ İŞLEME VE ONAYINIZ",
+        "paragraphs": [
+          "Veriler yazıya çevirme, tercüme veya özetleme için gönderilmeden önce onay ekranı şunları açıklar:"
+        ],
+        "list": [
+          "<strong>Gönderilenler:</strong> Göreve göre video bağlantıları, döküm metni ve seçilen dil.",
+          "<strong>İşleyenler:</strong> OpenAI API’sini kullanabilen sunucularımız.",
+          "<strong>Yapmadıklarımız:</strong> Üçüncü taraf videoları barındırmaz veya yeniden dağıtmayız; döküm ve yapay zekâ notları gösteririz."
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Onayı reddedip yeni yapay zekâ görevi başlatmadan Uygulamada gezinebilirsiniz. Daha sonra Gizlilik ayarlarından geri çekebilirsiniz. Bu, sunucudaki yeni yapay zekâ işlemlerini durdurur; cihazda kayıtlı içerik siz silene kadar kalır.",
+              "OpenAI uygulamaları kendi politikalarına tabidir: <a href=\"https://openai.com/policies/privacy-policy\">https://openai.com/policies/privacy-policy</a>"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. BİLGİ PAYLAŞIMI",
+        "subsections": [
+          {
+            "title": "8.1 Hizmet sağlayıcılar ve veri işleyenler",
+            "paragraphs": [
+              "<strong>Bulut barındırma, örneğin Google Cloud Run</strong><br>Amaç: API, görev yönetimi, saklama<br>Veri: bağlantılar, ses, metin, cihaz kimliği, belirteçler, günlükler",
+              "<strong>OpenAI</strong><br>Amaç: yazıya çevirme ve yapay zekâ notları<br>Veri: onay sonrası işleme için gönderdiğiniz içerik",
+              "<strong>Apple</strong><br>Amaç: Uygulama dağıtımı, ödemeler, bildirim altyapısı<br>Veri: abonelik işlemleri ve bildirim iletim üst verileri",
+              "İşleyenlerin verileri yalnızca talimatlarımızla ve uygun güvenceler altında işlemesini şart koşarız."
+            ]
+          },
+          {
+            "title": "8.2 Hukuk ve güvenlik",
+            "paragraphs": [
+              "Yasa, düzenleme, hukuki süreç veya kamu talebine uymak; Damas’ın, kullanıcıların veya başkalarının haklarını, malını ya da güvenliğini korumak; dolandırıcılık, kötüye kullanım veya güvenlik sorunlarını saptayıp önlemek için gerekli gördüğümüzde bilgi açıklayabiliriz."
+            ]
+          },
+          {
+            "title": "8.3 İşletme devirleri",
+            "paragraphs": [
+              "Birleşme, satın alma veya varlık satışında bilgileriniz işlemin parçası olarak devredilebilir. Mülkiyet veya kullanımda önemli değişiklikleri bildiririz."
+            ]
+          },
+          {
+            "title": "8.4 Kişisel bilgi satmıyoruz",
+            "paragraphs": [
+              "Kişisel bilgileri bağlamlar arası davranışsal reklam için satmaz veya paylaşmayız."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. ULUSLARARASI AKTARIMLAR",
+        "paragraphs": [
+          "Sunucularımız ve alt işleyenler verileri ABD’de ve bizim veya onların faaliyet gösterdiği başka ülkelerde işleyebilir. Bu ülkelerin veri koruma kuralları sizinkinden farklı olabilir.",
+          "Gerektiğinde AEA/Birleşik Krallık aktarımları için standart sözleşme maddeleri gibi uygun güvenceler uygularız."
+        ]
+      },
+      {
+        "title": "10. SAKLAMA VE TUTMA SÜRESİ",
+        "subsections": [
+          {
+            "title": "10.1 Cihazınızda",
+            "paragraphs": [
+              "Kayıtlar, dökümler, özetler ve notlar SwiftData ile Uygulamanın belge alanında yerel saklanır. Bir kaydı sildiğinizde ilgili yerel dosyalar ve not verileri de silinir.",
+              "Yapay zekâ onayı, ilk kurulumun bitmesi ve abonelik önbelleği gibi tercihler UserDefaults’ta; device_id ise iOS Anahtar Zinciri’nde tutulabilir."
+            ]
+          },
+          {
+            "title": "10.2 Sunucularımızda",
+            "paragraphs": [
+              "Bir görev gönderdiğinizde biz ve sağlayıcılarımız görev kimliği ve durumu, kaynak URL’ler ve türetilen döküm/çeviri/özet metinleri, cihaz kimliği, isteğe bağlı bildirim belirteci ve adil kullanım için süre gibi kullanım üst verilerini geçici veya kalıcı saklayabiliriz.",
+              "Sunucu verileri hizmet, sınırlar, uyuşmazlık çözümü, yasal yükümlülükler ve güvenlik için makul ölçüde gerektiği kadar tutulur. Daha uzun süre yasal olarak zorunlu değilse operasyon günlüklerini 90 gün, görev içeriklerini tamamlanmadan sonra 30–90 gün içinde silmeyi veya anonimleştirmeyi hedefleriz; yedekleme döngüleri saklıdır.",
+              "Güncel Uygulamada tüm sunucu verilerini kendiniz sileceğiniz bir düğme yoktur. Cihaz kimliğinizle bağlantılı sunucu verilerinin silinmesi için <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> adresine yazın."
+            ]
+          },
+          {
+            "title": "10.3 Apple",
+            "paragraphs": [
+              "Abonelik ve ödeme kayıtları Apple’ın politikalarına göre Apple tarafından tutulur."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "11. ÜÇÜNCÜ TARAF İÇERİK VE PLATFORMLAR",
+        "subsections": [
+          {
+            "title": "11.1 Sosyal video bağlantıları",
+            "paragraphs": [
+              "Uygulama sizin gönderdiğiniz herkese açık video gönderi bağlantılarını işler. Damas Technologies LLC, X Corp. veya sosyal platformlarla bağlantılı değildir, onlar tarafından desteklenmez veya sponsor edilmez. İsimler yalnızca uyumluluğu anlatır.",
+              "Gönderdiğiniz içeriği kullanma ve işleme hakkını sağlamak sizin sorumluluğunuzdadır. Özel, kısıtlı veya herkese açık olmayan bağlantılar başarısız olabilir ya da desteklenmeyebilir."
+            ]
+          },
+          {
+            "title": "11.2 Üçüncü taraf videoların yeniden dağıtılmaması",
+            "paragraphs": [
+              "Damas, Uygulamada üçüncü taraf videoları barındırmaz veya yeniden dağıtmaz. Bağlantılarınızdan türeyen ses ve metni işler, size döküm ve yapay zekâ notları gösteririz."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "12. ABONELİK VE ÖDEMELER",
+        "paragraphs": [
+          "Damas, Apple’ın StoreKit uygulama içi satın alma sistemi üzerinden isteğe bağlı Premium abonelikler sunar."
+        ],
+        "list": [
+          "Ödemeleri tamamen Apple işler.",
+          "Tam kart bilgilerinizi değil, abonelik yetki durumunuzu alırız.",
+          "Apple Kimliği → Abonelikler veya Apple Destek üzerinden yönetin, iptal edin ya da iade isteyin.",
+          "Varsa ücretsiz deneme ve fiyatlar satın alırken Uygulamada ve App Store’da gösterilir."
+        ]
+      },
+      {
+        "title": "13. ANLIK BİLDİRİMLER",
+        "paragraphs": [
+          "Etkinleştirirseniz döküm veya çeviri tamamlandığında bildirebiliriz. İstediğiniz zaman iOS Ayarları → Damas → Bildirimler yolundan kapatabilirsiniz."
+        ]
+      },
+      {
+        "title": "14. İZİNLER",
+        "paragraphs": [
+          "<strong>Mikrofon:</strong> Yalnızca uygulama içi ses kaydını kullanırsanız, yazıya çevrilecek sesli notları almak için.",
+          "<strong>Bildirimler:</strong> Uzun görevlerin bittiğini bildirmek için.",
+          "Temel özellikler için fotoğraf arşivi, kişiler veya konuma erişim istenmez."
+        ]
+      },
+      {
+        "title": "15. GÜVENLİK",
+        "paragraphs": [
+          "Aktarımda HTTPS, cihaz kimliklerinde Anahtar Zinciri, üretim altyapısında erişim kontrolleri ve App Store satın almalarında işlem doğrulaması gibi makul teknik ve idari önlemler uygularız.",
+          "Hiçbir aktarım veya saklama yöntemi %100 güvenli değildir. Mutlak güvenlik garanti edemeyiz."
+        ]
+      },
+      {
+        "title": "16. HAK VE TERCİHLERİNİZ",
+        "paragraphs": [
+          "Konumunuza göre erişim, düzeltme, silme, belirli işlemeleri kısıtlama veya itiraz; onayı geri çekme; veri taşınabilirliği ve AEA/Birleşik Krallık denetim makamına şikâyet haklarınız olabilir."
+        ],
+        "subsections": [
+          {
+            "title": "Güncel Uygulamada yapabilecekleriniz:",
+            "list": [
+              "Gizlilik ayarlarından yapay zekâ onayını geri çekme",
+              "Yerel kayıt ve notları silme",
+              "iOS Ayarları’ndan bildirimleri kapatma",
+              "Apple üzerinden abonelik iptali"
+            ]
+          },
+          {
+            "title": "",
+            "paragraphs": [
+              "Diğer talepler için <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> adresine yazın. Talebinizi ve cihaz kimliğinizi doğrulamamız gerekebilir.",
+              "<strong>Kaliforniya sakinleri — CCPA/CPRA:</strong> Kişisel bilgi satmayız. Yukarıdaki şekilde erişim, silme ve düzeltme isteyebilirsiniz. Gizlilik haklarınızı kullandığınız için ayrımcılık yapmayız."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "17. ÇOCUKLARIN GİZLİLİĞİ",
+        "paragraphs": [
+          "Damas, 13 yaşından veya bulunduğunuz yerdeki asgari yaştan küçük çocuklara yönelik değildir. Çocukların kişisel bilgilerini bilerek toplamayız. Bir çocuğun bilgi verdiğini düşünüyorsanız <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> adresine yazın; silme adımlarını atarız."
+        ]
+      },
+      {
+        "title": "18. POLİTİKA DEĞİŞİKLİKLERİ",
+        "paragraphs": [
+          "Politikayı zaman zaman güncelleyebiliriz. Yeni metni <a href=\"/tr/privacy-policy.html\">https://www.damascenerose.com/privacy-policy.html</a> adresinde yayımlar, güncelleme tarihini değiştiririz. Önemli değişikliklerde Uygulamada ek bildirim veya hukuken gerekiyorsa yenilenmiş onay isteyebiliriz."
+        ]
+      },
+      {
+        "title": "19. İLETİŞİM",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "E-posta: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Politika ve veri uygulamalarımız hakkındaki sorularınızı yukarıdaki adrese iletin."
+        ]
+      },
+      {
+        "title": "EK A — VERİ ENVANTERİ",
+        "table": {
+          "headers": [
+            "Veri türü",
+            "Kaynak",
+            "Yerel saklama",
+            "Sunucularımıza gider",
+            "OpenAI’a gider",
+            "Amaç"
+          ],
+          "rows": [
+            [
+              "Video gönderi URL’si",
+              "Siz yapıştırırsınız",
+              "Evet",
+              "Evet",
+              "Olabilir",
+              "Döküm / çeviri"
+            ],
+            [
+              "Hedef dil",
+              "Siz seçersiniz",
+              "Evet",
+              "Evet",
+              "Olabilir",
+              "Çeviri"
+            ],
+            [
+              "Döküm metni",
+              "Üretilir / düzenlenir",
+              "Evet",
+              "Evet — özet",
+              "Evet — özet",
+              "Yapay zekâ özetleri"
+            ],
+            [
+              "Ses dosyası",
+              "Açıksa mikrofon",
+              "Evet",
+              "Evet",
+              "Olabilir",
+              "Yazıya çevirme"
+            ],
+            [
+              "Yapay zekâ özeti / notları",
+              "Üretilir",
+              "Evet",
+              "Hayır",
+              "Hayır",
+              "Gösterme / düzenleme"
+            ],
+            [
+              "Cihaz kimliği UUID",
+              "Otomatik üretilir",
+              "Anahtar Zinciri",
+              "Evet",
+              "Hayır",
+              "Görevler, sınırlar, destek"
+            ],
+            [
+              "Bildirim belirteci",
+              "İzin varsa iOS",
+              "Yalnızca bellek",
+              "Evet, isteğe bağlı",
+              "Hayır",
+              "Görev bitiş bildirimleri"
+            ],
+            [
+              "Abonelik durumu",
+              "Apple StoreKit",
+              "Önbellekte",
+              "Hayır",
+              "Hayır",
+              "Erişim kontrolü"
+            ],
+            [
+              "İlk kurulum profili",
+              "Siz seçersiniz",
+              "UserDefaults",
+              "Hayır",
+              "Hayır",
+              "Yalnızca yerel kişiselleştirme"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "<strong>Not:</strong> Abonelik doğrulaması cihazda StoreKit ile yapılır. İleride sunucuda makbuz doğrulaması eklenirse politika buna göre güncellenir.",
+          "<strong>GİZLİLİK POLİTİKASININ SONU</strong>"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "filename": "terms-of-use.html",
+    "path": "/terms-of-use.html",
+    "documentTitle": "Kullanım koşulları | Damas Technologies",
+    "mascot": "📜",
+    "heading": "Kullanım koşulları",
+    "subtitle": "Damas uygulamasını, web sitesini ve ilgili hizmetleri kullanma kuralları.",
+    "layout": "long-form",
+    "meta": {
+      "lastUpdated": "15 Temmuz 2026",
+      "effectiveDate": "15 Temmuz 2026"
+    },
+    "sections": [
+      {
+        "title": "1. KOŞULLARIN KABULÜ",
+        "paragraphs": [
+          "Bu kullanım koşulları («Koşullar»), Damas Technologies LLC’nin («Damas», «biz» veya «bizim») sunduğu iPhone için Damas mobil uygulaması («Uygulama»), damascenerose.com sitesi ve ilgili hizmetlere, birlikte «Hizmet», erişimi ve kullanımı düzenler.",
+          "Hizmeti indirerek, yükleyerek, açarak veya kullanarak bu Koşullar ve <a href=\"/tr/privacy-policy.html\">https://www.damascenerose.com/privacy-policy.html</a> adresindeki gizlilik politikasıyla bağlı olmayı kabul edersiniz. Kabul etmiyorsanız kullanmayın.",
+          "İletişim: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>"
+        ]
+      },
+      {
+        "title": "2. BİZ KİMİZ",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "E-posta: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Uygulama Apple App Store üzerinden dağıtılır. Apple, bölüm 19 dışında bu Koşulların tarafı değildir."
+        ]
+      },
+      {
+        "title": "3. HİZMETİN TANIMI",
+        "paragraphs": [
+          "Damas, yapay zekâ destekli bir verimlilik aracı olarak şunları sağlar:"
+        ],
+        "list": [
+          "Herkese açık sosyal video bağlantılarını yapıştırıp döküm veya çeviri isteme",
+          "Döküm metninden yapay zekâ özetleri ve yapılandırılmış notlar üretme",
+          "Cihazda döküm ve notları saklama, görüntüleme, düzenleme ve organize etme",
+          "Uzun görevler bittiğinde isteğe bağlı anlık bildirim alma",
+          "Ücretli abonelikle Premium özellikleri kullanma"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Sürüme bağlı olarak ses kaydı ve sesi yazıya çevirme de sunulabilir.",
+              "Hizmet içeriğinizi sunucularımızda ve onayınızla OpenAI dâhil üçüncü taraf yapay zekâ sağlayıcılarında işler. Damas üçüncü taraf videoları barındırmaz veya dağıtmaz; Uygulama döküm, çeviri ve yapay zekâ notlarını gösterir.",
+              "Damas X Corp., Twitter veya diğer sosyal platformlarla bağlantılı değildir, onlar tarafından desteklenmez veya sponsor edilmez. Adları, sizin gönderdiğiniz herkese açık bağlantılarla uyumluluğu anlatır."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. KULLANIM UYGUNLUĞU",
+        "paragraphs": [
+          "En az 13 yaşında veya ülkenizin gerektirdiği asgari yaşta olmalısınız. 18 yaşından küçükseniz ebeveyn veya yasal vasi izniniz olduğunu beyan edersiniz.",
+          "Hizmet 13 yaşından küçüklere yönelik değildir ve onlara bilerek sunulmaz.",
+          "Yalnızca Damas ile bağlayıcı sözleşme yapabiliyor ve geçerli hukuk sizi engellemiyorsa kullanabilirsiniz."
+        ]
+      },
+      {
+        "title": "5. KULLANICI HESABI YOKTUR",
+        "paragraphs": [
+          "Güncel sürüm kullanıcı adı veya parola oluşturmanızı istemez. İşleyiş için gizlilik politikasında açıklandığı gibi Anahtar Zinciri’nde saklanan rastgele cihaz kimliği kullanırız.",
+          "Cihazınızın ve Apple Kimliğinizin güvenliğinden siz sorumlusunuz."
+        ]
+      },
+      {
+        "title": "6. ABONELİK, DENEME VE ÖDEMELER",
+        "subsections": [
+          {
+            "title": "6.1 Premium abonelik",
+            "paragraphs": [
+              "Bazı özellikler etkin ücretli abonelik gerektirir: «Damas Premium» veya Uygulamadaki benzer ad. Haftalık veya aylık gibi otomatik yenilenen planlar Apple uygulama içi satın alma sistemiyle sunulur.",
+              "Fiyat, süre ve ücretsiz deneme teklifleri satın alırken Uygulamada ve App Store’da gösterilir, bölgeye göre değişebilir."
+            ]
+          },
+          {
+            "title": "6.2 Ücretsiz deneme",
+            "paragraphs": [
+              "Sunulursa, bitmeden iptal edilmediğinde ücretli aboneliğe dönüşür. Uygunluk ve süreyi Apple ve satın alma sırasında gösterilen teklif belirler."
+            ]
+          },
+          {
+            "title": "6.3 Otomatik yenileme",
+            "paragraphs": [
+              "Mevcut dönemin bitiminden en az 24 saat önce iptal edilmezse abonelik yenilenir. Apple hesabınız yenileme için mevcut dönemin bitiminden önceki 24 saat içinde ücretlendirilir."
+            ]
+          },
+          {
+            "title": "6.4 Yönetim ve iptal",
+            "paragraphs": [
+              "Ayarlar → Apple Kimliği → Abonelikler veya App Store’dan yönetin, değiştirin ya da iptal edin. Uygulamayı silmek aboneliği iptal etmez."
+            ]
+          },
+          {
+            "title": "6.5 İadeler",
+            "paragraphs": [
+              "Ödemeleri Apple işler. İadeyi Apple politikalarına göre Apple’dan istemelisiniz. Damas, Apple’ın faturalama ve iade kararlarını kontrol etmez."
+            ]
+          },
+          {
+            "title": "6.6 Fiyat değişikliği",
+            "paragraphs": [
+              "Fiyat veya planları değiştirebiliriz. Gerektiğinde Apple, aboneliğinize uygulamadan önce bildirir veya onay ister."
+            ]
+          },
+          {
+            "title": "6.7 Vergiler",
+            "paragraphs": [
+              "Fiyatlara uygulanabilir vergiler dâhil olmayabilir; Apple veya yerel hukuk ödeme sırasında ekleyebilir."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. YAPAY ZEKÂ İŞLEME ONAYI",
+        "paragraphs": [
+          "Bazı özellikler verilerinizi yapay zekâ ile döküm, çeviri veya özet için göndermeden önce Uygulama açık onay ister.",
+          "Gizlilik ayarlarından reddedebilir veya geri çekebilirsiniz. Uygulamada gezinebilirsiniz ancak yeni yapay zekâ isteği gönderilmez.",
+          "Onay, ekranda açıklanan video bağlantısı, döküm metni ve dil seçimleri gibi içerikleri sunucularımıza ve OpenAI dâhil alt işleyenlere iletmemize izin verir."
+        ]
+      },
+      {
+        "title": "8. İÇERİĞİNİZ VE SORUMLULUKLARINIZ",
+        "subsections": [
+          {
+            "title": "8.1 Kullanıcı içeriği",
+            "paragraphs": [
+              "«Kullanıcı İçeriği», Hizmette sağladığınız video bağlantısı, etkinse ses kaydı, döküm, düzenlenmiş not ve dil seçimi gibi bilgi ve malzemelerdir.",
+              "Mülkiyet sizde kalır. Damas’a yalnızca Hizmeti işletmek ve geliştirmek, size döküm, çeviri ve özet üretmek için gerektiği ölçüde barındırma, işleme, iletme ve gösterme amacıyla sınırlı, münhasır olmayan, dünya çapında lisans verirsiniz."
+            ]
+          },
+          {
+            "title": "8.2 Beyanlarınız",
+            "paragraphs": [
+              "Şunları beyan ve garanti edersiniz:"
+            ],
+            "list": [
+              "İçeriği gönderme ve yukarıdaki lisansı verme hakkınız vardır",
+              "İçeriğiniz ve kullanımınız Koşullara ve hukuka uygundur",
+              "Yalnızca izinli herkese açık bağlantı veya kaydetme ve işleme hakkınız olan ses gönderirsiniz",
+              "İçeriğiniz kişilerin veya kurumların fikrî mülkiyet, gizlilik ya da diğer haklarını ihlal etmez"
+            ]
+          },
+          {
+            "title": "8.3 Yalnızca herkese açık bağlantılar",
+            "paragraphs": [
+              "Hizmet, herkese açık video gönderi bağlantıları içindir. Özel, kısıtlı, silinmiş veya desteklenmeyen bağlantılar başarısız olabilir. Gönderdiğiniz bağlantılardan yalnızca siz sorumlusunuz."
+            ]
+          },
+          {
+            "title": "8.4 Yapay zekâ çıktısının doğruluğu",
+            "paragraphs": [
+              "Dökümler, çeviriler ve özetler hata, eksiklik veya yanlışlık içerebilir. Gazetecilik, hukuk, tıp, finans veya mesleki kararlar dâhil her amaçla güvenmeden önce kontrol etmek sizin sorumluluğunuzdadır."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. KABUL EDİLEBİLİR KULLANIM",
+        "paragraphs": [
+          "Şunları yapmamayı kabul edersiniz:"
+        ],
+        "list": [
+          "Hizmeti hukuka aykırı, zararlı, dolandırıcı veya kötüye kullanımlı amaçla kullanmak",
+          "İşleme hakkınız olmayan içerik göndermek",
+          "İzinsiz özel, herkese açık olmayan veya telifli malzemeye erişmeye çalışmak",
+          "Kullanım veya hız sınırlarını, güvenlik önlemlerini aşmak",
+          "Hukukun izin verdiği durumlar dışında tersine mühendislik, derleme çözme veya kaynak kod çıkarma",
+          "Botlar, veri kazıyıcılar veya otomasyonla Hizmeti kötüye kullanmak",
+          "Hizmeti veya sunucuları aksatmak",
+          "Yazılı izin olmadan yeniden satmak, alt lisanslamak veya ticari sömürmek",
+          "Sistemlerimize yetkisiz erişerek rakip ürün geliştirmek",
+          "İşlenen veya paylaşılan içerikle başkalarını taciz etmek, tehdit etmek ya da zarara uğratmak"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "İhlalde erişimi askıya alabilir veya sona erdirebiliriz."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10. KULLANIM SINIRLARI",
+        "paragraphs": [
+          "Adil erişim ve maliyet kontrolü için bildirimle veya bildirimsiz cihaz başına görev, dakika veya diğer kullanım sınırları uygulayabilir ve değiştirebiliriz.",
+          "Aşımda istekler gecikebilir, reddedilebilir veya uygun olduğunda daha üst abonelik gerektirebilir."
+        ]
+      },
+      {
+        "title": "11. FİKRÎ MÜLKİYET",
+        "subsections": [
+          {
+            "title": "11.1 Haklarımız",
+            "paragraphs": [
+              "Kullanıcı İçeriği dışında Hizmet, Uygulama, yazılım, tasarım, marka, logo ve belgeler Damas Technologies LLC’ye veya lisans verenlerine aittir ve fikrî mülkiyet hukukuyla korunur.",
+              "Sahip olduğunuz veya kontrol ettiğiniz Apple cihazlarında, bu Koşullara ve App Store kurallarına tabi, sınırlı, kişisel, devredilemez, münhasır olmayan ve geri alınabilir kullanım lisansı veririz."
+            ]
+          },
+          {
+            "title": "11.2 Markalar",
+            "paragraphs": [
+              "«Damas» ve ilgili işaretler Damas Technologies LLC’nin markalarıdır. Platform isimleri dâhil üçüncü taraf ad ve markaları ilgili sahiplerine aittir."
+            ]
+          },
+          {
+            "title": "11.3 Geri bildirim",
+            "paragraphs": [
+              "Öneri veya geri bildirim gönderdiğinizde bunları sınırlama veya ödeme olmadan kullanma hakkı verirsiniz."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "12. ÜÇÜNCÜ TARAF HİZMETLER VE BAĞLANTILAR",
+        "paragraphs": [
+          "Hizmet Apple, bulut sağlayıcıları ve OpenAI gibi üçüncü taraflara dayanır. Kullanımları kendi koşul ve politikalarına tabi olabilir.",
+          "Üçüncü taraf sitelere bağlantı bulunabilir. İçerik, politika ve uygulamalarından sorumlu değiliz."
+        ]
+      },
+      {
+        "title": "13. DEĞİŞİKLİK VE KULLANILABİLİRLİK",
+        "paragraphs": [
+          "Özellik, desteklenen bağlantı türü, dil veya abonelik avantajları dâhil herhangi bir kısmı istediğimiz zaman değiştirebilir, askıya alabilir veya sonlandırabiliriz.",
+          "Kesintisiz, zamanında, güvenli veya hatasız çalışma garanti etmeyiz. Bakım, kesinti, üçüncü taraf arızaları ve ağ sorunları etkileyebilir.",
+          "Uzun videoların işleme süreleri değişir, garanti edilmez."
+        ]
+      },
+      {
+        "title": "14. SONA ERME",
+        "paragraphs": [
+          "Uygulamayı silerek ve Apple’dan abonelikleri iptal ederek istediğiniz zaman bırakabilirsiniz.",
+          "Koşulları ihlal ettiğinize, güvenlik riski oluşturduğunuza makul gerekçeyle inanırsak veya hukuk gerektirirse erişimi derhal askıya alabilir ya da bitirebiliriz.",
+          "Sona ermede kullanım lisansınız biter. Doğası gereği sürmesi gereken 8, 11 ve 14–18 dâhil bölümler yürürlükte kalır."
+        ]
+      },
+      {
+        "title": "15. GARANTİ REDDİ",
+        "paragraphs": [
+          "HİZMET «OLDUĞU GİBİ» VE «MEVCUT OLDUĞU ŞEKİLDE», AÇIK, ZIMNİ VEYA YASAL GARANTİ OLMADAN SUNULUR.",
+          "HUKUKUN İZİN VERDİĞİ EN GENİŞ ÖLÇÜDE DAMAS; TİCARETE ELVERİŞLİLİK, BELİRLİ AMACA UYGUNLUK, MÜLKİYET VE İHLAL ETMEME DÂHİL TÜM GARANTİLERİ REDDEDER.",
+          "ŞUNLARI GARANTİ ETMEYİZ:"
+        ],
+        "list": [
+          "YAPAY ZEKÂ ÇIKTISININ DOĞRU, TAM VEYA GÜVENİLİR OLMASI",
+          "HİZMETİN İHTİYAÇLARINIZI KARŞILAMASI",
+          "KUSURLARIN DÜZELTİLMESİ",
+          "HİZMETİN VİRÜS VEYA ZARARLI BİLEŞEN İÇERMEMESİ"
+        ]
+      },
+      {
+        "title": "16. SORUMLULUK SINIRI",
+        "paragraphs": [
+          "HUKUKUN İZİN VERDİĞİ EN GENİŞ ÖLÇÜDE:",
+          "DAMAS TECHNOLOGIES LLC, YETKİLİLERİ, YÖNETİCİLERİ, ÇALIŞANLARI, TEMSİLCİLERİ VE BAĞLI KURULUŞLARI; OLASILIĞI BİLDİRİLSE BİLE HİZMET VEYA KOŞULLARLA İLGİLİ DOLAYLI, ARIZİ, ÖZEL, SONUÇSAL, ÖRNEK VEYA CEZAİ ZARARLARDAN YA DA KÂR, VERİ, TİCARİ İTİBAR VEYA İŞ FIRSATI KAYBINDAN SORUMLU OLMAZ.",
+          "HİZMET VEYA KOŞULLARLA İLGİLİ TALEPLERDE TOPLAM SORUMLULUĞUMUZ, TALEBE YOL AÇAN OLAYDAN ÖNCEKİ ON İKİ (12) AYDA DAMAS’A HİZMET İÇİN ÖDEDİĞİNİZ TUTAR İLE ELLİ ABD DOLARI (US $50) ARASINDAN YÜKSEK OLANI AŞMAZ.",
+          "BAZI HUKUK DÜZENLERİ BELİRLİ SINIRLAMALARA İZİN VERMEZ; BUNLARIN BİR KISMI SİZE UYGULANMAYABİLİR."
+        ]
+      },
+      {
+        "title": "17. TAZMİN",
+        "paragraphs": [
+          "Şunlardan doğan talep, zarar, kayıp, yükümlülük, maliyet ve makul avukatlık ücretleri dâhil giderlere karşı Damas Technologies LLC’yi, yetkililerini, yöneticilerini, çalışanlarını ve temsilcilerini savunmayı, tazmin etmeyi ve sorumluluktan uzak tutmayı kabul edersiniz:"
+        ],
+        "list": [
+          "Kullanıcı İçeriğiniz",
+          "Hizmeti kullanımınız",
+          "Koşulları ihlaliniz",
+          "Yasa veya üçüncü taraf haklarını ihlaliniz"
+        ]
+      },
+      {
+        "title": "18. UYUŞMAZLIK, HUKUK VE YARGI YERİ",
+        "paragraphs": [
+          "İkamet ülkenizin zorunlu tüketici koruma kuralları saklı kalmak üzere, kanunlar ihtilafı kuralları hariç ABD Wyoming eyaleti hukuku uygulanır.",
+          "Dava açmadan önce <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> adresine yazmayı ve en az 30 gün gayriresmî çözüm aramayı kabul edersiniz.",
+          "Hukuken yasak değilse, varsa tahkime tabi olmayan uyuşmazlıklarda Wyoming’deki eyalet veya federal mahkemeleri münhasır yargı yeri olarak ve üzerinizdeki yargı yetkilerini kabul edersiniz.",
+          "Bu bölüm, zorunlu yerel tüketici haklarınızı sınırlamaz."
+        ]
+      },
+      {
+        "title": "19. APPLE APP STORE KOŞULLARI",
+        "paragraphs": [
+          "Uygulamayı Apple App Store’dan indirdiyseniz şunları kabul edersiniz:"
+        ],
+        "list": [
+          "Koşullar yalnızca sizinle Damas Technologies LLC arasındadır, Apple Inc. («Apple») ile değildir",
+          "Apple, Uygulama veya içeriğinden sorumlu değildir",
+          "Apple’ın bakım veya destek yükümlülüğü yoktur",
+          "Uygulama geçerli garantiye uymazsa Apple’a bildirebilirsiniz; varsa satın alma ücretini iade edebilir, hukuken izin verilen ölçüde başka garanti yükümlülüğü yoktur",
+          "Apple; ürün sorumluluğu, hukuka uygunluk, tüketici koruma veya fikrî mülkiyet dâhil Uygulamaya ilişkin sizin veya üçüncü tarafların taleplerini karşılamakla sorumlu değildir",
+          "Apple ve bağlı şirketleri üçüncü taraf lehtardır ve Koşulları bu sıfatla size karşı uygulayabilir"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Kullanımınız Apple’ın App Store hizmet koşullarına ve geçerli kullanım kurallarına da uymalıdır."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "20. İHRACAT VE YAPTIRIMLAR",
+        "paragraphs": [
+          "Yalnızca ABD ve kullanım yerinin hukukunun izin verdiği ölçüde kullanabilir veya ihraç edebilirsiniz. ABD ambargolu ya da terörü destekleyen olarak tanımlanmış ülkede bulunmadığınızı ve ABD’nin yasaklı veya kısıtlı taraf listelerinde olmadığınızı beyan edersiniz."
+        ]
+      },
+      {
+        "title": "21. KOŞUL DEĞİŞİKLİKLERİ",
+        "paragraphs": [
+          "Koşulları zaman zaman <a href=\"/tr/terms-of-use.html\">https://www.damascenerose.com/terms-of-use.html</a> adresinde güncelleyip güncelleme tarihini değiştiririz.",
+          "Önemli değişiklikleri Uygulamada veya başka makul yollarla bildirebiliriz. Hukuk aksini gerektirmiyorsa yürürlükten sonra kullanıma devam kabul anlamına gelir."
+        ]
+      },
+      {
+        "title": "22. DİĞER HÜKÜMLER",
+        "list": [
+          "<strong>Tam anlaşma:</strong> Koşullar ve gizlilik politikası sizinle Damas arasında Hizmete ilişkin anlaşmanın tamamıdır.",
+          "<strong>Bölünebilirlik:</strong> Bir hüküm uygulanamazsa diğerleri yürürlükte kalır.",
+          "<strong>Feragat yokluğu:</strong> Bir hükmü uygulamamak ondan vazgeçmek değildir.",
+          "<strong>Devir:</strong> Onayımız olmadan devredemezsiniz. Birleşme, satın alma veya varlık satışında devredebiliriz.",
+          "<strong>Mücbir sebep:</strong> Makul kontrolümüz dışındaki olayların gecikme veya aksaklığından sorumlu değiliz."
+        ]
+      },
+      {
+        "title": "23. İLETİŞİM",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "E-posta: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Destek, Apple üzerinden faturalama, hukuki bildirim veya gizlilik talepleri için yukarıdaki adrese yazın.",
+          "<strong>KULLANIM KOŞULLARININ SONU</strong>"
+        ]
+      }
+    ]
+  },
+  "support": {
+    "filename": "support.html",
+    "path": "/support.html",
+    "documentTitle": "Destek | Damas Technologies",
+    "mascot": "💬",
+    "heading": "Destek",
+    "subtitle": "Yardıma mı ihtiyacınız var? Ekibimiz sorularınız ve geri bildirimleriniz için burada.",
+    "sections": [
+      {
+        "title": "Yardımcı olmaktan memnuniyet duyarız",
+        "paragraphs": [
+          "Ürünler hakkında sorunuz, anketle ilgili yardım ihtiyacınız veya geri bildiriminiz varsa mesaj gönderin. Mümkün olan en kısa sürede döneriz."
+        ]
+      },
+      {
+        "title": "Bize ulaşın",
+        "variant": "contact-box",
+        "paragraphs": [
+          "İstediğiniz zaman yazın:"
+        ]
+      },
+      {
+        "title": "Mesajınıza ekleyin",
+        "list": [
+          "Adınız ve size nasıl ulaşabileceğimiz",
+          "Sorunuzun veya sorununuzun kısa açıklaması",
+          "Cihaz veya tarayıcı türü gibi yararlı ayrıntılar"
+        ]
+      }
+    ]
+  }
+}

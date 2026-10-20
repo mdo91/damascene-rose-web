@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.generated/
+.growth/
+.tools/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

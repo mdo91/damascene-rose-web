@@ -1,0 +1,5 @@
+# BEGIN gum managed mcp server
+[mcp_servers.gum]
+command = "bash"
+args = ["scripts/gum/mcp.sh"]
+# END gum managed mcp server
