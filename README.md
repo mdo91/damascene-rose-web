@@ -50,7 +50,9 @@ npm run growth:collect
 
 The audited Gum build is reproducible with `bash scripts/gum/build-keyword-gum.sh` (Go required). The project MCP entry uses the read-only `damas-searchconsole` profile. Keyword collection uses the separate `damas-keywords` profile and only the two permitted keyword-planning operations. See the skill for exact scopes, targeting, caching and provisioning. Keep `.growth`, OAuth secrets and tokens private; do not commit any credentials.
 
-The private [Damas growth runner](https://github.com/mdo91/damas-growth-runner) orchestrates the daily workflow at 08:00 Europe/Istanbul. It uses the owner's selected **Codex subscription** with a fresh isolated login, secure credential refresh persistence, shared subscription limits, and no separate OpenAI API key. Recurrence must remain disabled until a complete cloud trial validates collection, generation, publishing and exact deployment. The Mac is not needed after that setup succeeds. Signature Scan's runner and profiles are independent.
+The private [Damas growth runner](https://github.com/mdo91/damas-growth-runner) schedules the daily workflow at 08:00 Europe/Istanbul. It uses the owner's selected **Codex subscription** with an isolated session provisioned once, refreshed and persisted in the cloud, shared subscription limits, and no separate OpenAI API key. Daily runs require no interactive login or Mac availability. Expired or revoked authorization requires owner action. Signature Scan's runner and profiles are independent.
+
+Activation was verified on **2026-10-20**: the hosted trial published and verified the [Spanish guide update](https://github.com/mdo91/damascene-rose-web/pull/4), native Gum research succeeded across all 11 languages, and the separate encrypted Google and Codex state completed cloud round trips. Bootstrap flags are disabled and the two initial seed secrets have been removed. A follow-up run confirmed that a completed day starts no further generation or publication. Daily recurrence is enabled, with recovery checks at 08:17 and 08:37 Istanbul; GitHub may delay scheduled starts.
 
 ## Domain migration and rollback
 
