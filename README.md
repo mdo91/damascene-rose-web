@@ -30,15 +30,13 @@ The 33 launch guides were refined against live Keyword Planner data for all 11 l
 
 `.github/workflows/pages.yml` runs TypeScript, tests, HTML publication validation, and root/repository-path production builds before Pages deployment. The required check is **Validate website**. Validation covers metadata, canonical/alternate URLs, sitemap dates, structured data, local resources, article sources, download destinations and missing artifacts. GitHub Pages serves `404.html` with a genuine 404 for unknown paths; verify this after publishing.
 
-Repository variables:
-
 The authentic Search Console verification tag is committed permanently in `src/content/site-verification.json`; keep it after ownership verification.
 
 Optional repository variables:
 - `APP_STORE_PROVIDER_TOKEN`: an authentic provider token for this app, if obtained from App Store Connect. Without it, links remain ordinary App Store links and download attribution is unavailable.
 - `WEBSITE_BASE_PATH`: `/damascene-rose-web/` only during project-path staging; `/` after attaching the custom domain. This affects asset/navigation paths, never production canonical URLs.
 
-All language directories belong to the same Search Console property: `https://damascenerose.com/`. Submit its sitemap at `/sitemap.xml`; missing Search Console performance data is not proof that a page is unindexed.
+All language directories belong to the same Search Console property: `https://damascenerose.com/`. On 2026-10-20, ownership was verified and Google processed the launch sitemap containing 99 URLs. Keep the verification metadata permanently. Sitemap processing and missing Search Console performance data do not establish whether individual pages are indexed.
 
 ## Organic growth
 
@@ -56,4 +54,4 @@ The private [Damas growth runner](https://github.com/mdo91/damas-growth-runner) 
 
 ## Domain migration and rollback
 
-The previous site is hosted by `mdo91/mdo91.github.io`. First deploy this repository at its project path and validate it. Back up the previous Pages/CNAME configuration, remove committed domain-claim files from the old repository, detach its custom domain, then attach `damascenerose.com` to this repository and redeploy at `/`. Preserve existing DNS unless GitHub's domain check identifies a required change. Verify HTTPS, representative locales, legal URLs and 404 responses before considering migration complete. To roll back, detach the domain here and restore the previous site's saved Pages/CNAME configuration. Never attach the same domain to both deployments.
+The custom-domain migration completed on 2026-10-20: this repository serves `https://damascenerose.com/` with `WEBSITE_BASE_PATH=/`. The previous deployment was `mdo91/mdo91.github.io`; keep its domain claim detached so a later deployment cannot reclaim the domain. Preserve existing DNS unless GitHub's domain check identifies a required change. For rollback, first detach the domain here, then restore the previous site's saved Pages/CNAME configuration and verify HTTPS, representative URLs and 404 responses. Never attach the same domain to both deployments.
