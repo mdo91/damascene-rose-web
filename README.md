@@ -32,7 +32,9 @@ The 33 launch guides were refined against live Keyword Planner data for all 11 l
 
 Repository variables:
 
-- `GOOGLE_SITE_VERIFICATION`: authentic Search Console HTML verification value; retain permanently after ownership is verified.
+The authentic Search Console verification tag is committed permanently in `src/content/site-verification.json`; keep it after ownership verification.
+
+Optional repository variables:
 - `APP_STORE_PROVIDER_TOKEN`: an authentic provider token for this app, if obtained from App Store Connect. Without it, links remain ordinary App Store links and download attribution is unavailable.
 - `WEBSITE_BASE_PATH`: `/damascene-rose-web/` only during project-path staging; `/` after attaching the custom domain. This affects asset/navigation paths, never production canonical URLs.
 
