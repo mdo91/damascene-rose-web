@@ -1,0 +1,89 @@
+diff --git a/apps/gum/internal/adapters/googleads/googleads.go b/apps/gum/internal/adapters/googleads/googleads.go
+index 968f59f..197fbc7 100644
+--- a/apps/gum/internal/adapters/googleads/googleads.go
++++ b/apps/gum/internal/adapters/googleads/googleads.go
+@@ -4,7 +4,8 @@
+ //
+ // It is deliberately a small, self-contained REST executor rather than a
+ // variant of the shared typed-rest-sdk adapter, for one reason: the Google Ads
+-// API requires a secret `developer-token` header on every request. That secret
++// API historically required a `developer-token` header. Since 2026-09-09,
++// access is tied to the OAuth Cloud project and this header is optional. A legacy token
+ // is sourced server-side (OS keychain / env via the injected DevToken hook) and
+ // is NEVER an invocation arg, so it never enters the audit log, args_canonical,
+ // the semantic cache key, or the MCP tool-call context. The OAuth Bearer
+@@ -102,8 +103,8 @@ type Adapter struct {
+ }
+ 
+ // NewAdapter constructs a Google Ads adapter. devToken supplies the developer
+-// token (keychain/env); pass nil for a token-less adapter (every call then
+-// fails closed with an actionable error).
++// token (keychain/env). A nil hook is supported after the 2026-09-09
++// developer-token sunset; OAuth remains mandatory.
+ func NewAdapter(devToken func() string) *Adapter {
+ 	return &Adapter{DevToken: devToken, now: time.Now}
+ }
+@@ -147,9 +148,6 @@ func (a *Adapter) Execute(ctx context.Context, inv *dispatch.Invocation, rv *dis
+ 	if a.DevToken != nil {
+ 		devTok = strings.TrimSpace(a.DevToken())
+ 	}
+-	if devTok == "" {
+-		return nil, errors.New("googleads adapter: missing developer token (run `gum auth use-ads-developer-token`, or set GUM_GOOGLE_ADS_DEVELOPER_TOKEN)")
+-	}
+ 
+ 	method := customMethod(rv.Variant.Binding.HTTP.Path)
+ 	if !knownMethods[method] {
+@@ -191,7 +189,9 @@ func (a *Adapter) Execute(ctx context.Context, inv *dispatch.Invocation, rv *dis
+ 			return nil, fmt.Errorf("googleads adapter: build request: %w", rerr)
+ 		}
+ 		req.Header.Set("Authorization", "Bearer "+creds.Token)
+-		req.Header.Set("developer-token", devTok)
++		if devTok != "" {
++			req.Header.Set("developer-token", devTok)
++		}
+ 		req.Header.Set("Content-Type", "application/json")
+ 		if loginCID != "" {
+ 			req.Header.Set("login-customer-id", loginCID)
+diff --git a/apps/gum/internal/adapters/googleads/googleads_test.go b/apps/gum/internal/adapters/googleads/googleads_test.go
+index 8587053..6bbdd33 100644
+--- a/apps/gum/internal/adapters/googleads/googleads_test.go
++++ b/apps/gum/internal/adapters/googleads/googleads_test.go
+@@ -123,15 +123,29 @@ func TestGoogleAdsRequiresOAuthToken(t *testing.T) {
+ 	}
+ }
+ 
+-func TestGoogleAdsRequiresDeveloperToken(t *testing.T) {
+-	adapter := NewAdapter(func() string { return "" }) // no dev token
+-	_, err := adapter.Execute(context.Background(),
+-		&dispatch.Invocation{Args: map[string]any{"customerId": "1234567890", "keywords": []any{"x"}}},
+-		rvFor("generateKeywordIdeas"),
+-		&dispatch.Credentials{Token: "B"},
+-	)
+-	if err == nil || !strings.Contains(err.Error(), "developer token") {
+-		t.Fatalf("err = %v; want missing developer token", err)
++func TestGoogleAdsCloudProjectAuthWithoutDeveloperToken(t *testing.T) {
++	for _, hook := range []func() string{nil, func() string { return "" }} {
++		calls := 0
++		srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
++			calls++
++			if _, exists := r.Header["Developer-Token"]; exists {
++				t.Error("deprecated token header must be omitted")
++			}
++			if r.Header.Get("Authorization") != "Bearer OAUTH-ONLY" {
++				t.Error("OAuth bearer missing")
++			}
++			w.Header().Set("Content-Type", "application/json")
++			_, _ = w.Write([]byte(`{"results":[]}`))
++		}))
++		adapter := NewAdapter(hook)
++		adapter.BaseURL = srv.URL
++		resp, err := adapter.Execute(context.Background(),
++			&dispatch.Invocation{Args: map[string]any{"customerId": "1234567890", "keywords": []any{"signature scan"}}},
++			rvFor("generateKeywordIdeas"), &dispatch.Credentials{Token: "OAUTH-ONLY"})
++		srv.Close()
++		if err != nil || resp == nil || resp.StatusCode != 200 || calls != 1 {
++			t.Fatalf("token-free call failed: %v; calls=%d", err, calls)
++		}
+ 	}
+ }
+ 

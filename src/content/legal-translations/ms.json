@@ -1,0 +1,785 @@
+{
+  "privacy": {
+    "filename": "privacy-policy.html",
+    "path": "/privacy-policy.html",
+    "documentTitle": "Dasar Privasi | Damas Technologies",
+    "mascot": "🔒",
+    "heading": "Dasar Privasi",
+    "subtitle": "Cara Damas Technologies LLC mengumpul, menggunakan dan melindungi maklumat anda.",
+    "layout": "long-form",
+    "meta": {
+      "lastUpdated": "15 Julai 2026",
+      "effectiveDate": "15 Julai 2026"
+    },
+    "sections": [
+      {
+        "title": "1. PENGENALAN",
+        "paragraphs": [
+          "Dasar Privasi ini menerangkan cara Damas Technologies LLC (“Damas” atau “kami”) mengumpul, menggunakan, menyimpan dan berkongsi maklumat apabila anda menggunakan aplikasi mudah alih Damas untuk iPhone (“Aplikasi”) dan perkhidmatan berkaitan di <a href=\"https://www.damascenerose.com\">damascenerose.com</a>.",
+          "Damas membantu menukar pautan video sosial awam dan, jika tersedia, audio yang anda berikan kepada transkrip, terjemahan serta nota dan ringkasan janaan AI.",
+          "Dengan menggunakan Aplikasi, anda bersetuju dengan Dasar Privasi ini. Jika tidak bersetuju, jangan gunakan Aplikasi.",
+          "<strong>Pengawal data:</strong><br>Damas Technologies LLC<br>Hubungi: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>"
+        ]
+      },
+      {
+        "title": "2. SKOP",
+        "paragraphs": [
+          "Dasar ini terpakai kepada:"
+        ],
+        "list": [
+          "Aplikasi Damas iOS (ID himpunan: com.damas.ai.recording.technologies)",
+          "API dan perkhidmatan pemprosesan kami untuk transkripsi, terjemahan dan ringkasan",
+          "Laman web kami di damascenerose.com (termasuk dasar ini)"
+        ],
+        "subsections": [
+          {
+            "title": "Dasar ini tidak terpakai kepada:",
+            "list": [
+              "Platform pihak ketiga bagi pautan yang anda tampal (contohnya hos video sosial)",
+              "Apple (App Store, pembayaran, infrastruktur penghantaran pemberitahuan tolak)",
+              "OpenAI (apabila API mereka digunakan sebagai subpemproses — lihat Seksyen 8)",
+              "Laman web pihak ketiga yang dipautkan daripada Aplikasi"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. RINGKASAN",
+        "list": [
+          "<strong>Akaun:</strong>Kami tidak menyediakan akaun pengguna. Kami menggunakan pengecam peranti untuk mengendalikan perkhidmatan.",
+          "<strong>Maklumat daripada anda:</strong>Pautan siaran video awam, pilihan bahasa, teks transkrip untuk ringkasan dan audio pilihan untuk transkripsi.",
+          "<strong>Pemprosesan AI:</strong>Kandungan diproses pada pelayan kami dan mungkin oleh OpenAI selepas anda memberikan persetujuan jelas dalam Aplikasi.",
+          "<strong>Storan setempat:</strong>Nota, transkrip dan rakaman disimpan pada peranti sehingga anda memadamkannya.",
+          "<strong>Pembayaran:</strong>Langganan dikendalikan oleh Apple; kami tidak menerima butiran kad pembayaran anda.",
+          "<strong>Pengiklanan / penjejakan:</strong>Aplikasi semasa tidak menggunakan SDK iklan pihak ketiga atau penjejakan merentas aplikasi.",
+          "<strong>Kanak-kanak:</strong>Aplikasi tidak ditujukan kepada kanak-kanak di bawah 13 tahun."
+        ]
+      },
+      {
+        "title": "4. MAKLUMAT YANG DIKUMPUL",
+        "subsections": [
+          {
+            "title": "4.1 Maklumat yang anda berikan",
+            "list": [
+              "<strong>Pautan siaran video:</strong>Pautan HTTPS awam yang ditampal, disahkan untuk hos video sosial yang disokong.",
+              "<strong>Keutamaan bahasa:</strong>Bahasa sasaran bagi tugas terjemahan.",
+              "<strong>Kandungan transkrip dan nota:</strong>Teks yang dijana atau disunting dalam Aplikasi, termasuk kandungan yang dihantar untuk ringkasan AI.",
+              "<strong>Rakaman audio:</strong>Jika anda menggunakan rakaman suara, audio dirakam melalui mikrofon dan disimpan pada peranti; audio mungkin dimuat naik untuk transkripsi pelayan apabila ciri itu diaktifkan.",
+              "<strong>Pilihan persediaan awal (pilihan):</strong>Tag pekerjaan dan minat yang dipilih semasa pengenalan. Dalam versi semasa, ia hanya disimpan pada peranti dan tidak dihantar ke pelayan kami.",
+              "<strong>Papan klip:</strong>Apabila menggunakan “Tampal”, Aplikasi membaca URL papan klip hanya apabila anda memulakan tindakan itu. Anda boleh menyalin teks nota dari penyunting ke papan klip."
+            ]
+          },
+          {
+            "title": "4.2 Maklumat yang dikumpul secara automatik",
+            "list": [
+              "<strong>Pengecam peranti (device_id):</strong>UUID rawak yang dijana semasa pelancaran pertama, disimpan dalam iOS Keychain dan dihantar bersama permintaan tugas untuk memproses tugas, menguatkuasakan had penggunaan saksama dan mengaitkan pemberitahuan. Ia bukan Apple ID anda.",
+              "<strong>Token pemberitahuan tolak:</strong>Jika pemberitahuan dibenarkan, kami mungkin menghantar token APNs peranti sebagai rentetan perenambelasan semasa memulakan tugas untuk memberitahu anda apabila pemprosesan selesai.",
+              "<strong>Metadata permintaan:</strong>Seperti cap masa permintaan, ID tugas, status tugas, kod ralat dan X-Request-ID bagi setiap permintaan untuk penyelesaian masalah.",
+              "<strong>Status langganan:</strong>Sama ada anda mempunyai langganan dalam aplikasi yang aktif, ditentukan melalui Apple StoreKit pada peranti.",
+              "<strong>Versi Aplikasi dan jenis peranti:</strong>Mungkin disertakan dalam log pelayan untuk sokongan dan keselamatan."
+            ]
+          },
+          {
+            "title": "4.3 Maklumat yang tidak dikumpul",
+            "paragraphs": [
+              "Berdasarkan Aplikasi semasa, kami tidak mengumpul maklumat berikut secara sengaja:"
+            ],
+            "list": [
+              "Nama, e-mel atau nombor telefon anda (melainkan anda menghubungi kami secara sukarela)",
+              "Lokasi tepat, kenalan, foto atau sejarah pelayaran di luar Aplikasi",
+              "Apple ID atau pengecam iklan (IDFA) untuk pengiklanan",
+              "Data melalui SDK analitik atau pelaporan ranap pihak ketiga (tiada yang disepadukan dalam Aplikasi iOS semasa)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. CARA MAKLUMAT DIGUNAKAN",
+        "paragraphs": [
+          "Kami menggunakan maklumat untuk:"
+        ],
+        "orderedList": [
+          "Menyediakan perkhidmatan (mentranskripsi pautan video awam, menterjemah kandungan, menjana ringkasan AI dan menghantar hasil dalam Aplikasi)",
+          "Menjalankan tugas tak segerak (baris gilir, pemprosesan, semakan berkala dan penyelesaian tugas transkripsi serta terjemahan yang panjang)",
+          "Menghantar pemberitahuan apabila tugas selesai, jika anda memilih pemberitahuan tolak",
+          "Menguatkuasakan had penggunaan saksama dan pencegahan penyalahgunaan setiap peranti, seperti bilangan tugas harian dan minit pemprosesan",
+          "Meningkatkan kebolehpercayaan, menyahpepijat ralat, mencegah penipuan dan menjaga keselamatan",
+          "Mematuhi undang-undang yang terpakai"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Kami tidak menjual maklumat peribadi anda."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. ASAS UNDANG-UNDANG PEMPROSESAN (PENGGUNA EEA / UK)",
+        "paragraphs": [
+          "Apabila GDPR atau UK GDPR terpakai, kami bergantung pada:"
+        ],
+        "list": [
+          "<strong>Penyediaan transkripsi, terjemahan dan ringkasan:</strong>Kontrak, yang diperlukan untuk menyampaikan perkhidmatan yang diminta",
+          "<strong>Pemprosesan AI melalui OpenAI:</strong>Persetujuan pada skrin AI dalam Aplikasi sebelum data dihantar",
+          "<strong>Pemberitahuan tolak:</strong>Persetujuan melalui kebenaran sistem iOS",
+          "<strong>Pengecam peranti dan had penggunaan:</strong>Kepentingan sah untuk mengendalikan, melindungi dan memperuntukkan perkhidmatan secara saksama",
+          "<strong>Langganan melalui Apple:</strong>Kontrak"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Anda boleh menarik balik persetujuan AI pada bila-bila masa dalam Aplikasi (Tetapan → Privasi → Tarik balik persetujuan AI). Tindakan ini menghentikan permintaan AI baharu tetapi tidak menjejaskan pemprosesan yang telah dilakukan."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. PEMPROSESAN AI DAN PERSETUJUAN ANDA",
+        "paragraphs": [
+          "Sebelum data dihantar untuk transkripsi, terjemahan atau ringkasan AI, Aplikasi memaparkan skrin persetujuan yang menerangkan:"
+        ],
+        "list": [
+          "<strong>Apa yang dihantar:</strong>Pautan video, teks transkrip dan bahasa pilihan, mengikut kesesuaian",
+          "<strong>Siapa yang memproses:</strong>Pelayan kami, yang mungkin menggunakan API OpenAI",
+          "<strong>Apa yang tidak dilakukan:</strong>Kami tidak mengehos atau mengedar semula video pihak ketiga; kami memaparkan transkrip dan nota janaan AI"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Anda boleh menolak persetujuan dan masih melayari Aplikasi tanpa memulakan tugas AI baharu. Persetujuan boleh ditarik balik kemudian dalam tetapan Privasi. Penarikan balik menghentikan pemprosesan AI pelayan baharu; kandungan yang sudah disimpan pada peranti kekal sehingga dipadamkan.",
+              "Amalan OpenAI tertakluk pada dasarnya sendiri: <a href=\"https://openai.com/policies/privacy-policy\">https://openai.com/policies/privacy-policy</a>"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. CARA MAKLUMAT DIKONGSI",
+        "subsections": [
+          {
+            "title": "8.1 Penyedia perkhidmatan (pemproses)",
+            "paragraphs": [
+              "<strong>Pengehosan awan, contohnya Google Cloud Run</strong><br>Tujuan: API, penyelarasan tugas, storan<br>Data dikongsi: Pautan, audio, teks, ID peranti, token, log",
+              "<strong>OpenAI</strong><br>Tujuan: Transkripsi dan penjanaan nota AI<br>Data dikongsi: Kandungan yang anda hantar untuk pemprosesan selepas bersetuju",
+              "<strong>Apple</strong><br>Tujuan: Pengedaran Aplikasi, pembayaran, infrastruktur tolak<br>Data dikongsi: Transaksi langganan dan metadata penghantaran tolak",
+              "Kami mewajibkan pemproses mengendalikan data hanya mengikut arahan kami dan tertakluk pada perlindungan yang sesuai."
+            ]
+          },
+          {
+            "title": "8.2 Undang-undang dan keselamatan",
+            "paragraphs": [
+              "Kami mungkin mendedahkan maklumat jika dipercayai perlu untuk mematuhi undang-undang, peraturan, proses perundangan atau permintaan kerajaan; melindungi hak, harta atau keselamatan Damas, pengguna atau pihak lain; atau mengesan dan mencegah penipuan, penyalahgunaan atau masalah keselamatan."
+            ]
+          },
+          {
+            "title": "8.3 Pemindahan perniagaan",
+            "paragraphs": [
+              "Jika terlibat dalam penggabungan, pengambilalihan atau penjualan aset, maklumat anda mungkin dipindahkan sebagai sebahagian transaksi. Kami akan memaklumkan perubahan penting pada pemilikan atau penggunaan."
+            ]
+          },
+          {
+            "title": "8.4 Tiada penjualan maklumat peribadi",
+            "paragraphs": [
+              "Kami tidak menjual atau berkongsi maklumat peribadi untuk pengiklanan tingkah laku merentas konteks."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. PEMINDAHAN DATA ANTARABANGSA",
+        "paragraphs": [
+          "Pelayan dan subpemproses kami mungkin memproses data di Amerika Syarikat serta negara lain tempat kami atau mereka beroperasi. Undang-undang perlindungan data negara tersebut mungkin berbeza daripada negara anda.",
+          "Jika diperlukan, kami melaksanakan perlindungan sesuai, seperti klausa kontrak standard, untuk pemindahan dari EEA/UK."
+        ]
+      },
+      {
+        "title": "10. STORAN DAN TEMPOH PENYIMPANAN DATA",
+        "subsections": [
+          {
+            "title": "10.1 Pada peranti anda",
+            "paragraphs": [
+              "Aplikasi menyimpan rakaman, transkrip, ringkasan dan nota secara setempat melalui SwiftData dan storan dokumen Aplikasi. Anda boleh memadam rakaman secara individu; ini turut membuang fail setempat dan data nota yang berkaitan.",
+              "Keutamaan, seperti persetujuan AI, penyelesaian pengenalan dan cache langganan, mungkin disimpan dalam UserDefaults. device_id disimpan dalam iOS Keychain."
+            ]
+          },
+          {
+            "title": "10.2 Pada pelayan kami",
+            "paragraphs": [
+              "Apabila tugas dihantar, kami dan penyedia mungkin menyimpan secara sementara atau berterusan pengecam dan status tugas, URL sumber dan teks terbitan (transkrip, terjemahan, ringkasan), pengecam peranti, token tolak pilihan dan metadata penggunaan seperti tempoh pemprosesan bagi had penggunaan saksama.",
+              "Data pelayan disimpan hanya selama yang munasabah untuk menyediakan perkhidmatan, menguatkuasakan had, menyelesaikan pertikaian, memenuhi kewajipan undang-undang dan menjaga keselamatan. Melainkan undang-undang memerlukan tempoh lebih lama, kami menyasarkan pemadaman atau penganoniman log operasi dalam 90 hari dan kandungan tugas dalam 30–90 hari selepas selesai, tertakluk pada kitaran sandaran.",
+              "Aplikasi semasa tidak menyediakan butang layan diri “padam semua data pelayan”. Untuk meminta pemadaman data pelayan yang dikaitkan dengan pengecam peranti, hubungi <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>."
+            ]
+          },
+          {
+            "title": "10.3 Apple",
+            "paragraphs": [
+              "Rekod langganan dan pembayaran disimpan oleh Apple mengikut dasar Apple."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "11. KANDUNGAN DAN PLATFORM PIHAK KETIGA",
+        "subsections": [
+          {
+            "title": "11.1 Pautan video sosial",
+            "paragraphs": [
+              "Aplikasi direka untuk memproses pautan siaran video awam yang anda pilih untuk dihantar. Damas Technologies LLC tidak bersekutu, disokong atau ditaja oleh X Corp. atau mana-mana platform sosial. Nama platform hanya menerangkan keserasian.",
+              "Anda bertanggungjawab memastikan hak untuk menggunakan dan memproses kandungan yang dihantar. Pautan persendirian, terhad atau bukan awam mungkin gagal atau tidak disokong."
+            ]
+          },
+          {
+            "title": "11.2 Tiada pengedaran semula video pihak ketiga",
+            "paragraphs": [
+              "Damas tidak mengehos atau mengedar semula video pihak ketiga dalam Aplikasi. Kami memproses audio dan teks daripada pautan anda serta memaparkan transkrip dan nota janaan AI kepada anda."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "12. LANGGANAN DAN PEMBAYARAN",
+        "paragraphs": [
+          "Damas menawarkan langganan premium pilihan melalui sistem Pembelian Dalam Aplikasi Apple (StoreKit)."
+        ],
+        "list": [
+          "Pemprosesan pembayaran dilakukan sepenuhnya oleh Apple.",
+          "Kami menerima status kelayakan langganan, bukan butiran penuh kad pembayaran anda.",
+          "Urus, batalkan atau minta bayaran balik melalui tetapan Apple ID → Langganan atau Sokongan Apple.",
+          "Percubaan percuma dan harga dipaparkan dalam Aplikasi dan App Store semasa pembelian."
+        ]
+      },
+      {
+        "title": "13. PEMBERITAHUAN TOLAK",
+        "paragraphs": [
+          "Jika pemberitahuan diaktifkan, kami mungkin menghantar amaran apabila tugas transkripsi atau terjemahan selesai. Anda boleh mematikannya pada bila-bila masa dalam Tetapan iOS → Damas → Pemberitahuan."
+        ]
+      },
+      {
+        "title": "14. KEBENARAN",
+        "paragraphs": [
+          "<strong>Mikrofon:</strong>Hanya jika rakaman suara dalam Aplikasi digunakan, untuk merakam nota audio bagi transkripsi.",
+          "<strong>Pemberitahuan:</strong>Untuk memaklumkan apabila tugas yang panjang selesai.",
+          "Aplikasi tidak meminta akses kepada pustaka foto, kenalan atau lokasi untuk ciri teras."
+        ]
+      },
+      {
+        "title": "15. KESELAMATAN",
+        "paragraphs": [
+          "Kami menggunakan langkah teknikal dan organisasi yang munasabah untuk melindungi maklumat, termasuk HTTPS semasa penghantaran, Keychain untuk pengecam peranti, kawalan akses infrastruktur pengeluaran dan pengesahan transaksi App Store.",
+          "Tiada kaedah penghantaran atau storan yang 100% selamat. Kami tidak menjamin keselamatan mutlak."
+        ]
+      },
+      {
+        "title": "16. HAK DAN PILIHAN ANDA",
+        "paragraphs": [
+          "Bergantung pada lokasi, anda mungkin berhak mengakses, membetulkan, memadam, menyekat atau membantah pemprosesan tertentu; menarik balik persetujuan; meminta kemudahalihan data; dan membuat aduan kepada pihak berkuasa penyeliaan (EEA/UK)."
+        ],
+        "subsections": [
+          {
+            "title": "Dalam Aplikasi semasa, anda boleh:",
+            "list": [
+              "Menarik balik persetujuan AI (tetapan Privasi)",
+              "Memadam rakaman dan nota setempat",
+              "Mematikan pemberitahuan tolak (Tetapan iOS)",
+              "Membatalkan langganan (Apple)"
+            ]
+          },
+          {
+            "title": "",
+            "paragraphs": [
+              "Untuk permintaan lain, e-mel <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>. Kami mungkin perlu mengesahkan permintaan dan pengecam peranti anda.",
+              "<strong>Penduduk California (CCPA/CPRA):</strong>Kami tidak menjual maklumat peribadi. Penduduk California boleh meminta akses, pemadaman dan pembetulan seperti di atas. Kami tidak akan mendiskriminasi anda kerana melaksanakan hak privasi."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "17. PRIVASI KANAK-KANAK",
+        "paragraphs": [
+          "Damas tidak ditujukan kepada kanak-kanak di bawah 13 tahun atau umur minimum bidang kuasa anda. Kami tidak mengumpul maklumat peribadi kanak-kanak secara sedar. Jika anda percaya seorang kanak-kanak telah memberikan maklumat, hubungi <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> dan kami akan mengambil langkah untuk memadamkannya."
+        ]
+      },
+      {
+        "title": "18. PERUBAHAN DASAR",
+        "paragraphs": [
+          "Kami mungkin mengemas kini Dasar Privasi ini dari semasa ke semasa. Versi baharu akan diterbitkan di <a href=\"https://damascenerose.com/ms/privacy-policy.html\">https://damascenerose.com/ms/privacy-policy.html</a> dengan tarikh “Kemas kini terakhir” baharu. Perubahan penting mungkin diberi notis tambahan dalam Aplikasi atau memerlukan persetujuan semula jika diwajibkan undang-undang."
+        ]
+      },
+      {
+        "title": "19. HUBUNGI KAMI",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "E-mel: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Laman web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Soalan tentang dasar atau amalan data kami boleh dihantar ke e-mel di atas."
+        ]
+      },
+      {
+        "title": "LAMPIRAN A — INVENTORI DATA",
+        "table": {
+          "headers": [
+            "Jenis data",
+            "Sumber",
+            "Disimpan setempat",
+            "Dihantar ke pelayan kami",
+            "Dihantar ke OpenAI",
+            "Tujuan"
+          ],
+          "rows": [
+            [
+              "URL siaran video",
+              "Anda tampal",
+              "Ya",
+              "Ya",
+              "Mungkin",
+              "Transkripsi / terjemahan"
+            ],
+            [
+              "Bahasa sasaran",
+              "Anda pilih",
+              "Ya",
+              "Ya",
+              "Mungkin",
+              "Terjemahan"
+            ],
+            [
+              "Teks transkrip",
+              "Dijana / disunting",
+              "Ya",
+              "Ya (ringkasan)",
+              "Ya (ringkasan)",
+              "Ringkasan AI"
+            ],
+            [
+              "Fail audio",
+              "Mikrofon (jika diaktifkan)",
+              "Ya",
+              "Ya",
+              "Mungkin",
+              "Transkripsi"
+            ],
+            [
+              "Ringkasan / nota AI",
+              "Dijana",
+              "Ya",
+              "Tidak",
+              "Tidak",
+              "Papar / sunting"
+            ],
+            [
+              "ID peranti (UUID)",
+              "Dijana automatik",
+              "Keychain",
+              "Ya",
+              "Tidak",
+              "Tugas, had, sokongan"
+            ],
+            [
+              "Token tolak",
+              "iOS (jika dibenarkan)",
+              "Memori sahaja",
+              "Ya (pilihan)",
+              "Tidak",
+              "Amaran penyelesaian tugas"
+            ],
+            [
+              "Status langganan",
+              "Apple StoreKit",
+              "Dicache",
+              "Tidak",
+              "Tidak",
+              "Kawalan akses"
+            ],
+            [
+              "Profil pengenalan",
+              "Anda pilih",
+              "UserDefaults",
+              "Tidak",
+              "Tidak",
+              "Pemperibadian (setempat sahaja)"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "<strong>Nota:</strong>Langganan disahkan pada peranti melalui StoreKit. Jika pengesahan resit pelayan ditambah kelak, dasar ini akan dikemas kini sewajarnya.",
+          "<strong>TAMAT DASAR PRIVASI</strong>"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "filename": "terms-of-use.html",
+    "path": "/terms-of-use.html",
+    "documentTitle": "Syarat Penggunaan | Damas Technologies",
+    "mascot": "📜",
+    "heading": "Syarat Penggunaan",
+    "subtitle": "Peraturan penggunaan Aplikasi Damas, laman web dan perkhidmatan berkaitan.",
+    "layout": "long-form",
+    "meta": {
+      "lastUpdated": "15 Julai 2026",
+      "effectiveDate": "15 Julai 2026"
+    },
+    "sections": [
+      {
+        "title": "1. PERSETUJUAN TERHADAP SYARAT",
+        "paragraphs": [
+          "Syarat Penggunaan ini (“Syarat”) mengawal akses dan penggunaan aplikasi Damas untuk iPhone (“Aplikasi”), laman web damascenerose.com dan perkhidmatan berkaitan (bersama-sama “Perkhidmatan”) yang disediakan oleh Damas Technologies LLC (“Damas” atau “kami”).",
+          "Dengan memuat turun, memasang, mengakses atau menggunakan Perkhidmatan, anda bersetuju terikat pada Syarat dan Dasar Privasi di <a href=\"https://damascenerose.com/ms/privacy-policy.html\">https://damascenerose.com/ms/privacy-policy.html</a>. Jika tidak bersetuju, jangan gunakan Perkhidmatan.",
+          "Hubungi: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>"
+        ]
+      },
+      {
+        "title": "2. TENTANG KAMI",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "E-mel: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Laman web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Aplikasi diedarkan melalui Apple App Store. Apple bukan pihak dalam Syarat ini kecuali seperti Seksyen 19."
+        ]
+      },
+      {
+        "title": "3. PERIHAL PERKHIDMATAN",
+        "paragraphs": [
+          "Damas ialah alat produktiviti AI yang membantu anda:"
+        ],
+        "list": [
+          "Menampal pautan siaran video sosial awam dan meminta transkripsi atau terjemahan",
+          "Menjana ringkasan AI dan nota berstruktur daripada teks transkrip",
+          "Menyimpan, melihat, menyunting dan menyusun transkrip serta nota pada peranti",
+          "Menerima pemberitahuan tolak pilihan apabila tugas pemprosesan panjang selesai",
+          "Menggunakan ciri premium melalui langganan berbayar"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Bergantung pada versi Aplikasi, ciri rakaman suara dan transkripsi audio juga mungkin ditawarkan.",
+              "Perkhidmatan memproses kandungan anda melalui pelayan kami dan, dengan persetujuan, penyedia AI pihak ketiga termasuk OpenAI. Damas tidak mengehos atau mengedar semula video pihak ketiga. Aplikasi memaparkan transkrip, terjemahan dan nota janaan AI.",
+              "Damas tidak bersekutu, disokong atau ditaja oleh X Corp., Twitter atau platform sosial lain. Rujukan tersebut menerangkan keserasian pautan awam yang anda pilih untuk dihantar."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. KELAYAKAN",
+        "paragraphs": [
+          "Anda mestilah berumur sekurang-kurangnya 13 tahun atau umur minimum di negara anda. Jika di bawah 18 tahun, anda menyatakan bahawa ibu bapa atau penjaga sah telah memberikan kebenaran.",
+          "Perkhidmatan bukan untuk kanak-kanak di bawah 13 tahun dan kami tidak menawarkannya kepada mereka secara sedar.",
+          "Anda hanya boleh menggunakan Perkhidmatan jika boleh membuat kontrak yang mengikat dengan Damas dan tidak dilarang menggunakannya oleh undang-undang yang terpakai."
+        ]
+      },
+      {
+        "title": "5. TIADA AKAUN PENGGUNA",
+        "paragraphs": [
+          "Versi semasa tidak memerlukan nama pengguna atau kata laluan. Untuk operasi, kami mengenal pasti peranti melalui pengecam rawak yang disimpan dalam Keychain peranti seperti diterangkan dalam Dasar Privasi.",
+          "Anda bertanggungjawab menjaga keselamatan peranti dan Apple ID."
+        ]
+      },
+      {
+        "title": "6. LANGGANAN, PERCUBAAN PERCUMA DAN PEMBAYARAN",
+        "subsections": [
+          {
+            "title": "6.1 Langganan premium",
+            "paragraphs": [
+              "Ciri tertentu memerlukan langganan berbayar aktif (“Damas Premium” atau nama seumpamanya dalam Aplikasi). Pelan diperbaharui secara automatik, contohnya mingguan atau bulanan, melalui sistem Pembelian Dalam Aplikasi Apple.",
+              "Harga, tempoh pelan dan tawaran percubaan dipaparkan dalam Aplikasi dan App Store semasa pembelian serta mungkin berbeza mengikut rantau."
+            ]
+          },
+          {
+            "title": "6.2 Percubaan percuma",
+            "paragraphs": [
+              "Jika ditawarkan, percubaan percuma bertukar kepada langganan berbayar melainkan dibatalkan sebelum tamat. Kelayakan dan tempohnya ditentukan oleh Apple serta tawaran yang dipaparkan semasa pembelian."
+            ]
+          },
+          {
+            "title": "6.3 Pembaharuan automatik",
+            "paragraphs": [
+              "Langganan diperbaharui secara automatik melainkan dibatalkan sekurang-kurangnya 24 jam sebelum tempoh bil semasa tamat. Akaun Apple ID anda dicaj untuk pembaharuan dalam 24 jam sebelum tamat tempoh tersebut."
+            ]
+          },
+          {
+            "title": "6.4 Pengurusan dan pembatalan",
+            "paragraphs": [
+              "Urus, batalkan atau ubah langganan melalui tetapan akaun Apple ID (Tetapan → Apple ID → Langganan) atau App Store. Memadam Aplikasi tidak membatalkan langganan."
+            ]
+          },
+          {
+            "title": "6.5 Bayaran balik",
+            "paragraphs": [
+              "Pembayaran diproses oleh Apple. Permintaan bayaran balik mesti diserahkan kepada Apple mengikut dasarnya. Damas tidak mengawal keputusan bil atau bayaran balik Apple."
+            ]
+          },
+          {
+            "title": "6.6 Perubahan harga",
+            "paragraphs": [
+              "Kami boleh mengubah harga atau pelan langganan. Jika diperlukan, Apple akan memaklumkan atau meminta persetujuan sebelum perubahan dikenakan pada langganan anda."
+            ]
+          },
+          {
+            "title": "6.7 Cukai",
+            "paragraphs": [
+              "Harga mungkin tidak termasuk cukai terpakai yang boleh ditambah oleh Apple atau undang-undang tempatan semasa pembayaran."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. PERSETUJUAN PEMPROSESAN AI",
+        "paragraphs": [
+          "Sebelum ciri tertentu menghantar data untuk transkripsi, terjemahan atau ringkasan AI, Aplikasi akan meminta persetujuan jelas anda.",
+          "Anda boleh menolak atau menarik balik persetujuan dalam tetapan Privasi. Anda masih boleh melayari Aplikasi, tetapi permintaan pemprosesan AI baharu tidak dihantar.",
+          "Dengan bersetuju, anda membenarkan kandungan pada skrin persetujuan, seperti pautan video, teks transkrip dan pilihan bahasa, dihantar ke pelayan kami dan subpemproses termasuk OpenAI untuk diproses."
+        ]
+      },
+      {
+        "title": "8. KANDUNGAN DAN TANGGUNGJAWAB ANDA",
+        "subsections": [
+          {
+            "title": "8.1 Kandungan pengguna",
+            "paragraphs": [
+              "“Kandungan Pengguna” ialah maklumat dan bahan yang anda berikan melalui Perkhidmatan, termasuk pautan video, rakaman audio jika diaktifkan, teks transkrip, nota suntingan dan pilihan bahasa.",
+              "Anda mengekalkan pemilikan Kandungan Pengguna. Anda memberi Damas lesen terhad, tidak eksklusif dan seluruh dunia untuk mengehos, memproses, menghantar dan memaparkannya semata-mata setakat yang perlu bagi mengendalikan dan menambah baik Perkhidmatan, termasuk menjana transkrip, terjemahan dan ringkasan anda."
+            ]
+          },
+          {
+            "title": "8.2 Pernyataan anda",
+            "paragraphs": [
+              "Anda menyatakan dan menjamin bahawa:"
+            ],
+            "list": [
+              "Anda berhak menyerahkan Kandungan Pengguna dan memberikan lesen di atas",
+              "Kandungan serta penggunaan anda mematuhi Syarat dan undang-undang yang terpakai",
+              "Anda hanya menyerahkan pautan awam yang dibenarkan atau audio yang anda berhak rakam dan proses",
+              "Kandungan tidak melanggar harta intelek, privasi atau hak lain mana-mana individu atau entiti"
+            ]
+          },
+          {
+            "title": "8.3 Pautan awam sahaja",
+            "paragraphs": [
+              "Perkhidmatan direka untuk pautan siaran video awam. Pautan persendirian, terhad, dipadamkan atau tidak disokong mungkin gagal. Anda bertanggungjawab sepenuhnya atas pautan yang dihantar."
+            ]
+          },
+          {
+            "title": "8.4 Ketepatan hasil AI",
+            "paragraphs": [
+              "Transkrip, terjemahan dan ringkasan AI mungkin mengandungi kesilapan, peninggalan atau ketidaktepatan. Anda bertanggungjawab menyemak hasil sebelum bergantung padanya bagi sebarang tujuan, termasuk kewartawanan, keputusan undang-undang, perubatan, kewangan atau profesional."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. PENGGUNAAN YANG DIBENARKAN",
+        "paragraphs": [
+          "Anda bersetuju tidak:"
+        ],
+        "list": [
+          "Menggunakan Perkhidmatan bagi tujuan menyalahi undang-undang, memudaratkan, menipu atau menyalahgunakan",
+          "Menyerahkan kandungan yang anda tidak berhak proses",
+          "Cuba mengakses bahan persendirian, bukan awam atau berhak cipta tanpa kebenaran",
+          "Memintas had penggunaan, had kadar atau langkah keselamatan",
+          "Melakukan kejuruteraan songsang, menyahkompil atau cuba mengekstrak kod sumber kecuali dibenarkan undang-undang",
+          "Menggunakan bot, pengikis atau automasi untuk menyalahgunakan Perkhidmatan",
+          "Mengganggu Perkhidmatan atau pelayan",
+          "Menjual semula, memberikan sublesen atau mengeksploitasi Perkhidmatan secara komersial tanpa kebenaran bertulis",
+          "Menggunakan akses tanpa kebenaran ke sistem kami untuk membina produk saingan melalui Perkhidmatan",
+          "Mengganggu, mengancam atau memudaratkan orang lain melalui kandungan yang diproses atau dikongsi"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Kami boleh menggantung atau menamatkan akses bagi pelanggaran."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10. HAD PENGGUNAAN",
+        "paragraphs": [
+          "Untuk akses saksama dan kawalan kos, kami boleh mengehadkan bilangan tugas, minit pemprosesan atau penggunaan lain setiap peranti, dengan atau tanpa notis. Had mungkin berubah dari semasa ke semasa.",
+          "Jika had dilebihi, permintaan mungkin ditangguhkan, ditolak atau memerlukan peningkatan langganan jika berkenaan."
+        ]
+      },
+      {
+        "title": "11. HARTA INTELEK",
+        "subsections": [
+          {
+            "title": "11.1 Harta kami",
+            "paragraphs": [
+              "Perkhidmatan, termasuk Aplikasi, perisian, reka bentuk, penjenamaan, logo dan dokumentasi selain Kandungan Pengguna, dimiliki oleh Damas Technologies LLC atau pemberi lesennya dan dilindungi undang-undang harta intelek.",
+              "Tertakluk pada Syarat dan peraturan Apple App Store, kami memberikan lesen terhad, peribadi, tidak boleh dipindahkan, tidak eksklusif dan boleh dibatalkan untuk menggunakan Aplikasi pada peranti berjenama Apple yang anda miliki atau kawal."
+            ]
+          },
+          {
+            "title": "11.2 Tanda dagangan",
+            "paragraphs": [
+              "“Damas” dan tanda berkaitan ialah tanda dagangan Damas Technologies LLC. Nama dan tanda pihak ketiga, termasuk platform, milik pemilik masing-masing."
+            ]
+          },
+          {
+            "title": "11.3 Maklum balas",
+            "paragraphs": [
+              "Jika anda menghantar cadangan atau maklum balas, anda memberi kami hak menggunakannya tanpa sekatan atau pampasan."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "12. PERKHIDMATAN DAN PAUTAN PIHAK KETIGA",
+        "paragraphs": [
+          "Perkhidmatan bergantung pada pihak ketiga termasuk Apple, penyedia hos awan dan OpenAI. Penggunaan perkhidmatan mereka mungkin tertakluk pada syarat dan dasar masing-masing.",
+          "Perkhidmatan mungkin mengandungi pautan laman pihak ketiga. Kami tidak bertanggungjawab atas kandungan, dasar atau amalan mereka."
+        ]
+      },
+      {
+        "title": "13. PERUBAHAN DAN KETERSEDIAAN PERKHIDMATAN",
+        "paragraphs": [
+          "Kami boleh mengubah, menggantung atau menghentikan mana-mana bahagian pada bila-bila masa, termasuk ciri, jenis pautan, bahasa atau manfaat langganan.",
+          "Kami tidak menjamin operasi tanpa gangguan, tepat pada masa, selamat atau bebas ralat. Penyelenggaraan, gangguan, kegagalan pihak ketiga dan masalah rangkaian mungkin menjejaskan ketersediaan.",
+          "Masa pemprosesan video panjang berbeza-beza dan tidak dijamin."
+        ]
+      },
+      {
+        "title": "14. PENAMATAN",
+        "paragraphs": [
+          "Anda boleh berhenti menggunakan Perkhidmatan pada bila-bila masa dengan memadam Aplikasi dan membatalkan langganan melalui Apple.",
+          "Kami boleh menggantung atau menamatkan akses serta-merta jika secara munasabah percaya anda melanggar Syarat, menimbulkan risiko keselamatan atau jika undang-undang mewajibkannya.",
+          "Selepas penamatan, lesen menggunakan Aplikasi tamat. Seksyen yang sifatnya perlu kekal berkuat kuasa, termasuk Seksyen 8, 11 dan 14–18, akan terus berkuat kuasa."
+        ]
+      },
+      {
+        "title": "15. PENAFIAN",
+        "paragraphs": [
+          "PERKHIDMATAN DISEDIAKAN “SEADANYA” DAN “SEPERTI TERSEDIA” TANPA SEBARANG WARANTI NYATA, TERSIRAT ATAU BERKANUN.",
+          "SETAKAT MAKSIMUM DIBENARKAN UNDANG-UNDANG, DAMAS MENAFIKAN SEMUA WARANTI, TERMASUK WARANTI TERSIRAT KEBOLEHDAGANGAN, KESESUAIAN BAGI TUJUAN TERTENTU, HAK MILIK DAN TIADA PELANGGARAN HAK.",
+          "KAMI TIDAK MENJAMIN BAHAWA:"
+        ],
+        "list": [
+          "HASIL AI TEPAT, LENGKAP ATAU BOLEH DIPERCAYAI",
+          "PERKHIDMATAN MEMENUHI KEPERLUAN ANDA",
+          "KECACATAN AKAN DIBETULKAN",
+          "PERKHIDMATAN BEBAS VIRUS ATAU KOMPONEN BERBAHAYA"
+        ]
+      },
+      {
+        "title": "16. HAD LIABILITI",
+        "paragraphs": [
+          "SETAKAT MAKSIMUM DIBENARKAN UNDANG-UNDANG:",
+          "DAMAS TECHNOLOGIES LLC SERTA PEGAWAI, PENGARAH, PEKERJA, EJEN DAN AHLI GABUNGANNYA TIDAK BERTANGGUNGJAWAB ATAS KERUGIAN TIDAK LANGSUNG, SAMPINGAN, KHAS, BERBANGKIT, TELADAN ATAU PUNITIF, ATAU KEHILANGAN KEUNTUNGAN, DATA, MUHIBAH ATAU PELUANG PERNIAGAAN YANG TIMBUL DARIPADA ATAU BERKAITAN DENGAN PERKHIDMATAN ATAU SYARAT, WALAUPUN TELAH DIMAKLUMKAN KEMUNGKINANNYA.",
+          "JUMLAH LIABILITI KAMI BAGI TUNTUTAN BERKAITAN PERKHIDMATAN ATAU SYARAT TIDAK MELEBIHI YANG LEBIH TINGGI ANTARA (A) JUMLAH YANG DIBAYAR KEPADA DAMAS UNTUK PERKHIDMATAN DALAM DUA BELAS (12) BULAN SEBELUM PERISTIWA PUNCA TUNTUTAN ATAU (B) LIMA PULUH DOLAR AS (US $50).",
+          "SESETENGAH BIDANG KUASA TIDAK MEMBENARKAN HAD TERTENTU; SEBAHAGIAN PERUNTUKAN DI ATAS MUNGKIN TIDAK TERPAKAI KEPADA ANDA."
+        ]
+      },
+      {
+        "title": "17. INDEMNITI",
+        "paragraphs": [
+          "Anda bersetuju mempertahankan, menanggung rugi dan melepaskan Damas Technologies LLC serta pegawai, pengarah, pekerja dan ejennya daripada tuntutan, ganti rugi, kerugian, liabiliti, kos dan perbelanjaan, termasuk fi peguam munasabah, yang timbul daripada:"
+        ],
+        "list": [
+          "Kandungan Pengguna anda",
+          "Penggunaan Perkhidmatan oleh anda",
+          "Pelanggaran Syarat oleh anda",
+          "Pelanggaran undang-undang atau hak pihak ketiga oleh anda"
+        ]
+      },
+      {
+        "title": "18. PERTIKAIAN, UNDANG-UNDANG DAN TEMPAT BICARA",
+        "paragraphs": [
+          "Syarat ditadbir undang-undang Negeri Wyoming, Amerika Syarikat, tanpa mengambil kira prinsip konflik undang-undang, kecuali undang-undang perlindungan pengguna mandatori di negara kediaman anda terpakai.",
+          "Sebelum memfailkan tuntutan, anda bersetuju menghubungi <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a> dan cuba menyelesaikan pertikaian secara tidak formal selama sekurang-kurangnya 30 hari.",
+          "Kecuali dilarang undang-undang, anda bersetuju bidang kuasa dan tempat bicara eksklusif bagi pertikaian yang tidak tertakluk pada timbang tara, jika ada, ialah mahkamah negeri atau persekutuan di Wyoming, serta bersetuju dengan bidang kuasa peribadi di sana.",
+          "Seksyen ini tidak mengehadkan hak pengguna anda di bawah undang-undang tempatan mandatori."
+        ]
+      },
+      {
+        "title": "19. SYARAT APPLE APP STORE",
+        "paragraphs": [
+          "Jika Aplikasi dimuat turun daripada Apple App Store, anda mengakui dan bersetuju bahawa:"
+        ],
+        "list": [
+          "Syarat ini hanya antara anda dan Damas Technologies LLC, bukan Apple Inc. (“Apple”)",
+          "Apple tidak bertanggungjawab atas Aplikasi atau kandungannya",
+          "Apple tidak wajib menyediakan penyelenggaraan atau sokongan",
+          "Jika Aplikasi gagal mematuhi waranti terpakai, anda boleh memaklumkan Apple dan Apple mungkin memulangkan harga pembelian Aplikasi, jika ada; setakat maksimum yang dibenarkan undang-undang, Apple tiada kewajipan waranti lain",
+          "Apple tidak bertanggungjawab menangani tuntutan anda atau pihak ketiga berkaitan Aplikasi, termasuk liabiliti produk, pematuhan undang-undang, perlindungan pengguna atau harta intelek",
+          "Apple dan subsidiarinya ialah benefisiari pihak ketiga Syarat ini dan boleh menguatkuasakannya terhadap anda sebagai benefisiari"
+        ],
+        "subsections": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Penggunaan Aplikasi juga mesti mematuhi Syarat Perkhidmatan App Store Apple dan peraturan penggunaan terpakai."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "20. EKSPORT DAN SEKATAN",
+        "paragraphs": [
+          "Anda tidak boleh menggunakan atau mengeksport Perkhidmatan kecuali dibenarkan undang-undang Amerika Syarikat dan bidang kuasa penggunaan. Anda menyatakan tidak berada di negara embargo kerajaan AS atau negara penyokong pengganas dan tidak disenaraikan dalam mana-mana senarai pihak terlarang atau terhad kerajaan AS."
+        ]
+      },
+      {
+        "title": "21. PERUBAHAN SYARAT",
+        "paragraphs": [
+          "Kami mungkin mengemas kini Syarat dari semasa ke semasa. Syarat baharu diterbitkan di <a href=\"https://damascenerose.com/ms/terms-of-use.html\">https://damascenerose.com/ms/terms-of-use.html</a> dan tarikh “Kemas kini terakhir” dikemas kini.",
+          "Bagi perubahan penting, kami mungkin memberi notis tambahan dalam Aplikasi atau cara munasabah lain. Penggunaan berterusan selepas tarikh berkuat kuasa bermakna menerima Syarat baharu, kecuali undang-undang menetapkan sebaliknya."
+        ]
+      },
+      {
+        "title": "22. PELBAGAI",
+        "list": [
+          "<strong>Keseluruhan perjanjian:</strong>Syarat dan Dasar Privasi ialah keseluruhan perjanjian anda dengan Damas mengenai Perkhidmatan.",
+          "<strong>Kebolehasingan:</strong>Jika peruntukan tidak boleh dikuatkuasakan, yang selebihnya terus berkuat kuasa.",
+          "<strong>Tiada penepian:</strong>Kegagalan menguatkuasakan peruntukan bukan penepian hak.",
+          "<strong>Penyerahan hak:</strong>Anda tidak boleh menyerahkan Syarat tanpa persetujuan kami. Kami boleh menyerahkannya berkaitan penggabungan, pengambilalihan atau penjualan aset.",
+          "<strong>Force majeure:</strong>Kami tidak bertanggungjawab atas kelewatan atau kegagalan akibat kejadian di luar kawalan munasabah."
+        ]
+      },
+      {
+        "title": "23. HUBUNGI KAMI",
+        "paragraphs": [
+          "Damas Technologies LLC",
+          "E-mel: <a href=\"mailto:hi@damastechnologies.com\">hi@damastechnologies.com</a>",
+          "Laman web: <a href=\"https://www.damascenerose.com\">https://www.damascenerose.com</a>",
+          "Untuk sokongan, soalan bil melalui Apple, notis undang-undang atau permintaan privasi, hubungi e-mel di atas.",
+          "<strong>TAMAT SYARAT PENGGUNAAN</strong>"
+        ]
+      }
+    ]
+  },
+  "support": {
+    "filename": "support.html",
+    "path": "/support.html",
+    "documentTitle": "Sokongan | Damas Technologies",
+    "mascot": "💬",
+    "heading": "Sokongan",
+    "subtitle": "Perlukan bantuan? Pasukan kami sedia membantu dengan soalan, maklum balas atau perkara lain!",
+    "sections": [
+      {
+        "title": "Kami sedia membantu",
+        "paragraphs": [
+          "Sama ada anda mempunyai soalan produk, memerlukan bantuan tinjauan atau ingin berkongsi maklum balas, hantarkan mesej dan kami akan membalas secepat mungkin."
+        ]
+      },
+      {
+        "title": "Hubungi Kami",
+        "variant": "contact-box",
+        "paragraphs": [
+          "E-mel kami pada bila-bila masa:"
+        ]
+      },
+      {
+        "title": "Maklumat yang perlu disertakan",
+        "list": [
+          "Nama dan cara menghubungi anda",
+          "Penerangan ringkas tentang soalan atau masalah",
+          "Butiran berguna seperti jenis peranti atau pelayar"
+        ]
+      }
+    ]
+  }
+}

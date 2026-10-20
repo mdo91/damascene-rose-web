@@ -1,0 +1,30 @@
+{
+  "name": "damas-multilingual-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node --import tsx scripts/generate.ts",
+    "dev": "npm run generate && vite --host 127.0.0.1",
+    "build": "npm run generate && vite build && npm run validate",
+    "check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "validate": "node --import tsx scripts/validate.ts",
+    "growth:collect": "node scripts/growth/collect.mjs",
+    "growth:keywords": "node scripts/growth/keywords.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "marked": "^18.1.1",
+    "sharp": "^0.35.5",
+    "yaml": "^2.9.1"
+  }
+}
