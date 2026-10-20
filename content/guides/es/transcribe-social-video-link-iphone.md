@@ -15,6 +15,8 @@ translationKey: "transcribe-social-video-link-iphone"
 
 Para transcribir un vídeo a texto en iPhone, introduce en Damas un enlace público compatible de YouTube, Instagram o X y utiliza el flujo de transcripción. Obtendrás una versión escrita de la voz: compárala con el audio original antes de editar o copiar tus notas.
 
+Este método parte de un enlace público y transcribe lo que se dice en el vídeo. Si necesitas extraer las palabras que aparecen en una diapositiva o imagen, ese es un trabajo distinto: una transcripción de voz no sustituye la lectura del texto en pantalla. Tampoco debes dar por hecho que este flujo admite subir un archivo de vídeo del iPhone.
+
 ## Comprueba el vídeo antes de empezar
 
 Elige un vídeo público bajo demanda de hasta 90 minutos. No se admite contenido privado, restringido ni en directo. Procesa solo material para el que tengas permiso: poder abrir un enlace no equivale a tener autorización para procesarlo.
@@ -30,6 +32,29 @@ Damas requiere iOS 18.6 o posterior, conexión a internet, Premium y consentimie
 5. Lee la transcripción junto con el vídeo original. Puedes editar y copiar tus notas.
 
 Estos pasos describen el proceso general. Los nombres y la distribución de las pantallas pueden cambiar entre versiones; sigue las indicaciones actuales de la app.
+
+## Cómo transcribir un vídeo de YouTube a texto
+
+Para un vídeo de YouTube, copia el enlace del vídeo que quieres transcribir y sigue los pasos anteriores. Comprueba que sea público, que no esté en directo y que no supere los 90 minutos. Que puedas verlo con tu cuenta no garantiza que el enlace sea accesible para el procesamiento: el contenido privado o restringido no es compatible.
+
+Elige la transcripción si quieres leer las palabras en el idioma original. Si necesitas entenderlas en otro idioma, consulta la [guía de traducción de vídeos a texto](/es/guides/translate-social-video-iphone/). Si solo buscas las ideas principales, puedes continuar con un [resumen de la transcripción](/es/guides/summarize-video-transcript-iphone/) después de revisar el texto completo.
+
+## Si el enlace no se puede procesar
+
+Antes de intentarlo de nuevo, comprueba estos puntos:
+
+- El enlace corresponde al vídeo que quieres procesar en YouTube, Instagram o X.
+- El vídeo sigue disponible y es público, sin restricciones de acceso ni emisión en directo.
+- Su duración no supera los 90 minutos.
+- Tienes conexión a internet y cumples los requisitos de la app, incluidos Premium y el consentimiento de IA.
+
+Si el contenido es privado o restringido, utiliza otro material compatible que tengas permiso para procesar. No intentes eludir sus restricciones. Incluso con un enlace público, la disponibilidad de la fuente puede impedir el procesamiento.
+
+## ¿Se puede transcribir gratis o desde una web?
+
+Esta guía explica el uso de la app para iPhone, que requiere Premium; no ofrece un transcriptor web gratuito. Antes de suscribirte, revisa los planes, los precios y cualquier prueba disponible que se muestren en la app. No des por hecho que hay una prueba gratuita ni procesamiento ilimitado.
+
+Para seguir este método, [descarga Damas desde el App Store](https://apps.apple.com/us/app/damas-video-link-transcriber/id6766233794) y comprueba que tu iPhone tenga iOS 18.6 o posterior.
 
 ## Revisa los pasajes importantes
 
