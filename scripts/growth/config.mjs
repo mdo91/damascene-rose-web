@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 
@@ -20,5 +21,5 @@ export function keywordTargetingFor(locale) {
 }
 export function keywordPlan(locale) {
   const market = marketFor(locale);
-  return { locale, operations: ['generateKeywordIdeas', 'generateKeywordHistoricalMetrics'], targeting: keywordTargetingFor(locale), seeds: market.seeds, seedUrl: new URL(`${market.locale === 'en' ? '' : market.locale + '/'}guides/`, config.siteUrl).href, profile: config.profiles.keywords, cacheDays: config.keywordCacheDays };
+  return { locale, seedFingerprint: createHash('sha256').update(JSON.stringify({locale, seeds: market.seeds})).digest('hex'), operations: ['generateKeywordIdeas', 'generateKeywordHistoricalMetrics'], targeting: keywordTargetingFor(locale), seeds: market.seeds, seedUrl: new URL(`${market.locale === 'en' ? '' : market.locale + '/'}guides/`, config.siteUrl).href, profile: config.profiles.keywords, cacheDays: config.keywordCacheDays };
 }

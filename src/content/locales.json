@@ -2,12 +2,12 @@
   "en": {
     "name": "English",
     "htmlLang": "en",
-    "title": "Damas — Transcribe and translate social media videos on iPhone",
-    "description": "Turn supported public YouTube, Instagram and X video links into transcripts, translations and summaries with Damas for iPhone.",
+    "title": "Damas — Transcribe and summarize videos on iPhone, iPad and Mac",
+    "description": "Turn supported public YouTube, Instagram and X links into transcripts, translations and summaries with Damas on iPhone, iPad and compatible Macs.",
     "eyebrow": "Damas · Video Link Transcriber",
-    "heroTitle": "Transcribe and translate social media videos on iPhone.",
+    "heroTitle": "Transcribe and summarize videos on iPhone, iPad and Mac",
     "heroDescription": "Give a public video link a second life as readable text. Transcribe speech, translate it into one of 70 languages, and create a summary you can return to.",
-    "heroNote": "For supported public YouTube, Instagram and X videos. iOS 18.6 or later, internet access, Premium and AI consent required.",
+    "heroNote": "iPhone and iPad: iOS 18.6 or later. Compatible Macs: macOS 15.6 or later, Apple M1 or later. Internet, Premium and AI consent required.",
     "download": "Download on the App Store",
     "languageLabel": "Language",
     "featuresTitle": "From a video link to useful words.",
@@ -32,7 +32,7 @@
     "updated": "Updated",
     "published": "Published",
     "downloadCTA": "Open a supported public video link in Damas and turn its speech into text.",
-    "footerNote": "Damas is an iPhone app by Damas Technologies. Apple and platform names belong to their respective owners.",
+    "footerNote": "Damas works on iPhone, iPad and compatible Apple silicon Macs. Check the App Store for device and regional availability.",
     "nav": {
       "features": "Features",
       "guides": "Guides",
@@ -65,7 +65,7 @@
       },
       {
         "title": "Process the link in Damas",
-        "body": "Open Damas on iPhone, provide the video link and choose the supported task. Review the AI consent before continuing."
+        "body": "Open Damas on a supported device, provide the public video link and choose transcription, translation or summary. Review the AI consent before continuing."
       },
       {
         "title": "Read, review and reuse",
@@ -112,7 +112,7 @@
     "mediaKit": {
       "title": "Damas media kit",
       "description": "Product facts, artwork, screenshots and preview media for Damas — Video Link Transcriber.",
-      "intro": "A compact resource for writing about the Damas iPhone app. Use the current product facts below alongside the original downloadable media.",
+      "intro": "Product facts and original iPhone media for Damas on iPhone, iPad and compatible Macs.",
       "downloadAssets": "Download original assets",
       "artworkTitle": "Artwork and product media",
       "artworkCaption": "Damas artwork in plum and violet. Download the original files for editorial use.",
@@ -120,7 +120,7 @@
       "screenshots": "iPhone screenshots",
       "video": "Product preview",
       "releaseTitle": "Available on the App Store",
-      "releaseBody": "Damas — Video Link Transcriber, version 1.5.3. Requires iOS 18.6 or later. The app has 11 interface languages and supports translation into 70 languages. Check the App Store for the current release and regional availability.",
+      "releaseBody": "Damas — Video Link Transcriber, version 1.5.3. iPhone/iPad: iOS 18.6 or later. Mac: macOS 15.6 or later with Apple M1 or later. There are 11 interface languages and 70 translation targets. Check the App Store for current compatibility.",
       "trademark": "Damas is by Damas Technologies. Apple, YouTube, Instagram and X are trademarks of their respective owners; mentioning them does not imply endorsement.",
       "contact": "For product questions, use the support link below."
     },
@@ -136,12 +136,12 @@
   "fr": {
     "name": "Français",
     "htmlLang": "fr",
-    "title": "Damas — Transcrire et traduire des vidéos de réseaux sociaux sur iPhone",
-    "description": "Transformez des liens vidéo publics compatibles de YouTube, Instagram et X en transcriptions, traductions et résumés avec Damas sur iPhone.",
+    "title": "Damas — Transcrire et résumer des vidéos sur iPhone, iPad et Mac",
+    "description": "Transformez les liens publics YouTube, Instagram et X compatibles en transcriptions, traductions et résumés avec Damas sur iPhone, iPad et Mac compatibles.",
     "eyebrow": "Damas · Transcription de liens vidéo",
-    "heroTitle": "Transcrivez et traduisez des vidéos de réseaux sociaux sur iPhone.",
+    "heroTitle": "Transcrire et résumer des vidéos sur iPhone, iPad et Mac",
     "heroDescription": "Donnez une nouvelle vie à un lien vidéo public sous forme de texte. Transcrivez la parole, traduisez-la dans l’une des 70 langues et retrouvez l’essentiel dans un résumé.",
-    "heroNote": "Pour les vidéos publiques compatibles de YouTube, Instagram et X. iOS 18.6 ou ultérieur, connexion Internet, Premium et consentement au traitement par IA requis.",
+    "heroNote": "iPhone et iPad : iOS 18.6 ou ultérieur. Mac compatibles : macOS 15.6 ou ultérieur, puce Apple M1 ou ultérieure. Internet, Premium et consentement au traitement par IA requis.",
     "download": "Télécharger sur l’App Store",
     "languageLabel": "Langue",
     "featuresTitle": "D’un lien vidéo à un texte utile.",
@@ -166,7 +166,7 @@
     "updated": "Mis à jour",
     "published": "Publié",
     "downloadCTA": "Ouvrez un lien vidéo public compatible dans Damas pour transformer la parole en texte.",
-    "footerNote": "Damas est une application iPhone de Damas Technologies. Les noms Apple et ceux des plateformes appartiennent à leurs propriétaires respectifs.",
+    "footerNote": "Damas fonctionne sur iPhone, iPad et Mac Apple silicon compatibles. Consultez l’App Store pour la disponibilité.",
     "nav": {
       "features": "Fonctionnalités",
       "guides": "Guides",
@@ -199,7 +199,7 @@
       },
       {
         "title": "Traitez le lien dans Damas",
-        "body": "Ouvrez Damas sur iPhone, fournissez le lien et choisissez une tâche disponible. Lisez le consentement au traitement par IA avant de continuer."
+        "body": "Ouvrez Damas sur un appareil compatible, collez le lien public et choisissez la transcription, la traduction ou le résumé. Consultez le consentement au traitement par IA."
       },
       {
         "title": "Lisez, vérifiez et réutilisez",
@@ -246,7 +246,7 @@
     "mediaKit": {
       "title": "Kit média Damas",
       "description": "Informations produit, visuels, captures et aperçu de Damas — Video Link Transcriber.",
-      "intro": "Des ressources pour présenter l’application iPhone Damas. Utilisez les informations actuelles ci-dessous et les médias originaux à télécharger.",
+      "intro": "Informations produit et médias iPhone originaux pour Damas sur iPhone, iPad et Mac compatibles.",
       "downloadAssets": "Télécharger les fichiers originaux",
       "artworkTitle": "Visuels et médias produit",
       "artworkCaption": "Visuels Damas dans les tons prune et violet. Fichiers originaux disponibles pour un usage éditorial.",
@@ -254,7 +254,7 @@
       "screenshots": "Captures iPhone",
       "video": "Aperçu du produit",
       "releaseTitle": "Disponible sur l’App Store",
-      "releaseBody": "Damas — Video Link Transcriber, version 1.5.3. Nécessite iOS 18.6 ou ultérieur. L’application propose 11 langues d’interface et la traduction dans 70 langues. Consultez l’App Store pour la version actuelle et la disponibilité régionale.",
+      "releaseBody": "Damas — Video Link Transcriber, version 1.5.3. iPhone/iPad : iOS 18.6 ou ultérieur. Mac : macOS 15.6 ou ultérieur avec Apple M1 ou ultérieure. 11 langues d’interface et 70 langues de traduction. Vérifiez la compatibilité actuelle dans l’App Store.",
       "trademark": "Damas est proposé par Damas Technologies. Apple, YouTube, Instagram et X sont des marques de leurs propriétaires respectifs ; leur mention n’implique aucun soutien.",
       "contact": "Pour toute question sur le produit, utilisez le lien d’assistance ci-dessous."
     },
@@ -270,12 +270,12 @@
   "de": {
     "name": "Deutsch",
     "htmlLang": "de",
-    "title": "Damas — Social-Media-Videos auf dem iPhone transkribieren und übersetzen",
-    "description": "Mit Damas für iPhone werden unterstützte öffentliche Videolinks von YouTube, Instagram und X zu Transkripten, Übersetzungen und Zusammenfassungen.",
+    "title": "Damas — Videos auf iPhone, iPad und Mac transkribieren und zusammenfassen",
+    "description": "Mit Damas auf iPhone, iPad und kompatiblen Macs werden unterstützte öffentliche YouTube-, Instagram- und X-Links zu Transkripten, Übersetzungen und Zusammenfassungen.",
     "eyebrow": "Damas · Videolinks transkribieren",
-    "heroTitle": "Social-Media-Videos auf dem iPhone transkribieren und übersetzen.",
+    "heroTitle": "Videos auf iPhone, iPad und Mac transkribieren und zusammenfassen",
     "heroDescription": "Machen Sie aus einem öffentlichen Videolink lesbaren Text. Transkribieren Sie Gesprochenes, übersetzen Sie es in eine von 70 Sprachen und halten Sie die wichtigsten Gedanken als Zusammenfassung fest.",
-    "heroNote": "Für unterstützte öffentliche YouTube-, Instagram- und X-Videos. iOS 18.6 oder neuer, Internet, Premium und Einwilligung zur KI-Verarbeitung erforderlich.",
+    "heroNote": "iPhone und iPad: iOS 18.6 oder neuer. Kompatible Macs: macOS 15.6 oder neuer, Apple M1 oder neuer. Internet, Premium und Zustimmung zur KI-Verarbeitung erforderlich.",
     "download": "Im App Store laden",
     "languageLabel": "Sprache",
     "featuresTitle": "Vom Videolink zu hilfreichem Text.",
@@ -300,7 +300,7 @@
     "updated": "Aktualisiert",
     "published": "Veröffentlicht",
     "downloadCTA": "Öffnen Sie einen unterstützten öffentlichen Videolink in Damas und machen Sie Gesprochenes zu Text.",
-    "footerNote": "Damas ist eine iPhone-App von Damas Technologies. Apple und die Plattformnamen gehören ihren jeweiligen Rechteinhabern.",
+    "footerNote": "Damas läuft auf iPhone, iPad und kompatiblen Macs mit Apple silicon. Verfügbarkeit im App Store prüfen.",
     "nav": {
       "features": "Funktionen",
       "guides": "Anleitungen",
@@ -333,7 +333,7 @@
       },
       {
         "title": "Link in Damas verarbeiten",
-        "body": "Öffnen Sie Damas auf dem iPhone, geben Sie den Videolink an und wählen Sie eine verfügbare Aufgabe. Lesen Sie vor dem Fortfahren die KI-Einwilligung."
+        "body": "Damas auf einem unterstützten Gerät öffnen, den öffentlichen Videolink einfügen und Transkription, Übersetzung oder Zusammenfassung wählen. Die Zustimmung zur KI-Verarbeitung lesen."
       },
       {
         "title": "Lesen, prüfen und verwenden",
@@ -380,7 +380,7 @@
     "mediaKit": {
       "title": "Damas Pressekit",
       "description": "Produktinformationen, Grafiken, Screenshots und Vorschau für Damas — Video Link Transcriber.",
-      "intro": "Material für Berichte über die Damas-App für iPhone. Nutzen Sie die aktuellen Produktangaben und die Originaldateien zum Herunterladen.",
+      "intro": "Produktinformationen und originale iPhone-Medien für Damas auf iPhone, iPad und kompatiblen Macs.",
       "downloadAssets": "Originaldateien herunterladen",
       "artworkTitle": "Grafiken und Produktmedien",
       "artworkCaption": "Damas-Grafiken in Pflaumen- und Violetttönen. Originaldateien stehen zur redaktionellen Nutzung bereit.",
@@ -388,7 +388,7 @@
       "screenshots": "iPhone-Screenshots",
       "video": "Produktvorschau",
       "releaseTitle": "Im App Store verfügbar",
-      "releaseBody": "Damas — Video Link Transcriber, Version 1.5.3. Erfordert iOS 18.6 oder neuer. Die App hat 11 Oberflächensprachen und unterstützt Übersetzungen in 70 Sprachen. Aktuelle Version und regionale Verfügbarkeit finden Sie im App Store.",
+      "releaseBody": "Damas — Video Link Transcriber, Version 1.5.3. iPhone/iPad: iOS 18.6 oder neuer. Mac: macOS 15.6 oder neuer mit Apple M1 oder neuer. 11 Oberflächensprachen und 70 Übersetzungssprachen. Aktuelle Kompatibilität im App Store prüfen.",
       "trademark": "Damas stammt von Damas Technologies. Apple, YouTube, Instagram und X sind Marken ihrer jeweiligen Inhaber. Ihre Erwähnung bedeutet keine Unterstützung.",
       "contact": "Bei Produktfragen nutzen Sie bitte den Support-Link unten."
     },
@@ -404,12 +404,12 @@
   "ja": {
     "name": "日本語",
     "htmlLang": "ja",
-    "title": "Damas — iPhoneでSNS動画を文字起こし・翻訳",
-    "description": "Damasなら、対応するYouTube・Instagram・Xの公開動画リンクから、iPhoneで文字起こし、翻訳、要約を作成できます。",
+    "title": "Damas — iPhone・iPad・Macで動画を文字起こし・要約",
+    "description": "対応する公開YouTube・Instagram・Xリンクから文字起こし、翻訳、要約を作成。DamasはiPhone、iPad、対応Macで利用できます。",
     "eyebrow": "Damas · 動画リンクの文字起こし",
-    "heroTitle": "iPhoneでSNS動画を文字起こし・翻訳。",
+    "heroTitle": "iPhone・iPad・Macで動画を文字起こし・要約",
     "heroDescription": "公開動画のリンクを、読み返せるテキストに。音声を文字に起こし、70言語のいずれかに翻訳して、要点を要約にまとめられます。",
-    "heroNote": "対応するYouTube・Instagram・Xの公開動画が対象です。iOS 18.6以降、インターネット接続、Premium、AI処理への同意が必要です。",
+    "heroNote": "iPhone・iPad：iOS 18.6以降。対応Mac：macOS 15.6以降、Apple M1以降。インターネット、Premium、AI処理への同意が必要です。",
     "download": "App Storeからダウンロード",
     "languageLabel": "言語",
     "featuresTitle": "動画リンクから、役立つ言葉へ。",
@@ -434,7 +434,7 @@
     "updated": "更新日",
     "published": "公開日",
     "downloadCTA": "対応する公開動画リンクをDamasで開き、音声をテキストに変えましょう。",
-    "footerNote": "DamasはDamas TechnologiesのiPhoneアプリです。Appleおよび各プラットフォームの名称は、それぞれの権利者に帰属します。",
+    "footerNote": "DamasはiPhone、iPad、対応するAppleシリコン搭載Macで利用できます。提供状況はApp Storeをご確認ください。",
     "nav": {
       "features": "機能",
       "guides": "ガイド",
@@ -467,7 +467,7 @@
       },
       {
         "title": "Damasでリンクを処理する",
-        "body": "iPhoneでDamasを開き、動画リンクを入力して、利用できる処理を選びます。続行する前にAI処理への同意内容を確認してください。"
+        "body": "対応端末でDamasを開き、公開動画のリンクを入力して、文字起こし・翻訳・要約を選びます。AI処理への同意内容を確認してください。"
       },
       {
         "title": "読んで、確認して、活用する",
@@ -514,7 +514,7 @@
     "mediaKit": {
       "title": "Damas メディアキット",
       "description": "Damas — Video Link Transcriberの製品情報、アートワーク、スクリーンショット、紹介動画。",
-      "intro": "iPhoneアプリDamasを紹介するための資料です。以下の最新製品情報と、ダウンロード可能なオリジナル素材をご利用ください。",
+      "intro": "iPhone・iPad・対応Macで使えるDamasの製品情報と、実際のiPhoneメディア素材です。",
       "downloadAssets": "オリジナル素材をダウンロード",
       "artworkTitle": "アートワークと製品素材",
       "artworkCaption": "プラムとバイオレットを基調としたDamasのビジュアルです。記事制作向けにオリジナル素材をダウンロードできます。",
@@ -522,7 +522,7 @@
       "screenshots": "iPhoneスクリーンショット",
       "video": "製品プレビュー",
       "releaseTitle": "App Storeで配信中",
-      "releaseBody": "Damas — Video Link Transcriber、バージョン1.5.3。iOS 18.6以降が必要です。11の表示言語と70言語への翻訳に対応しています。最新バージョンと地域ごとの提供状況はApp Storeをご確認ください。",
+      "releaseBody": "Damas — Video Link Transcriber、バージョン1.5.3。iPhone・iPad：iOS 18.6以降。Mac：macOS 15.6以降、Apple M1以降。UIは11言語、翻訳先は70言語に対応。最新の互換性はApp Storeでご確認ください。",
       "trademark": "DamasはDamas Technologiesのアプリです。Apple、YouTube、Instagram、Xは各所有者の商標です。名称の記載は推奨や提携を意味しません。",
       "contact": "製品に関するお問い合わせは、下のサポートリンクをご利用ください。"
     },
@@ -538,12 +538,12 @@
   "ko": {
     "name": "한국어",
     "htmlLang": "ko",
-    "title": "Damas — iPhone에서 소셜 미디어 동영상 받아쓰기와 번역",
-    "description": "Damas에서 지원되는 YouTube, Instagram, X 공개 동영상 링크를 iPhone으로 받아쓰고 번역하고 요약하세요.",
+    "title": "Damas — iPhone, iPad, Mac에서 영상 받아쓰기와 요약",
+    "description": "Damas로 지원되는 공개 YouTube, Instagram, X 링크를 텍스트, 번역, 요약으로 바꾸세요. iPhone, iPad 및 호환 Mac에서 사용할 수 있습니다.",
     "eyebrow": "Damas · 동영상 링크 받아쓰기",
-    "heroTitle": "iPhone에서 소셜 미디어 동영상을 받아쓰고 번역하세요.",
+    "heroTitle": "iPhone, iPad, Mac에서 영상 받아쓰기와 요약",
     "heroDescription": "공개 동영상 링크를 읽기 편한 글로 바꾸세요. 음성을 텍스트로 옮기고, 70개 언어 중 하나로 번역하고, 다시 살펴볼 수 있는 요약을 만드세요.",
-    "heroNote": "지원되는 YouTube, Instagram, X 공개 동영상에 사용할 수 있습니다. iOS 18.6 이상, 인터넷, Premium, AI 처리 동의가 필요합니다.",
+    "heroNote": "iPhone 및 iPad: iOS 18.6 이상. 호환 Mac: macOS 15.6 이상, Apple M1 이상. 인터넷, Premium 및 AI 처리 동의가 필요합니다.",
     "download": "App Store에서 다운로드",
     "languageLabel": "언어",
     "featuresTitle": "동영상 링크에서 유용한 글로.",
@@ -568,7 +568,7 @@
     "updated": "업데이트",
     "published": "게시일",
     "downloadCTA": "지원되는 공개 동영상 링크를 Damas에서 열고 음성을 텍스트로 바꾸세요.",
-    "footerNote": "Damas는 Damas Technologies의 iPhone 앱입니다. Apple 및 플랫폼 명칭은 각 소유자의 권리에 속합니다.",
+    "footerNote": "Damas는 iPhone, iPad 및 호환되는 Apple silicon Mac에서 사용할 수 있습니다. 제공 여부는 App Store를 확인하세요.",
     "nav": {
       "features": "기능",
       "guides": "가이드",
@@ -601,7 +601,7 @@
       },
       {
         "title": "Damas에서 링크 처리",
-        "body": "iPhone에서 Damas를 열어 동영상 링크를 입력하고 지원되는 작업을 선택하세요. 계속하기 전에 AI 처리 동의를 확인하세요."
+        "body": "지원 기기에서 Damas를 열고 공개 영상 링크를 입력한 다음 받아쓰기, 번역 또는 요약을 선택하세요. AI 처리 동의 내용을 확인하세요."
       },
       {
         "title": "읽고 확인하고 활용",
@@ -648,7 +648,7 @@
     "mediaKit": {
       "title": "Damas 미디어 키트",
       "description": "Damas — Video Link Transcriber의 제품 정보, 아트워크, 화면 이미지와 미리보기.",
-      "intro": "Damas iPhone 앱을 소개하기 위한 자료입니다. 아래 최신 제품 정보와 다운로드 가능한 원본 미디어를 활용하세요.",
+      "intro": "iPhone, iPad 및 호환 Mac용 Damas 제품 정보와 실제 iPhone 미디어 자료입니다.",
       "downloadAssets": "원본 자료 다운로드",
       "artworkTitle": "아트워크 및 제품 미디어",
       "artworkCaption": "플럼과 바이올렛 색조의 Damas 아트워크입니다. 기사 제작용 원본 파일을 다운로드할 수 있습니다.",
@@ -656,7 +656,7 @@
       "screenshots": "iPhone 화면 이미지",
       "video": "제품 미리보기",
       "releaseTitle": "App Store에서 이용 가능",
-      "releaseBody": "Damas — Video Link Transcriber 버전 1.5.3. iOS 18.6 이상이 필요합니다. 11개 인터페이스 언어와 70개 언어 번역을 지원합니다. 최신 버전과 지역별 제공 여부는 App Store에서 확인하세요.",
+      "releaseBody": "Damas — Video Link Transcriber, 버전 1.5.3. iPhone/iPad: iOS 18.6 이상. Mac: macOS 15.6 이상, Apple M1 이상. 인터페이스 11개 언어 및 번역 대상 70개 언어를 지원합니다. 최신 호환성은 App Store를 확인하세요.",
       "trademark": "Damas는 Damas Technologies에서 제공합니다. Apple, YouTube, Instagram, X는 각 소유자의 상표이며 명칭 사용이 보증이나 제휴를 의미하지 않습니다.",
       "contact": "제품 문의는 아래 지원 링크를 이용하세요."
     },
@@ -672,12 +672,12 @@
   "ms": {
     "name": "Bahasa Melayu",
     "htmlLang": "ms",
-    "title": "Damas — Transkripsi dan terjemah video media sosial pada iPhone",
-    "description": "Tukar pautan video awam YouTube, Instagram dan X yang disokong kepada transkrip, terjemahan dan ringkasan dengan Damas untuk iPhone.",
+    "title": "Damas — Transkripsi dan ringkaskan video pada iPhone, iPad dan Mac",
+    "description": "Tukar pautan awam YouTube, Instagram dan X yang disokong kepada transkrip, terjemahan dan ringkasan dengan Damas pada iPhone, iPad dan Mac yang serasi.",
     "eyebrow": "Damas · Transkripsi pautan video",
-    "heroTitle": "Transkripsi dan terjemah video media sosial pada iPhone.",
+    "heroTitle": "Transkripsi dan ringkaskan video pada iPhone, iPad dan Mac",
     "heroDescription": "Jadikan pautan video awam sebagai teks yang mudah dibaca. Transkripsikan pertuturan, terjemahkan kepada salah satu daripada 70 bahasa dan simpan isi penting dalam ringkasan.",
-    "heroNote": "Untuk video awam YouTube, Instagram dan X yang disokong. Memerlukan iOS 18.6 atau lebih baharu, internet, Premium dan persetujuan pemprosesan AI.",
+    "heroNote": "iPhone dan iPad: iOS 18.6 atau lebih baharu. Mac yang serasi: macOS 15.6 atau lebih baharu, Apple M1 atau lebih baharu. Internet, Premium dan persetujuan pemprosesan AI diperlukan.",
     "download": "Muat turun di App Store",
     "languageLabel": "Bahasa",
     "featuresTitle": "Daripada pautan video kepada teks berguna.",
@@ -702,7 +702,7 @@
     "updated": "Dikemas kini",
     "published": "Diterbitkan",
     "downloadCTA": "Buka pautan video awam yang disokong dalam Damas dan tukar pertuturannya kepada teks.",
-    "footerNote": "Damas ialah aplikasi iPhone oleh Damas Technologies. Apple dan nama platform dimiliki oleh pemilik masing-masing.",
+    "footerNote": "Damas tersedia pada iPhone, iPad dan Mac Apple silicon yang serasi. Semak ketersediaan dalam App Store.",
     "nav": {
       "features": "Ciri",
       "guides": "Panduan",
@@ -735,7 +735,7 @@
       },
       {
         "title": "Proses pautan dalam Damas",
-        "body": "Buka Damas pada iPhone, masukkan pautan video dan pilih tugas yang disokong. Semak persetujuan AI sebelum meneruskan."
+        "body": "Buka Damas pada peranti yang disokong, masukkan pautan video awam dan pilih transkripsi, terjemahan atau ringkasan. Semak persetujuan pemprosesan AI."
       },
       {
         "title": "Baca, semak dan gunakan",
@@ -782,7 +782,7 @@
     "mediaKit": {
       "title": "Kit media Damas",
       "description": "Fakta produk, karya visual, tangkapan skrin dan pratonton untuk Damas — Video Link Transcriber.",
-      "intro": "Sumber ringkas untuk menulis tentang aplikasi iPhone Damas. Gunakan fakta produk terkini di bawah bersama media asal yang boleh dimuat turun.",
+      "intro": "Fakta produk dan media iPhone asal untuk Damas pada iPhone, iPad dan Mac yang serasi.",
       "downloadAssets": "Muat turun aset asal",
       "artworkTitle": "Karya visual dan media produk",
       "artworkCaption": "Karya visual Damas dalam tona plum dan ungu. Muat turun fail asal untuk kegunaan editorial.",
@@ -790,7 +790,7 @@
       "screenshots": "Tangkapan skrin iPhone",
       "video": "Pratonton produk",
       "releaseTitle": "Tersedia di App Store",
-      "releaseBody": "Damas — Video Link Transcriber, versi 1.5.3. Memerlukan iOS 18.6 atau lebih baharu. Aplikasi ini mempunyai 11 bahasa antara muka dan menyokong terjemahan kepada 70 bahasa. Semak App Store untuk versi terkini dan ketersediaan wilayah.",
+      "releaseBody": "Damas — Video Link Transcriber, versi 1.5.3. iPhone/iPad: iOS 18.6 atau lebih baharu. Mac: macOS 15.6 atau lebih baharu dengan Apple M1 atau lebih baharu. 11 bahasa antara muka dan 70 bahasa terjemahan. Semak keserasian terkini dalam App Store.",
       "trademark": "Damas dibangunkan oleh Damas Technologies. Apple, YouTube, Instagram dan X ialah tanda dagangan pemilik masing-masing; sebutannya tidak menunjukkan sokongan.",
       "contact": "Untuk pertanyaan produk, gunakan pautan sokongan di bawah."
     },
@@ -806,12 +806,12 @@
   "pt": {
     "name": "Português",
     "htmlLang": "pt",
-    "title": "Damas — Transcreva e traduza vídeos de redes sociais no iPhone",
-    "description": "Transforme links públicos compatíveis do YouTube, Instagram e X em transcrições, traduções e resumos com o Damas para iPhone.",
+    "title": "Damas — Transcreva e resuma vídeos no iPhone, iPad e Mac",
+    "description": "Transforme links públicos compatíveis do YouTube, Instagram e X em transcrições, traduções e resumos com Damas no iPhone, iPad e Macs compatíveis.",
     "eyebrow": "Damas · Transcrição de links de vídeo",
-    "heroTitle": "Transcreva e traduza vídeos de redes sociais no iPhone.",
+    "heroTitle": "Transcreva e resuma vídeos no iPhone, iPad e Mac",
     "heroDescription": "Dê uma nova utilidade a um link de vídeo público: texto para ler e consultar. Transcreva a fala, traduza para um dos 70 idiomas e crie um resumo com as ideias principais.",
-    "heroNote": "Para vídeos públicos compatíveis do YouTube, Instagram e X. Requer iOS 18.6 ou posterior, internet, Premium e consentimento para processamento por IA.",
+    "heroNote": "iPhone e iPad: iOS 18.6 ou posterior. Macs compatíveis: macOS 15.6 ou posterior, Apple M1 ou posterior. Requer internet, Premium e consentimento para processamento por IA.",
     "download": "Baixar na App Store",
     "languageLabel": "Idioma",
     "featuresTitle": "De um link de vídeo a palavras úteis.",
@@ -836,7 +836,7 @@
     "updated": "Atualizado em",
     "published": "Publicado em",
     "downloadCTA": "Abra um link de vídeo público compatível no Damas e transforme a fala em texto.",
-    "footerNote": "Damas é um app para iPhone da Damas Technologies. Apple e os nomes das plataformas pertencem aos respectivos titulares.",
+    "footerNote": "Damas funciona no iPhone, iPad e Macs com Apple silicon compatíveis. Consulte a disponibilidade na App Store.",
     "nav": {
       "features": "Recursos",
       "guides": "Guias",
@@ -869,7 +869,7 @@
       },
       {
         "title": "Processe o link no Damas",
-        "body": "Abra o Damas no iPhone, informe o link e escolha uma tarefa disponível. Leia o consentimento para uso de IA antes de continuar."
+        "body": "Abra o Damas num dispositivo compatível, insira o link público e escolha transcrição, tradução ou resumo. Leia o consentimento para processamento por IA."
       },
       {
         "title": "Leia, confira e aproveite",
@@ -916,7 +916,7 @@
     "mediaKit": {
       "title": "Kit de imprensa do Damas",
       "description": "Informações do produto, arte, capturas e prévia de Damas — Video Link Transcriber.",
-      "intro": "Recursos para apresentar o app Damas para iPhone. Use as informações atuais abaixo junto com os arquivos de mídia originais.",
+      "intro": "Informações do produto e mídia original do iPhone para Damas no iPhone, iPad e Macs compatíveis.",
       "downloadAssets": "Baixar arquivos originais",
       "artworkTitle": "Arte e mídia do produto",
       "artworkCaption": "Arte do Damas em tons de ameixa e violeta. Baixe os arquivos originais para uso editorial.",
@@ -924,7 +924,7 @@
       "screenshots": "Capturas do iPhone",
       "video": "Prévia do produto",
       "releaseTitle": "Disponível na App Store",
-      "releaseBody": "Damas — Video Link Transcriber, versão 1.5.3. Requer iOS 18.6 ou posterior. O app tem 11 idiomas de interface e tradução para 70 idiomas. Consulte a App Store para a versão atual e a disponibilidade regional.",
+      "releaseBody": "Damas — Video Link Transcriber, versão 1.5.3. iPhone/iPad: iOS 18.6 ou posterior. Mac: macOS 15.6 ou posterior com Apple M1 ou posterior. 11 idiomas de interface e 70 idiomas de tradução. Consulte a compatibilidade atual na App Store.",
       "trademark": "Damas é um produto da Damas Technologies. Apple, YouTube, Instagram e X são marcas dos respectivos titulares; a menção não implica endosso.",
       "contact": "Para dúvidas sobre o produto, use o link de suporte abaixo."
     },
@@ -940,12 +940,12 @@
   "ru": {
     "name": "Русский",
     "htmlLang": "ru",
-    "title": "Damas — Расшифровка и перевод видео из соцсетей на iPhone",
-    "description": "Превращайте поддерживаемые публичные ссылки YouTube, Instagram и X в расшифровки, переводы и краткие изложения с Damas для iPhone.",
+    "title": "Damas — Транскрибация и краткое содержание видео на iPhone, iPad и Mac",
+    "description": "Превращайте поддерживаемые публичные ссылки YouTube, Instagram и X в текст, переводы и краткие обзоры с Damas на iPhone, iPad и совместимых Mac.",
     "eyebrow": "Damas · Расшифровка видео по ссылке",
-    "heroTitle": "Расшифровывайте и переводите видео из соцсетей на iPhone.",
+    "heroTitle": "Транскрибация и краткое содержание видео на iPhone, iPad и Mac",
     "heroDescription": "Превратите ссылку на публичное видео в текст, к которому удобно вернуться. Расшифруйте речь, переведите её на один из 70 языков и сохраните основные мысли в кратком изложении.",
-    "heroNote": "Для поддерживаемых публичных видео YouTube, Instagram и X. Нужны iOS 18.6 или новее, интернет, Premium и согласие на обработку ИИ.",
+    "heroNote": "iPhone и iPad: iOS 18.6 или новее. Совместимые Mac: macOS 15.6 или новее, Apple M1 или новее. Нужны интернет, Premium и согласие на обработку ИИ.",
     "download": "Загрузить в App Store",
     "languageLabel": "Язык",
     "featuresTitle": "От ссылки на видео — к полезному тексту.",
@@ -970,7 +970,7 @@
     "updated": "Обновлено",
     "published": "Опубликовано",
     "downloadCTA": "Откройте поддерживаемую публичную ссылку в Damas и превратите речь в текст.",
-    "footerNote": "Damas — приложение для iPhone от Damas Technologies. Apple и названия платформ принадлежат соответствующим правообладателям.",
+    "footerNote": "Damas работает на iPhone, iPad и совместимых Mac с Apple silicon. Доступность уточняйте в App Store.",
     "nav": {
       "features": "Возможности",
       "guides": "Руководства",
@@ -1003,7 +1003,7 @@
       },
       {
         "title": "Обработайте ссылку в Damas",
-        "body": "Откройте Damas на iPhone, укажите ссылку и выберите доступную задачу. Прежде чем продолжить, ознакомьтесь с согласием на обработку ИИ."
+        "body": "Откройте Damas на поддерживаемом устройстве, вставьте публичную ссылку и выберите транскрибацию, перевод или краткое содержание. Ознакомьтесь с согласием на обработку ИИ."
       },
       {
         "title": "Прочитайте и проверьте",
@@ -1050,7 +1050,7 @@
     "mediaKit": {
       "title": "Пресс-кит Damas",
       "description": "Сведения о продукте, графика, снимки экрана и превью Damas — Video Link Transcriber.",
-      "intro": "Материалы для публикаций о приложении Damas для iPhone. Используйте актуальные сведения ниже и оригинальные медиафайлы.",
+      "intro": "Сведения о Damas для iPhone, iPad и совместимых Mac и оригинальные материалы с iPhone.",
       "downloadAssets": "Скачать оригиналы",
       "artworkTitle": "Графика и материалы продукта",
       "artworkCaption": "Оформление Damas в сливовых и фиолетовых тонах. Оригинальные файлы доступны для редакционного использования.",
@@ -1058,7 +1058,7 @@
       "screenshots": "Снимки экрана iPhone",
       "video": "Превью продукта",
       "releaseTitle": "Доступно в App Store",
-      "releaseBody": "Damas — Video Link Transcriber, версия 1.5.3. Требуется iOS 18.6 или новее. В приложении 11 языков интерфейса и перевод на 70 языков. Актуальную версию и доступность в регионе смотрите в App Store.",
+      "releaseBody": "Damas — Video Link Transcriber, версия 1.5.3. iPhone/iPad: iOS 18.6 или новее. Mac: macOS 15.6 или новее с Apple M1 или новее. 11 языков интерфейса и 70 языков перевода. Актуальную совместимость проверяйте в App Store.",
       "trademark": "Damas разработано Damas Technologies. Apple, YouTube, Instagram и X — товарные знаки соответствующих владельцев. Упоминание не означает одобрения.",
       "contact": "С вопросами о продукте обращайтесь по ссылке поддержки ниже."
     },
@@ -1074,12 +1074,12 @@
   "zh-hans": {
     "name": "简体中文",
     "htmlLang": "zh-Hans",
-    "title": "Damas — 在 iPhone 上转写和翻译社交媒体视频",
-    "description": "使用 iPhone 版 Damas，将支持的 YouTube、Instagram 和 X 公开视频链接转换成文字稿、译文和摘要。",
+    "title": "Damas — 在 iPhone、iPad 和 Mac 上将视频转文字并总结",
+    "description": "使用 Damas 将支持的公开 YouTube、Instagram 和 X 视频链接转换为文字、译文和摘要。适用于 iPhone、iPad 和兼容的 Mac。",
     "eyebrow": "Damas · 视频链接转文字",
-    "heroTitle": "在 iPhone 上转写和翻译社交媒体视频。",
+    "heroTitle": "在 iPhone、iPad 和 Mac 上将视频转文字并总结",
     "heroDescription": "让公开视频链接变成可以阅读的文字。转写语音，翻译成 70 种语言之一，再生成方便回顾的摘要。",
-    "heroNote": "适用于支持的 YouTube、Instagram 和 X 公开视频。需要 iOS 18.6 或更高版本、互联网连接、Premium 及 AI 处理同意。",
+    "heroNote": "iPhone 和 iPad：iOS 18.6 或更新版本。兼容的 Mac：macOS 15.6 或更新版本、Apple M1 或更新芯片。需要网络、Premium 和 AI 处理同意。",
     "download": "在 App Store 下载",
     "languageLabel": "语言",
     "featuresTitle": "从视频链接，到实用文字。",
@@ -1104,7 +1104,7 @@
     "updated": "更新日期",
     "published": "发布日期",
     "downloadCTA": "在 Damas 中打开支持的公开视频链接，将语音转换为文字。",
-    "footerNote": "Damas 是 Damas Technologies 推出的 iPhone 应用。Apple 及各平台名称属于相应权利人。",
+    "footerNote": "Damas 支持 iPhone、iPad 和兼容的 Apple 芯片 Mac。请在 App Store 查看可用情况。",
     "nav": {
       "features": "功能",
       "guides": "指南",
@@ -1137,7 +1137,7 @@
       },
       {
         "title": "在 Damas 中处理链接",
-        "body": "在 iPhone 上打开 Damas，提供视频链接并选择可用任务。继续之前请阅读 AI 处理同意内容。"
+        "body": "在支持的设备上打开 Damas，输入公开视频链接，选择转写、翻译或总结。请阅读 AI 处理同意说明。"
       },
       {
         "title": "阅读、核对和使用",
@@ -1184,7 +1184,7 @@
     "mediaKit": {
       "title": "Damas 媒体资料",
       "description": "Damas — Video Link Transcriber 的产品信息、视觉素材、截图及预览。",
-      "intro": "介绍 iPhone 应用 Damas 的资料集。请结合下方最新产品信息与可下载的原始媒体文件使用。",
+      "intro": "适用于 iPhone、iPad 和兼容 Mac 的 Damas 产品信息与真实 iPhone 媒体素材。",
       "downloadAssets": "下载原始素材",
       "artworkTitle": "视觉素材与产品媒体",
       "artworkCaption": "以梅紫和紫罗兰色调呈现的 Damas 视觉设计。原始文件可供编辑报道使用。",
@@ -1192,7 +1192,7 @@
       "screenshots": "iPhone 截图",
       "video": "产品预览",
       "releaseTitle": "已在 App Store 上架",
-      "releaseBody": "Damas — Video Link Transcriber，版本 1.5.3。需要 iOS 18.6 或更高版本。提供 11 种界面语言，支持翻译成 70 种语言。最新版本及地区可用情况请查阅 App Store。",
+      "releaseBody": "Damas — Video Link Transcriber，版本 1.5.3。iPhone/iPad：iOS 18.6 或更新版本。Mac：macOS 15.6 或更新版本、Apple M1 或更新芯片。支持 11 种界面语言和 70 种翻译目标语言。最新兼容性请查看 App Store。",
       "trademark": "Damas 由 Damas Technologies 提供。Apple、YouTube、Instagram 和 X 是相应所有者的商标，提及这些名称并不表示获得其认可。",
       "contact": "如有产品问题，请使用下方支持链接。"
     },
@@ -1208,12 +1208,12 @@
   "es": {
     "name": "Español",
     "htmlLang": "es",
-    "title": "Damas — Transcribe y traduce vídeos de redes sociales en iPhone",
-    "description": "Convierte enlaces públicos compatibles de YouTube, Instagram y X en transcripciones, traducciones y resúmenes con Damas para iPhone.",
+    "title": "Damas — Transcribe y resume vídeos en iPhone, iPad y Mac",
+    "description": "Convierte enlaces públicos compatibles de YouTube, Instagram y X en transcripciones, traducciones y resúmenes con Damas en iPhone, iPad y Mac compatibles.",
     "eyebrow": "Damas · Transcripción de enlaces de vídeo",
-    "heroTitle": "Transcribe y traduce vídeos de redes sociales en iPhone.",
+    "heroTitle": "Transcribe y resume vídeos en iPhone, iPad y Mac",
     "heroDescription": "Convierte un enlace de vídeo público en texto que puedas consultar. Transcribe la voz, tradúcela a uno de los 70 idiomas y crea un resumen con las ideas principales.",
-    "heroNote": "Para vídeos públicos compatibles de YouTube, Instagram y X. Requiere iOS 18.6 o posterior, internet, Premium y consentimiento para el procesamiento con IA.",
+    "heroNote": "iPhone y iPad: iOS 18.6 o posterior. Mac compatibles: macOS 15.6 o posterior, Apple M1 o posterior. Requiere internet, Premium y consentimiento para el procesamiento con IA.",
     "download": "Descargar en el App Store",
     "languageLabel": "Idioma",
     "featuresTitle": "De un enlace de vídeo a palabras útiles.",
@@ -1238,7 +1238,7 @@
     "updated": "Actualizado",
     "published": "Publicado",
     "downloadCTA": "Abre un enlace de vídeo público compatible en Damas y convierte su voz en texto.",
-    "footerNote": "Damas es una app para iPhone de Damas Technologies. Apple y los nombres de las plataformas pertenecen a sus respectivos titulares.",
+    "footerNote": "Damas funciona en iPhone, iPad y Mac con Apple silicon compatibles. Consulta la disponibilidad en el App Store.",
     "nav": {
       "features": "Funciones",
       "guides": "Guías",
@@ -1271,7 +1271,7 @@
       },
       {
         "title": "Procesa el enlace en Damas",
-        "body": "Abre Damas en el iPhone, facilita el enlace y elige una tarea disponible. Revisa el consentimiento de IA antes de continuar."
+        "body": "Abre Damas en un dispositivo compatible, introduce el enlace público y elige transcripción, traducción o resumen. Lee el consentimiento para el procesamiento con IA."
       },
       {
         "title": "Lee, revisa y aprovecha",
@@ -1318,7 +1318,7 @@
     "mediaKit": {
       "title": "Kit de prensa de Damas",
       "description": "Información del producto, material gráfico, capturas y vista previa de Damas — Video Link Transcriber.",
-      "intro": "Recursos para escribir sobre la app Damas para iPhone. Utiliza la información actual que aparece a continuación y los archivos originales descargables.",
+      "intro": "Datos del producto y material original de iPhone para Damas en iPhone, iPad y Mac compatibles.",
       "downloadAssets": "Descargar archivos originales",
       "artworkTitle": "Material gráfico y del producto",
       "artworkCaption": "Diseño de Damas en tonos ciruela y violeta. Descarga los archivos originales para uso editorial.",
@@ -1326,7 +1326,7 @@
       "screenshots": "Capturas de iPhone",
       "video": "Vista previa del producto",
       "releaseTitle": "Disponible en el App Store",
-      "releaseBody": "Damas — Video Link Transcriber, versión 1.5.3. Requiere iOS 18.6 o posterior. Ofrece 11 idiomas de interfaz y traducción a 70 idiomas. Consulta el App Store para conocer la versión actual y la disponibilidad regional.",
+      "releaseBody": "Damas — Video Link Transcriber, versión 1.5.3. iPhone/iPad: iOS 18.6 o posterior. Mac: macOS 15.6 o posterior con Apple M1 o posterior. 11 idiomas de interfaz y 70 idiomas de traducción. Consulta la compatibilidad actual en el App Store.",
       "trademark": "Damas es un producto de Damas Technologies. Apple, YouTube, Instagram y X son marcas de sus respectivos titulares; su mención no implica su respaldo.",
       "contact": "Para preguntas sobre el producto, utiliza el enlace de soporte inferior."
     },
@@ -1342,12 +1342,12 @@
   "tr": {
     "name": "Türkçe",
     "htmlLang": "tr",
-    "title": "Damas — iPhone’da sosyal medya videolarını yazıya çevirin ve tercüme edin",
-    "description": "Damas ile desteklenen herkese açık YouTube, Instagram ve X video bağlantılarını iPhone’da metne, çeviriye ve özete dönüştürün.",
+    "title": "Damas — iPhone, iPad ve Mac’te videoları yazıya çevirin ve özetleyin",
+    "description": "Desteklenen herkese açık YouTube, Instagram ve X bağlantılarını Damas ile metne, çeviriye ve özete dönüştürün. iPhone, iPad ve uyumlu Mac’lerde kullanın.",
     "eyebrow": "Damas · Video bağlantısını yazıya çevirme",
-    "heroTitle": "iPhone’da sosyal medya videolarını yazıya çevirin ve tercüme edin.",
+    "heroTitle": "iPhone, iPad ve Mac’te videoları yazıya çevirin ve özetleyin",
     "heroDescription": "Herkese açık bir video bağlantısını okunabilir metne dönüştürün. Konuşmayı yazıya çevirin, 70 dilden birine tercüme edin ve sonradan dönebileceğiniz bir özet oluşturun.",
-    "heroNote": "Desteklenen herkese açık YouTube, Instagram ve X videoları içindir. iOS 18.6 veya sonrası, internet, Premium ve yapay zekâ işleme onayı gerekir.",
+    "heroNote": "iPhone ve iPad: iOS 18.6 veya sonrası. Uyumlu Mac’ler: macOS 15.6 veya sonrası, Apple M1 veya sonrası. İnternet, Premium ve yapay zekâ işleme onayı gerekir.",
     "download": "App Store’dan indirin",
     "languageLabel": "Dil",
     "featuresTitle": "Video bağlantısından işe yarar metne.",
@@ -1372,7 +1372,7 @@
     "updated": "Güncellendi",
     "published": "Yayımlandı",
     "downloadCTA": "Desteklenen herkese açık video bağlantısını Damas’ta açın, konuşmayı metne dönüştürün.",
-    "footerNote": "Damas, Damas Technologies’in bir iPhone uygulamasıdır. Apple ve platform adları ilgili hak sahiplerine aittir.",
+    "footerNote": "Damas, iPhone, iPad ve uyumlu Apple silicon Mac’lerde çalışır. Kullanılabilirliği App Store’dan kontrol edin.",
     "nav": {
       "features": "Özellikler",
       "guides": "Rehberler",
@@ -1405,7 +1405,7 @@
       },
       {
         "title": "Bağlantıyı Damas’ta işleyin",
-        "body": "iPhone’da Damas’ı açın, video bağlantısını girin ve kullanılabilir görevi seçin. Devam etmeden önce yapay zekâ onayını inceleyin."
+        "body": "Desteklenen cihazda Damas’ı açın, herkese açık video bağlantısını girin ve metne çevirme, çeviri veya özet seçin. Yapay zekâ işleme onayını inceleyin."
       },
       {
         "title": "Okuyun, kontrol edin, kullanın",
@@ -1452,7 +1452,7 @@
     "mediaKit": {
       "title": "Damas basın kiti",
       "description": "Damas — Video Link Transcriber için ürün bilgileri, görseller, ekran görüntüleri ve önizleme.",
-      "intro": "Damas iPhone uygulaması hakkında yazmak için kaynaklar. Aşağıdaki güncel ürün bilgilerini indirilebilir özgün medya dosyalarıyla birlikte kullanın.",
+      "intro": "iPhone, iPad ve uyumlu Mac’ler için Damas ürün bilgileri ve gerçek iPhone medya dosyaları.",
       "downloadAssets": "Özgün dosyaları indirin",
       "artworkTitle": "Görseller ve ürün medyası",
       "artworkCaption": "Erik moru ve menekşe tonlarında Damas görselleri. Editoryal kullanım için özgün dosyaları indirin.",
@@ -1460,7 +1460,7 @@
       "screenshots": "iPhone ekran görüntüleri",
       "video": "Ürün önizlemesi",
       "releaseTitle": "App Store’da yayında",
-      "releaseBody": "Damas — Video Link Transcriber, sürüm 1.5.3. iOS 18.6 veya sonrasını gerektirir. Uygulama 11 arayüz dili ve 70 dile çeviri sunar. Güncel sürüm ve bölgesel kullanılabilirlik için App Store’u kontrol edin.",
+      "releaseBody": "Damas — Video Link Transcriber, sürüm 1.5.3. iPhone/iPad: iOS 18.6 veya sonrası. Mac: macOS 15.6 veya sonrası ve Apple M1 veya sonrası. 11 arayüz dili ve 70 çeviri hedef dili. Güncel uyumluluğu App Store’dan kontrol edin.",
       "trademark": "Damas, Damas Technologies tarafından sunulur. Apple, YouTube, Instagram ve X ilgili sahiplerinin ticari markalarıdır; adlarının anılması destek verdikleri anlamına gelmez.",
       "contact": "Ürün soruları için aşağıdaki destek bağlantısını kullanın."
     },

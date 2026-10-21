@@ -26,7 +26,7 @@ export async function collectKeywords(locale, { refresh = false, now = new Date(
     return result;
   };
   try {
-    if (!csv && previous.status === 'ready' && !refresh) return finish('ready', { reusedCache: true, source: previous.source.kind, keywords: previous.keywords.length, observedAt: previous.observedAt });
+    if (!csv && previous.status === 'ready' && !refresh && (previous.source.kind === 'keyword-planner-csv' || previous.seedFingerprint === plan.seedFingerprint)) return finish('ready', { reusedCache: true, source: previous.source.kind, keywords: previous.keywords.length, observedAt: previous.observedAt });
     let results, source;
     if (csv) {
       if (csv.geography !== 'WORLDWIDE' || csv.network !== 'GOOGLE_SEARCH' || csv.language !== locale || !csv.exportedAt) throw new Error('CSV import requires explicit worldwide, matching language, Google Search and original export date');

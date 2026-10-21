@@ -111,6 +111,9 @@
   .prose p, .prose ul, .prose ol { margin-block: 0 1.3rem; }
   .prose li { margin-block: .7rem; padding-left: .3rem; }
   .prose a { color: var(--violet); }
+  .prose a.button { color: #fff; }
+  .prose pre { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; padding: 1rem; border-radius: 12px; background: var(--wash); }
+  .prose table { display: block; max-width: 100%; overflow-x: auto; }
   .prose img { border-radius: 14px; }
   .prose blockquote { margin: 1.5rem 0; padding: 1rem 1.5rem; border-left: 3px solid var(--violet); background: var(--wash); }
   .article-download { margin-block: 2.5rem; padding: 1.8rem; border-radius: 18px; background: var(--wash); }

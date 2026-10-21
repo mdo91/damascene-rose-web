@@ -1,4 +1,4 @@
-import { keywordTargetingFor, config } from './config.mjs';
+import { keywordTargetingFor, keywordPlan, config } from './config.mjs';
 
 export function strictDate(value) {
   if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?Z)?$/.test(value)) throw new Error('Invalid ISO observation date');
@@ -67,6 +67,7 @@ export function makeKeywordCache({
 }) {
   const cache = {
     schemaVersion: 1,
+    seedFingerprint: source.kind === 'google-ads-api' ? keywordPlan(targeting.language).seedFingerprint : null,
     generatedAt,
     observedAt: source.exportedAt || generatedAt,
     targeting: { ...targeting },
