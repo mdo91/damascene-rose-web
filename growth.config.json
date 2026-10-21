@@ -48,7 +48,10 @@
         "video transcription app mac",
         "turn video tutorial into checklist",
         "summarize webinar action items",
-        "translate youtube transcript"
+        "translate youtube transcript",
+        "how to turn a webinar transcript into action items",
+        "turn a youtube tutorial into a checklist",
+        "check quotes from a video interview transcript"
       ]
     },
     {
@@ -69,7 +72,10 @@
         "transcription youtube ipad",
         "transcrire vidéo sur mac",
         "transformer un tutoriel vidéo en étapes",
-        "résumer un webinaire"
+        "résumer un webinaire",
+        "transformer un webinaire en plan d’action",
+        "créer une checklist à partir d’un tutoriel vidéo",
+        "vérifier les citations d’une interview vidéo"
       ]
     },
     {
@@ -90,7 +96,10 @@
         "youtube transkript ipad",
         "video transkribieren mac",
         "video tutorial als anleitung zusammenfassen",
-        "webinar zusammenfassen"
+        "webinar zusammenfassen",
+        "aufgaben aus einem webinar ableiten",
+        "checkliste aus einem video tutorial erstellen",
+        "zitate aus einem video interview prüfen"
       ]
     },
     {
@@ -111,7 +120,10 @@
         "YouTube 文字起こし iPad",
         "動画 文字起こし Mac",
         "解説動画 手順 まとめ",
-        "ウェビナー 要約"
+        "ウェビナー 要約",
+        "ウェビナーからアクションアイテムをまとめる",
+        "解説動画からチェックリストを作る",
+        "インタビュー動画の引用を確認する"
       ]
     },
     {
@@ -132,7 +144,10 @@
         "아이패드 유튜브 텍스트 변환",
         "맥 동영상 텍스트 변환",
         "튜토리얼 영상 단계 정리",
-        "웨비나 요약"
+        "웨비나 요약",
+        "웨비나 실행 항목 정리",
+        "튜토리얼 영상 체크리스트 만들기",
+        "인터뷰 영상 인용문 확인"
       ]
     },
     {
@@ -153,7 +168,10 @@
         "transkripsi youtube ipad",
         "transkripsi video mac",
         "tukar tutorial video kepada senarai langkah",
-        "ringkasan webinar"
+        "ringkasan webinar",
+        "hasilkan tindakan susulan daripada webinar",
+        "buat senarai semak daripada tutorial video",
+        "semak petikan daripada temu bual video"
       ]
     },
     {
@@ -174,7 +192,10 @@
         "transcrever youtube ipad",
         "transcrever vídeo no mac",
         "transformar tutorial em lista de passos",
-        "resumir webinar"
+        "resumir webinar",
+        "extrair ações de um webinar",
+        "criar checklist de tutorial em vídeo",
+        "verificar citações de entrevista em vídeo"
       ]
     },
     {
@@ -195,7 +216,10 @@
         "транскрипт youtube ipad",
         "транскрибация видео mac",
         "пошаговая инструкция из видео",
-        "краткое содержание вебинара"
+        "краткое содержание вебинара",
+        "план действий по записи вебинара",
+        "чек-лист по видеоинструкции",
+        "проверить цитаты из видеоинтервью"
       ]
     },
     {
@@ -216,7 +240,10 @@
         "iPad YouTube 转文字",
         "Mac 视频转文字",
         "教程视频整理成步骤",
-        "网络研讨会 总结"
+        "网络研讨会 总结",
+        "网络研讨会整理行动事项",
+        "教程视频生成检查清单",
+        "核实视频访谈中的引用"
       ]
     },
     {
@@ -237,7 +264,10 @@
         "transcribir youtube ipad",
         "transcribir vídeo en mac",
         "convertir tutorial en lista de pasos",
-        "resumir webinar"
+        "resumir webinar",
+        "sacar acciones de un webinar",
+        "crear lista de pasos de un tutorial en vídeo",
+        "verificar citas de una entrevista en vídeo"
       ]
     },
     {
@@ -258,7 +288,10 @@
         "ipad youtube metne çevirme",
         "mac video transkripsiyon",
         "video eğitim adımlarını çıkarma",
-        "webinar özeti çıkarma"
+        "webinar özeti çıkarma",
+        "webinardan eylem maddeleri çıkarma",
+        "video eğitiminden kontrol listesi oluşturma",
+        "video röportajındaki alıntıları doğrulama"
       ]
     }
   ],
