@@ -4,16 +4,16 @@ description: "在 iPhone 上用 Damas 从视频文字稿生成内容总结，再
 slug: "summarize-video-transcript-iphone"
 locale: "zh-hans"
 publishedAt: "2026-10-20"
-updatedAt: "2026-10-20"
+updatedAt: "2026-10-21"
 status: "published"
-primaryQuery: "视频内容总结"
+primaryQuery: "youtube 讲座 总结"
 topics: ["视频内容总结", "文字稿摘要", "iPhone"]
 sources: [{"title": "App Store 上的 Damas", "url": "https://apps.apple.com/us/app/damas-video-link-transcriber/id6766233794"}]
 related: ["transcribe-social-video-link-iphone", "translate-social-video-iphone"]
 translationKey: "summarize-video-transcript-iphone"
 ---
 
-在 iPhone 上总结视频内容，可以从 Damas 支持的公开视频链接开始，使用转录和摘要流程。把简短的总结与文字稿对照，确认主要观点以及影响含义的条件或分歧都得到保留。
+要总结 YouTube 讲座，可以将支持的公开视频链接粘贴到 Damas，生成文字稿和应用内摘要，再对照原视频整理成学习笔记。复习题需要自己编写，或选择将文字稿复制到另一个 LLM 中另行起草。
 
 ## 从支持的来源开始
 
@@ -34,3 +34,29 @@ Damas 支持最长 90 分钟的 YouTube、Instagram 和 X 公开点播视频链�
 找出核心观点、支持理由，以及影响结论的条件或不同意见。姓名、日期和数字需要回到来源核对。如果某个细节对您的工作重要，请另作笔记，不要假定简短摘要包含一切。
 
 保留原始链接。不要把摘要当作说话者的原话引用，直接引用应在视频中核实。需要用其他语言处理时，请先使用翻译流程并检查含义，再依赖压缩后的概述。
+
+## 把讲座摘要整理成学习笔记
+
+选择一段不超过90分钟的讲座，先写下自己想弄清的问题。读完摘要后，在文字稿中找出定义、论据和例外条件。只出现在画面上、没有口头解释的公式或图表，必须回到原视频查看；文字稿无法补全没有说出的视觉信息。
+
+以下是供手动填写的笔记示例，并非 Damas 自动生成的专用格式：
+
+- 来源：原始链接、讲座标题，以及来源中注明的讲者。
+- 学习问题：讲座要解释什么问题？
+- 核心概念：用自己的话说明，并保留适用条件。
+- 具体例子：记录讲座实际使用的例子，核对数字和单位。
+- 待确认：听不清的术语，或需要查看画面才能确定的信息。
+
+## 可选：用另一个 LLM 起草复习题
+
+只有在有权向该服务分享内容时，才将核查后的文字稿复制过去。这是在外部工具中进行的额外步骤，并非 Damas 集成或内置记忆卡片功能。可复制的提示词示例：
+
+> 仅根据以下文字稿，起草五道带简短答案的复习题，其中一道询问例外或限制。不要补充外部事实。没有答案时标记“未提及”。区分转述和直接引用。文字稿：[粘贴核查后的文本]。
+
+逐一对照原视频检查答案，然后尝试不看笔记回答。解释不清的部分需要重新观看。直接引语应逐字核实，不要编造内容填补空缺。最终笔记也要保留原始链接。
+
+需要全文时，参阅[视频转文字指南](/zh-hans/guides/transcribe-social-video-link-iphone/)；遇到外语讲座时，参阅[视频翻译指南](/zh-hans/guides/translate-social-video-iphone/)。Damas 提供可编辑、可复制的文字稿和摘要，定制学习资料仍需自行核查。
+
+处理时间和准确度会变化。Damas 不下载媒体、不嵌入字幕，也不能离线处理。即使使用 Premium，无法访问的来源仍可能处理失败。
+
+Damas Technologies LLC

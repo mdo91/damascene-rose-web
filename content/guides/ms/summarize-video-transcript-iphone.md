@@ -4,16 +4,16 @@ description: "Buat ringkasan video daripada transkrip dengan Damas pada iPhone, 
 slug: "summarize-video-transcript-iphone"
 locale: "ms"
 publishedAt: "2026-10-20"
-updatedAt: "2026-10-20"
+updatedAt: "2026-10-21"
 status: "published"
-primaryQuery: "ringkasan video"
+primaryQuery: "ringkaskan kuliah youtube"
 topics: ["ringkasan video", "ringkasan transkrip", "iPhone"]
 sources: [{"title": "Damas di App Store", "url": "https://apps.apple.com/us/app/damas-video-link-transcriber/id6766233794"}]
 related: ["transcribe-social-video-link-iphone", "translate-social-video-iphone"]
 translationKey: "summarize-video-transcript-iphone"
 ---
 
-Untuk membuat ringkasan video pada iPhone, mulakan dengan pautan awam yang disokong dalam Damas dan gunakan aliran transkripsi serta ringkasan. Bandingkan teks pendek dengan transkrip: idea utama perlu dikekalkan bersama syarat atau perbezaan pendapat yang boleh mengubah maksud.
+Untuk meringkaskan kuliah YouTube, masukkan pautan awam yang disokong dalam Damas dan gunakan transkripsi serta ringkasan terbina dalam. Semak gambaran itu dengan rakaman sebelum menjadikannya nota belajar. Soalan ulang kaji boleh ditulis sendiri atau didraf melalui langkah pilihan dalam LLM lain.
 
 ## Mulakan dengan sumber yang disokong
 
@@ -34,3 +34,29 @@ Jika transkrip mempunyai bahagian yang tidak jelas, semak dengan rakaman terlebi
 Cari hujah utama, alasan yang menyokongnya serta syarat atau perbezaan pendapat yang mengubah kesimpulan. Semak nama, tarikh dan nombor dalam sumber. Jika sesuatu butiran penting untuk kerja anda, simpan dalam nota berasingan dan jangan menganggap ringkasan merangkumi semuanya.
 
 Simpan pautan asal bersama nota. Jangan petik ringkasan seolah-olah itulah kata-kata tepat penutur; semak petikan langsung dalam video. Untuk bahasa lain, gunakan terjemahan dan semak maksudnya sebelum bergantung pada versi yang dipadatkan.
+
+## Daripada ringkasan kuliah kepada nota belajar
+
+Pilih satu kuliah sehingga 90 minit dan tulis perkara yang mahu anda fahami. Selepas membaca ringkasan, cari definisi, hujah dan pengecualian dalam transkrip. Rajah atau formula yang hanya dipaparkan tanpa penerangan lisan perlu dilihat dalam video asal; teks tidak boleh menggantikan maklumat yang tidak disebut.
+
+Gunakan rangka contoh ini dan isi hanya maklumat yang sudah disemak. Ini bukan format nota automatik Damas:
+
+- Sumber: pautan asal, tajuk dan nama pensyarah seperti dalam sumber.
+- Soalan belajar: masalah apakah yang diterangkan?
+- Idea utama: huraikan dengan kata sendiri sambil mengekalkan syaratnya.
+- Contoh: contoh sebenar daripada kuliah, termasuk nombor dan unit.
+- Belum pasti: perkataan kabur atau maklumat yang memerlukan rujukan visual.
+
+## Pilihan: draf soalan ulang kaji dalam LLM lain
+
+Salin transkrip yang disemak ke perkhidmatan lain hanya jika anda dibenarkan berkongsi kandungan itu. Ini langkah luaran, bukan integrasi Damas atau ciri kad imbas terbina dalam. Contoh arahan untuk disalin:
+
+> Gunakan transkrip di bawah sahaja untuk mendraf lima soalan ulang kaji dengan jawapan pendek. Sertakan satu soalan tentang pengecualian atau batasan. Jangan tambah fakta luar. Jika jawapan tiada, tandakan “tidak dinyatakan”. Bezakan parafrasa daripada petikan tepat. Transkrip: [tampal teks yang disemak].
+
+Bandingkan setiap jawapan dengan rakaman, kemudian cuba menjawab tanpa nota. Tonton semula bahagian yang masih sukar diterangkan. Semak petikan langsung perkataan demi perkataan dan jangan mengisi jurang dengan fakta rekaan. Simpan pautan sumber bersama nota akhir.
+
+Untuk teks penuh, ikuti [panduan transkripsi](/ms/guides/transcribe-social-video-link-iphone/). Untuk kuliah dalam bahasa lain, rujuk [panduan terjemahan](/ms/guides/translate-social-video-iphone/). Damas menyediakan teks yang boleh disunting dan disalin serta ringkasan; bahan ulang kaji tersuai perlu anda semak sendiri.
+
+Masa pemprosesan dan ketepatan berbeza-beza. Damas tidak memuat turun media, membenamkan sari kata atau memproses di luar talian. Premium juga tidak menjamin akses kepada semua sumber.
+
+Damas Technologies LLC
