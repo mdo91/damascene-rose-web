@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import { load } from 'cheerio';
 import { locales, origin, texts } from '../src/site';
 import { loadPosts } from '../src/posts';
+import product from '../src/content/product-facts.json';
 
 const root = resolve(process.argv[2] || 'dist');
 if (!existsSync(root)) throw new Error('Build the website before validating its output.');
@@ -38,7 +39,7 @@ for (const [path, entry] of pages) {
   const schema = $('script[type="application/ld+json"]').toArray().flatMap(el => JSON.parse($(el).text())['@graph']);
   check(schema.some(s => s['@type'] === 'Organization'), `${path}: missing organization schema`);
   if (entry.group.startsWith('post:')) check(schema.some(s => s['@type'] === 'BlogPosting' && s.dateModified === entry.lastmod && s.mainEntityOfPage === origin + path), `${path}: article schema/date mismatch`);
-  if (entry.group === 'home') check(schema.some(s => s['@type'] === 'MobileApplication' && s.operatingSystem === 'iOS 18.6 or later' && !s.aggregateRating && !s.offers), `${path}: inaccurate app schema`);
+  if (entry.group === 'home') check(schema.some(s => s['@type'] === 'MobileApplication' && JSON.stringify(s.operatingSystem) === JSON.stringify(product.operatingSystems) && !s.aggregateRating && !s.offers), `${path}: inaccurate app schema`);
   const equivalents = manifest.urls.filter(u => u.group === entry.group);
   check($('link[rel="alternate"][hreflang]').length === equivalents.length + (equivalents.some(u => !/^\/(fr|de|ja|ko|ms|pt|ru|zh-hans|es|tr)\//.test(u.path)) ? 1 : 0), `${path}: alternate count mismatch`);
   $('link[rel="alternate"][hreflang]').each((_, el) => {

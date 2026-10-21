@@ -101,6 +101,29 @@ test('fresh caches avoid API calls; failed refresh retains prior locale cache', 
   assert.doesNotMatch(JSON.stringify(failure), /private@example|1234567890/);
 });
 
+test('expanded seeds refresh a legacy API cache once, then reuse the new fingerprint', async (t) => {
+  const directory = temp(t), legacy = cache('ms');
+  delete legacy.seedFingerprint;
+  savePrivate('keyword-cache-ms.json', legacy, directory);
+  let calls = 0;
+  const call = (operation) => {
+    calls++;
+    return { results: operation.endsWith('generateKeywordHistoricalMetrics')
+      ? [{ text: 'ringkasan video', keywordMetrics: { avgMonthlySearches: '170' } }]
+      : [row('transkripsi video iphone')] };
+  };
+  const options = { now, directory, call, settings: { customerId: '1234567890', accessStatus: 'ready' } };
+  assert.equal((await collectKeywords('ms', options)).reusedCache, undefined);
+  assert.equal(calls, 2);
+  assert.equal(loadKeywordCache('ms', now, directory).seedFingerprint, keywordPlan('ms').seedFingerprint);
+  assert.equal((await collectKeywords('ms', options)).reusedCache, true);
+  assert.equal(calls, 2);
+  const csv = makeKeywordCache({ results: [row()], source: { kind: 'keyword-planner-csv', exportedAt: now.toISOString() }, targeting: keywordTargetingFor('ms'), generatedAt: now.toISOString() });
+  savePrivate('keyword-cache-ms.json', csv, directory);
+  assert.equal((await collectKeywords('ms', options)).reusedCache, true);
+  assert.equal(calls, 2);
+});
+
 test('real-request fixture paginates and sends exact target to ideas and historical only', async (t) => {
   const directory = temp(t), calls = [];
   const call = (operation, args) => {

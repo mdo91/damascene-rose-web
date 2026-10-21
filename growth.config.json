@@ -5,27 +5,262 @@
   "runnerRepository": "mdo91/damas-growth-runner",
   "appStoreId": "6766233794",
   "appStoreUrl": "https://apps.apple.com/us/app/damas-video-link-transcriber/id6766233794",
-  "profiles": { "searchConsole": "damas-searchconsole", "keywords": "damas-keywords" },
+  "profiles": {
+    "searchConsole": "damas-searchconsole",
+    "keywords": "damas-keywords"
+  },
   "searchConsoleScope": "https://www.googleapis.com/auth/webmasters.readonly",
   "adsScope": "https://www.googleapis.com/auth/adwords",
   "keywordNetwork": "GOOGLE_SEARCH",
   "keywordGeography": "WORLDWIDE",
   "keywordCacheDays": 30,
   "privateReportRetentionDays": 90,
-  "schedule": { "timeZone": "Europe/Istanbul", "localTime": "08:00", "utcCron": "0 5 * * *", "recoveryUtcCrons": ["17 5 * * *", "37 5 * * *"], "maxSubstantialPublicationsPerDay": 1 },
+  "schedule": {
+    "timeZone": "Europe/Istanbul",
+    "localTime": "08:00",
+    "utcCron": "0 5 * * *",
+    "recoveryUtcCrons": [
+      "17 5 * * *",
+      "37 5 * * *"
+    ],
+    "maxSubstantialPublicationsPerDay": 11,
+    "maxGuidesPerLocalePerDay": 1,
+    "maxBatchesPerDay": 1
+  },
   "generationAuthMode": "chatgpt",
   "markets": [
-    { "locale": "en", "name": "English", "googleLanguageCode": "en", "languageId": "1000", "pathPrefix": "/", "seeds": ["social media video transcriber", "video link to text", "translate youtube video", "instagram video transcript", "x video transcript", "summarize video transcript"] },
-    { "locale": "fr", "name": "Français", "googleLanguageCode": "fr", "languageId": "1002", "pathPrefix": "/fr/", "seeds": ["transcrire vidéo en texte", "transcription vidéo réseaux sociaux", "traduire vidéo youtube", "transcription vidéo instagram", "résumer une vidéo"] },
-    { "locale": "de", "name": "Deutsch", "googleLanguageCode": "de", "languageId": "1001", "pathPrefix": "/de/", "seeds": ["video in text umwandeln", "social media video transkribieren", "youtube video übersetzen", "instagram video transkribieren", "video zusammenfassen"] },
-    { "locale": "ja", "name": "日本語", "googleLanguageCode": "ja", "languageId": "1005", "pathPrefix": "/ja/", "seeds": ["動画 文字起こし", "動画 リンク 文字起こし", "YouTube 動画 翻訳", "インスタ 動画 文字起こし", "動画 要約"] },
-    { "locale": "ko", "name": "한국어", "googleLanguageCode": "ko", "languageId": "1012", "pathPrefix": "/ko/", "seeds": ["동영상 텍스트 변환", "영상 링크 받아쓰기", "유튜브 영상 번역", "인스타그램 영상 텍스트", "영상 요약"] },
-    { "locale": "ms", "name": "Bahasa Melayu", "googleLanguageCode": "ms", "languageId": "1102", "pathPrefix": "/ms/", "seeds": ["transkripsi video kepada teks", "tukar pautan video kepada teks", "terjemah video youtube", "transkripsi video instagram", "ringkasan video"] },
-    { "locale": "pt", "name": "Português", "googleLanguageCode": "pt", "languageId": "1014", "pathPrefix": "/pt/", "seeds": ["transcrever vídeo em texto", "transcrever link de vídeo", "traduzir vídeo youtube", "transcrever vídeo instagram", "resumir transcrição de vídeo"] },
-    { "locale": "ru", "name": "Русский", "googleLanguageCode": "ru", "languageId": "1031", "pathPrefix": "/ru/", "seeds": ["транскрибация видео в текст", "перевести видео youtube", "видео по ссылке в текст", "транскрибация видео instagram", "краткое содержание видео"] },
-    { "locale": "zh-hans", "name": "简体中文", "googleLanguageCode": "zh_CN", "languageId": "1017", "pathPrefix": "/zh-hans/", "seeds": ["视频转文字", "视频链接转文字", "YouTube 视频翻译", "Instagram 视频转文字", "视频内容总结"] },
-    { "locale": "es", "name": "Español", "googleLanguageCode": "es", "languageId": "1003", "pathPrefix": "/es/", "seeds": ["transcribir vídeo a texto", "transcribir enlace de video", "traducir video youtube", "transcribir video instagram", "resumir transcripción de video"] },
-    { "locale": "tr", "name": "Türkçe", "googleLanguageCode": "tr", "languageId": "1037", "pathPrefix": "/tr/", "seeds": ["videoyu metne çevirme", "sosyal medya video transkripsiyon", "youtube video çeviri", "instagram video metne çevirme", "video özeti çıkarma"] }
+    {
+      "locale": "en",
+      "name": "English",
+      "googleLanguageCode": "en",
+      "languageId": "1000",
+      "pathPrefix": "/",
+      "seeds": [
+        "social media video transcriber",
+        "video link to text",
+        "translate youtube video",
+        "instagram video transcript",
+        "x video transcript",
+        "summarize video transcript",
+        "youtube lecture to study notes",
+        "youtube summary app iphone",
+        "youtube transcript ipad",
+        "video transcription app mac",
+        "turn video tutorial into checklist",
+        "summarize webinar action items",
+        "translate youtube transcript"
+      ]
+    },
+    {
+      "locale": "fr",
+      "name": "Français",
+      "googleLanguageCode": "fr",
+      "languageId": "1002",
+      "pathPrefix": "/fr/",
+      "seeds": [
+        "transcrire vidéo en texte",
+        "transcription vidéo réseaux sociaux",
+        "traduire vidéo youtube",
+        "transcription vidéo instagram",
+        "résumer une vidéo",
+        "résumer une conférence youtube",
+        "notes de cours à partir d’une vidéo",
+        "application transcription vidéo iphone",
+        "transcription youtube ipad",
+        "transcrire vidéo sur mac",
+        "transformer un tutoriel vidéo en étapes",
+        "résumer un webinaire"
+      ]
+    },
+    {
+      "locale": "de",
+      "name": "Deutsch",
+      "googleLanguageCode": "de",
+      "languageId": "1001",
+      "pathPrefix": "/de/",
+      "seeds": [
+        "video in text umwandeln",
+        "social media video transkribieren",
+        "youtube video übersetzen",
+        "instagram video transkribieren",
+        "video zusammenfassen",
+        "youtube vorlesung zusammenfassen",
+        "lernnotizen aus videos erstellen",
+        "youtube transkript iphone app",
+        "youtube transkript ipad",
+        "video transkribieren mac",
+        "video tutorial als anleitung zusammenfassen",
+        "webinar zusammenfassen"
+      ]
+    },
+    {
+      "locale": "ja",
+      "name": "日本語",
+      "googleLanguageCode": "ja",
+      "languageId": "1005",
+      "pathPrefix": "/ja/",
+      "seeds": [
+        "動画 文字起こし",
+        "動画 リンク 文字起こし",
+        "YouTube 動画 翻訳",
+        "インスタ 動画 文字起こし",
+        "動画 要約",
+        "YouTube 講義 要約",
+        "動画から学習ノートを作る",
+        "YouTube 文字起こし アプリ iPhone",
+        "YouTube 文字起こし iPad",
+        "動画 文字起こし Mac",
+        "解説動画 手順 まとめ",
+        "ウェビナー 要約"
+      ]
+    },
+    {
+      "locale": "ko",
+      "name": "한국어",
+      "googleLanguageCode": "ko",
+      "languageId": "1012",
+      "pathPrefix": "/ko/",
+      "seeds": [
+        "동영상 텍스트 변환",
+        "영상 링크 받아쓰기",
+        "유튜브 영상 번역",
+        "인스타그램 영상 텍스트",
+        "영상 요약",
+        "유튜브 강의 요약",
+        "강의 영상 학습 노트 만들기",
+        "아이폰 유튜브 받아쓰기 앱",
+        "아이패드 유튜브 텍스트 변환",
+        "맥 동영상 텍스트 변환",
+        "튜토리얼 영상 단계 정리",
+        "웨비나 요약"
+      ]
+    },
+    {
+      "locale": "ms",
+      "name": "Bahasa Melayu",
+      "googleLanguageCode": "ms",
+      "languageId": "1102",
+      "pathPrefix": "/ms/",
+      "seeds": [
+        "transkripsi video kepada teks",
+        "tukar pautan video kepada teks",
+        "terjemah video youtube",
+        "transkripsi video instagram",
+        "ringkasan video",
+        "ringkaskan kuliah youtube",
+        "nota belajar daripada video",
+        "aplikasi transkripsi video iphone",
+        "transkripsi youtube ipad",
+        "transkripsi video mac",
+        "tukar tutorial video kepada senarai langkah",
+        "ringkasan webinar"
+      ]
+    },
+    {
+      "locale": "pt",
+      "name": "Português",
+      "googleLanguageCode": "pt",
+      "languageId": "1014",
+      "pathPrefix": "/pt/",
+      "seeds": [
+        "transcrever vídeo em texto",
+        "transcrever link de vídeo",
+        "traduzir vídeo youtube",
+        "transcrever vídeo instagram",
+        "resumir transcrição de vídeo",
+        "resumir aula do youtube",
+        "criar notas de estudo a partir de vídeos",
+        "aplicativo transcrever vídeo iphone",
+        "transcrever youtube ipad",
+        "transcrever vídeo no mac",
+        "transformar tutorial em lista de passos",
+        "resumir webinar"
+      ]
+    },
+    {
+      "locale": "ru",
+      "name": "Русский",
+      "googleLanguageCode": "ru",
+      "languageId": "1031",
+      "pathPrefix": "/ru/",
+      "seeds": [
+        "транскрибация видео в текст",
+        "перевести видео youtube",
+        "видео по ссылке в текст",
+        "транскрибация видео instagram",
+        "краткое содержание видео",
+        "конспект лекции youtube",
+        "учебные заметки из видео",
+        "приложение транскрибация видео iphone",
+        "транскрипт youtube ipad",
+        "транскрибация видео mac",
+        "пошаговая инструкция из видео",
+        "краткое содержание вебинара"
+      ]
+    },
+    {
+      "locale": "zh-hans",
+      "name": "简体中文",
+      "googleLanguageCode": "zh_CN",
+      "languageId": "1017",
+      "pathPrefix": "/zh-hans/",
+      "seeds": [
+        "视频转文字",
+        "视频链接转文字",
+        "YouTube 视频翻译",
+        "Instagram 视频转文字",
+        "视频内容总结",
+        "YouTube 讲座 总结",
+        "视频生成学习笔记",
+        "iPhone 视频转文字 应用",
+        "iPad YouTube 转文字",
+        "Mac 视频转文字",
+        "教程视频整理成步骤",
+        "网络研讨会 总结"
+      ]
+    },
+    {
+      "locale": "es",
+      "name": "Español",
+      "googleLanguageCode": "es",
+      "languageId": "1003",
+      "pathPrefix": "/es/",
+      "seeds": [
+        "transcribir vídeo a texto",
+        "transcribir enlace de video",
+        "traducir video youtube",
+        "transcribir video instagram",
+        "resumir transcripción de video",
+        "resumir clase de youtube",
+        "crear apuntes de estudio de un vídeo",
+        "app transcribir vídeo iphone",
+        "transcribir youtube ipad",
+        "transcribir vídeo en mac",
+        "convertir tutorial en lista de pasos",
+        "resumir webinar"
+      ]
+    },
+    {
+      "locale": "tr",
+      "name": "Türkçe",
+      "googleLanguageCode": "tr",
+      "languageId": "1037",
+      "pathPrefix": "/tr/",
+      "seeds": [
+        "videoyu metne çevirme",
+        "sosyal medya video transkripsiyon",
+        "youtube video çeviri",
+        "instagram video metne çevirme",
+        "video özeti çıkarma",
+        "youtube ders özeti çıkarma",
+        "videodan ders notu çıkarma",
+        "iphone video yazıya çevirme uygulaması",
+        "ipad youtube metne çevirme",
+        "mac video transkripsiyon",
+        "video eğitim adımlarını çıkarma",
+        "webinar özeti çıkarma"
+      ]
+    }
   ],
   "references": {
     "languageConstants": "https://developers.google.com/google-ads/api/data/codes-formats#languages",
