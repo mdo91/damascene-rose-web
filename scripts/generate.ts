@@ -1,14 +1,17 @@
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
+import QRCode from 'qrcode';
 import { loadPosts } from '../src/posts';
 import { article, guideIndex, home, legal, mediaKit, notFound } from '../src/render';
-import { locales, localPath, origin, texts } from '../src/site';
+import { campaign, locales, localPath, origin, texts } from '../src/site';
 import { privacyPolicyPage } from '../src/content/legal/privacy-policy';
 import { termsOfUsePage } from '../src/content/legal/terms-of-use';
 import { supportPage } from '../src/content/legal/support';
 const root = resolve('.generated');
 rmSync(root, { recursive: true, force: true });
 mkdirSync(root, { recursive: true });
+const qrAssets = resolve(root, 'assets');
+mkdirSync(qrAssets, { recursive: true });
 const posts = loadPosts();
 const urls: { path: string; lastmod?: string; group: string }[] = [];
 function save(path: string, html: string, group: string, lastmod?: string) {
@@ -19,6 +22,9 @@ function save(path: string, html: string, group: string, lastmod?: string) {
 }
 for (const locale of locales) {
   if (!texts[locale]) throw new Error(`Missing interface translation: ${locale}`);
+  writeFileSync(resolve(qrAssets, `app-store-qr-${locale}.svg`), await QRCode.toString(campaign(locale, 'hero-qr'), {
+    type: 'svg', errorCorrectionLevel: 'M', margin: 4, width: 144,
+  }));
   const localized = posts.filter(post => post.locale === locale);
   if (!localized.length) throw new Error(`Missing published guides: ${locale}`);
   save(localPath(locale), home(locale, localized), 'home');

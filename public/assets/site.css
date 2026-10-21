@@ -44,6 +44,9 @@
   .hero h1 { max-width: 700px; }
   .hero .lead { margin-block: 1.8rem; }
   .hero .fine { max-width: 33em; margin-top: 1rem; }
+  .hero-download { display: flex; align-items: center; flex-wrap: wrap; gap: 1.25rem 1.75rem; }
+  .app-store-qr { display: grid; justify-items: center; gap: .45rem; width: 144px; flex-shrink: 0; color: var(--muted); text-align: center; text-decoration: none; font-size: .75rem; line-height: 1.4; }
+  .app-store-qr img { width: 144px; height: 144px; background: white; border: 1px solid var(--line); border-radius: 10px; }
   .button { display: inline-flex; align-items: center; justify-content: center; text-align: center; min-height: 52px; padding: .85rem 1.35rem; border-radius: 11px; background: var(--plum); color: white; text-decoration: none; font-size: .9rem; font-weight: 650; box-shadow: 0 4px 12px #48295015; }
   .button:hover { background: #63366f; color: white; }
   .hero-art { border-radius: 26px; overflow: hidden; background: #43274f; box-shadow: 0 28px 60px #3e214623; }
